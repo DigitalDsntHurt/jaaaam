@@ -3,32 +3,16 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-      {/* <header className="App-header">
-        <p>
-          Text goes here. Not too big. Bigger than para, though.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Link here
-        </a>
-      </header>
-      <body className="body-container">
-        <p>some text</p>
-      </body> */}
-      <div className="landing-sect-light">
+      <div className="landing-sect light-theme">
         <p>Welcome</p>
       </div>
-      <div className="landing-sect-dark">
+      <div className="landing-sect dark-theme">
         <p>Vision</p>
       </div>
-      <div className="landing-sect-light">
+      <div className="landing-sect light-theme">
         <p>Let's move together</p>
       </div>
-      <div className="landing-sect-dark">
+      <div className="landing-sect dark-theme">
         <p>Students</p>
       </div>
     </div>
