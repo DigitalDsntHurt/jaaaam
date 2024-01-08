@@ -8,7 +8,6 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
 }
 
 .light-theme {
@@ -19,4 +18,18 @@
 .dark-theme {
   background-color: #e7e7e7;
   color: #ffffff;
+}
+
+h1 {
+  font-size: calc(10px + 2vmin);
+}
+
+text {
+  font-size: calc(8px + 1vmin);
+}
+
+.sexy-cell {
+  background-color: #e7e7e7;
+  color: #ffffff;
+  padding: 88px 88px;
 }
