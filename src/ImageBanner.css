@@ -1,0 +1,19 @@
+.banner-image {
+    width: 100vw;
+    height: 88vh;
+    object-fit: none;
+    object-position: 50 50%;
+}
+
+.banner-image-title {
+    position: absolute;
+    top: 8vh;
+    bottom: 92vh;
+}
+
+.banner-image-text {
+    position: absolute;
+    top: 16vh;
+    /* bottom: 80%; */
+    /* left: 50%; */
+}

@@ -1,8 +1,10 @@
 import './App.css';
+import ImageBanner from './ImageBanner';
 
 function App() {
   return (
     <div className="App">
+      <ImageBanner theme='dark' />
       <div className="landing-sect light-theme">
         <h1>Welcome</h1>
         <text>Teachings and practices focused on learning to enjoy our bodies. Fun, play, love, creativity, awareness and movement not repetitive, grinding fitness.</text>
