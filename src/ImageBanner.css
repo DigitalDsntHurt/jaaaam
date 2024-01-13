@@ -1,8 +1,9 @@
 .banner-image-title {
+    bottom: 92vh;
+    color: #ffffff;
+    font-size: calc(44px + 4vmin);
     position: absolute;
     top: 8vh;
-    bottom: 92vh;
-    font-size: calc(44px + 4vmin);
 }
 
 .banner-image-text {

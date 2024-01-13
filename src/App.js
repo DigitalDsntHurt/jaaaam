@@ -15,13 +15,12 @@ function App() {
       </div>
       <div className="landing-sect light-theme">
         <h1>Let's move together</h1>
-        <table>
-          <tr>
-            <td className="sexy-cell"><text>Private Sessions</text></td>
-            <td className="sexy-cell"><text>Community Classes</text></td>
-          </tr>
-        </table>
-
+        <div className="sexy-cell-container">
+          <div className="sexy-cell"><text>Private Sessions</text></div>
+          <div className="sexy-cell"><text>Community Classes</text></div>
+          <div className="sexy-cell"><text>Programs for Seniors</text></div>
+          <div className="sexy-cell"><text>Private Ski Lessons</text></div>
+        </div>
       </div>
       <div className="landing-sect dark-theme">
         <h1>Students</h1>
