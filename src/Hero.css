@@ -1,0 +1,19 @@
+.banner-image-title {
+    bottom: 92vh;
+    color: #ffffff;
+    font-size: calc(44px + 4vmin);
+    position: absolute;
+    top: 8vh;
+}
+
+.banner-image-text {
+    position: absolute;
+    top: 22vh;
+}
+
+.banner-image {
+    height: 66vh;
+    width: 100vw;
+    object-fit: cover;
+    object-position: 50% 50%;
+}

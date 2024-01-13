@@ -1,0 +1,27 @@
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.cell {
+    flex-direction: column;
+    /* width: 50vw; */
+}
+
+.text-cell {
+    justify-content: left;
+}
+
+.head-shot-cell {
+    width: 33vw;
+}
+
+.head-shot {
+    height: 33vh;
+    width: auto;
+    object-fit: cover;
+    /* object-position: 50% 50%; */
+}

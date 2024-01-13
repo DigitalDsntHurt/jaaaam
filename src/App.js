@@ -1,14 +1,12 @@
 import './App.css';
-import ImageBanner from './ImageBanner';
+import Hero from './Hero';
+import Welcome from './Welcome';
 
 function App() {
   return (
     <div className="App">
-      <ImageBanner theme='dark' />
-      <div className="landing-sect light-theme">
-        <h1>Welcome</h1>
-        <text>Teachings and practices focused on learning to enjoy our bodies. Fun, play, love, creativity, awareness and movement not repetitive, grinding fitness.</text>
-      </div>
+      <Hero />
+      <Welcome />
       <div className="landing-sect dark-theme">
         <h1>Vision</h1>
         <text>Your body is a miracle. Learn to enjoy it.</text>
