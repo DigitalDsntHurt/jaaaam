@@ -1,17 +1,18 @@
+.banner-image-title {
+    position: absolute;
+    top: 8vh;
+    bottom: 92vh;
+    font-size: calc(44px + 4vmin);
+}
+
+.banner-image-text {
+    position: absolute;
+    top: 22vh;
+}
+
 .banner-image {
     height: 66vh;
     width: 100vw;
     object-fit: cover;
     object-position: 50% 50%;
-}
-
-.banner-image-title {
-    position: absolute;
-    top: 8vh;
-    bottom: 92vh;
-}
-
-.banner-image-text {
-    position: absolute;
-    top: 16vh;
 }
