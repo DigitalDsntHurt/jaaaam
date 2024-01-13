@@ -5,7 +5,10 @@ function ImageBanner({ theme }) {
         <div className={`landing-sect ${theme}-theme`} >
             <h1 className="banner-image-title">Move</h1>
             <text className="banner-image-text">Your body, your mind, your life: free, fun, easy.</text>
-            <img src="./shot.png" className="banner-image" alt="alt text here" />
+            <img src="./images/diagonal_stretch.png" className="banner-image" alt="alt text here" />
+            {/* <img src="./images/half_moon.png" className="banner-image" alt="alt text here" /> */}
+            {/* <img src="./images/sisyphus_squat.png" className="banner-image" alt="alt text here" /> */}
+            {/* <img src="./images/sisyphus_split_leg.png" className="banner-image" alt="alt text here" /> */}
         </div >
     );
 }
