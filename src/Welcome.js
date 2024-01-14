@@ -1,8 +1,8 @@
 import './Welcome.css';
 
-function Welcome() {
+function Welcome({ theme }) {
     return (
-        <div className="banner-sect light-theme" >
+        <div className={`banner-sect ${theme}-theme`} >
             <h1>Welcome</h1>
             <div className="row">
                 <div className="cell text-cell">
