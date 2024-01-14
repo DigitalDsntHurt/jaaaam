@@ -4,6 +4,7 @@
     font-size: calc(44px + 4vmin);
     position: absolute;
     top: 8vh;
+    z-index: 1;
 }
 
 .banner-image-text {

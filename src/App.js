@@ -1,11 +1,11 @@
 import './App.css';
-import Hero from './Hero';
 import Welcome from './Welcome';
+import HeroSlider from './HeroSlider';
 
 function App() {
   return (
     <div className="App">
-      <Hero />
+      <HeroSlider />
       <Welcome />
       <div className="landing-sect dark-theme">
         <h1>Vision</h1>
