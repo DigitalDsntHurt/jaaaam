@@ -1,6 +1,7 @@
 import './App.css';
 import Welcome from './Welcome';
 import HeroSlider from './HeroSlider';
+import Students from './Students';
 
 function App() {
   return (
@@ -20,11 +21,7 @@ function App() {
           <div className="sexy-cell"><text>Private Ski Lessons</text></div>
         </div>
       </div>
-      <div className="landing-sect dark-theme">
-        <h1>Students</h1>
-        <text>"Big quote about working with Nick privately here" -- Student</text>
-        <text>"Big quote about working with Nick in community classes here" -- Student</text>
-      </div>
+      <Students theme="dark" />
     </div>
   );
 }
