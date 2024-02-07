@@ -1,27 +1,24 @@
-.row {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    width: 100vw;
-    justify-content: space-around;
+.wrapper {
+    display: grid;
+    grid-gap: 2vw;
+    grid-template-columns: 42% 48%;
+    max-width: 44vw;
 }
 
-.cell {
-    flex-direction: column;
-    /* width: 50vw; */
+.title-cell {
+    text-align: right;
 }
 
 .text-cell {
-    justify-content: left;
+    text-align: left;
 }
 
-.head-shot-cell {
-    width: 33vw;
-}
+@media screen and (max-width: 480px) {
+    .wrapper {
+        grid-template-columns: 100%;
+    }
 
-.head-shot {
-    height: 33vh;
-    width: auto;
-    object-fit: cover;
-    /* object-position: 50% 50%; */
+    .title-cell h1 {
+        text-align: center;
+    }
 }

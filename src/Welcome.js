@@ -3,16 +3,16 @@ import './Welcome.css';
 function Welcome({ theme }) {
     return (
         <div className={`banner-sect ${theme}-theme`} >
-            <h1>Welcome</h1>
-            <div className="row">
-                <div className="cell text-cell">
-                    <text>Teachings and practices focused on learning to enjoy our bodies. Fun, play, love, creativity, awareness and movement not repetitive, grinding fitness.</text>
+            <div className='wrapper'>
+                <div className='title-cell'>
+                    <h1>Welcome</h1>
                 </div>
-                <div className="cell head-shot-cell">
-                    <img src="./images/nick.png" alt="alt text here" className="head-shot" />
+                <div className='text-cell'>
+                    <p>Bring movement and awareness into your body.</p>
+                    <p>Discover the delight that follows.</p>
                 </div>
             </div>
-        </div >
+        </div>
     );
 }
 
