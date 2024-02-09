@@ -1,0 +1,25 @@
+.students-div-wrapper {
+    display: grid;
+    row-gap: 1vh;
+    width: 98vw;
+    margin-bottom: 2vh;
+}
+
+.students-div-row-1 {
+    display: grid;
+    grid-template-columns: 40% 59%;
+    column-gap: 1%;
+}
+
+.students-div-row-2 {
+    display: grid;
+    grid-template-columns: 20% 58% 20%;
+    column-gap: 1%;
+}
+
+.student-testimonial-box {
+    background-color: #faf6db;
+    border-radius: 11px;
+    min-height: 22vh;
+    padding: 11px;
+}
