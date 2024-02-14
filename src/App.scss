@@ -68,13 +68,14 @@ h1 {
 // // // // OFFERING
 // // 
 //
+
 .offering-container {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
+  column-gap: 1vw;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   margin-bottom: 2vh;
-  width: 100vw;
+  width: 98vw;
+
 }
 
 .offering-item {
@@ -83,12 +84,16 @@ h1 {
   border-radius: 11px;
   color: $black-color;
   display: flex;
-  flex-basis: 100%;
-  flex-direction: column;
-  flex: 1;
   height: 33vh;
   justify-content: center;
-  max-width: 24vw;
+}
+
+@media screen and (max-width: 768px) {
+  .offering-container {
+    grid-template-columns: 100%;
+    row-gap: 1vh;
+    width: 96vw;
+  }
 }
 
 //
@@ -134,7 +139,7 @@ h1 {
 
 @media screen and (max-width: 768px) {
   .students-div-wrapper {
-    width: 88vw;
+    width: 96vw;
   }
 
   .students-div-row-1 {
