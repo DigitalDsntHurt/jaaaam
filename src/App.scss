@@ -1,0 +1,124 @@
+// COLORS
+$darker-blue: #454d66;
+$darker-green: #309975;
+$lighter-green: #58b368;
+$darker-beige: #dad873;
+$lighter-beige: #efeeb4;
+$white-color: #ffffff;
+$black-color: #000000;
+
+
+.App {
+  text-align: center;
+}
+
+.banner-sect {
+  min-height: 44vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing-sect {
+  min-height: 44vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 4vh;
+}
+
+.light-theme {
+  background-color: $white-color;
+  color: $black-color;
+}
+
+.dark-theme {
+  background-color: $darker-blue;
+  color: $white-color;
+}
+
+h1 {
+  font-size: calc(10px + 2vmin);
+}
+
+//
+// //
+// // // // HERO
+// // 
+// 
+.hero-image-title {
+  bottom: 92vh;
+  color: $white-color;
+  font-size: calc(44px + 4vmin);
+  position: absolute;
+  top: 8vh;
+  z-index: 1;
+}
+
+.hero-image {
+  height: 66vh;
+  width: 100vw;
+  object-fit: cover;
+  object-position: 50% 50%;
+}
+
+//
+// //
+// // // // OFFERING
+// // 
+//
+.offering-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100vw;
+  justify-content: space-around;
+  margin-top: 1vh;
+}
+
+.offering-item {
+  align-items: center;
+  background-color: $lighter-beige;
+  border-radius: 11px;
+  color: $black-color;
+  display: flex;
+  flex-basis: 100%;
+  flex-direction: column;
+  flex: 1;
+  height: 33vh;
+  max-width: 24vw;
+  justify-content: center;
+}
+
+//
+// //
+// // // // TESTIMONIALS
+// // 
+//
+
+.students-div-wrapper {
+  display: grid;
+  row-gap: 1vh;
+  width: 98vw;
+  margin-bottom: 2vh;
+}
+
+.students-div-row-1 {
+  display: grid;
+  grid-template-columns: 40% 59%;
+  column-gap: 1%;
+}
+
+.students-div-row-2 {
+  display: grid;
+  grid-template-columns: 20% 58% 20%;
+  column-gap: 1%;
+}
+
+.student-testimonial-box {
+  background-color: $lighter-beige;
+  border-radius: 11px;
+  min-height: 22vh;
+  padding: 11px;
+}
