@@ -118,7 +118,16 @@ h1 {
 
 .student-testimonial-box {
   background-color: $lighter-beige;
+  color: $black-color;
   border-radius: 11px;
   min-height: 22vh;
-  padding: 11px;
+  padding: 2vw;
+}
+
+.student-testimonial-text {
+  text-align: left;
+}
+
+.student-attribution-text {
+  text-align: right;
 }
