@@ -1,5 +1,3 @@
-import './Students.css';
-
 const Students = ({ theme }) => {
     return (
         <div className={`landing-sect ${theme}-theme`} >

@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import { sectionText } from './SiteCopy';
 import Hero from './Hero';
 import ImageLeftTextRight from './ImageLeftTextRight';
