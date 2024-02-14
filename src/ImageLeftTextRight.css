@@ -1,0 +1,25 @@
+.image-left-text-right-container {
+    display: grid;
+    grid-template-columns: 33% 66%;
+    width: 88vw;
+}
+
+.image-left-text-right-title {
+    text-align: center;
+}
+
+.image-left-text-right-text {
+    text-align: left;
+    margin-left: 1vw;
+}
+
+.image-left-text-right-image {
+    align-self: end;
+    width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .image-left-text-right-container {
+        grid-template-columns: 100%;
+    }
+}
