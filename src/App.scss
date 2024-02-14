@@ -131,3 +131,19 @@ h1 {
 .student-attribution-text {
   text-align: right;
 }
+
+@media screen and (max-width: 768px) {
+  .students-div-wrapper {
+    width: 88vw;
+  }
+
+  .students-div-row-1 {
+    grid-template-columns: 100%;
+    row-gap: 1vh;
+  }
+
+  .students-div-row-2 {
+    grid-template-columns: 100%;
+    row-gap: 1vh;
+  }
+}
