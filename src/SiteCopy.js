@@ -1,17 +1,3 @@
-const aboutText = () => (
-    <>
-        <p>
-            Nick is a movement teacher based in the Dogpatch neighborhood of San Francisco. He focuses on movement and awareness practices that are fun, caring, kind and gentle.
-        </p>
-        <p>
-            Inspired by Tai-Chi, Qigong, Yoga, Calisthenics, Somatics, The Feldenkrais Method, The Ido Portal Method, improvisational dance modalities and mindfulness, Nick's practice works with the material of the body to learn about creativity, spontaneity, compassion and self love.
-        </p>
-        <p>
-            Contact Nick for a free consultation and first session at <a href='mailto:grapesdance@gmail.com'>grapesdance@gmail.com</a>
-        </p>
-    </>
-)
-
 const fantasiesText = () => (
     <>
         <p>
@@ -27,9 +13,47 @@ const fantasiesText = () => (
             Physical practices exist that will keep you safe, healthy and whole on your own terms, without beating you over the head with thoughtless admiration ideals.
         </p>
     </>
+);
+
+const practiceText = () => (
+    <>
+        <p>
+            Nick is a movement teacher based in the Dogpatch neighborhood of San Francisco. He focuses on movement and awareness practices that are fun, caring, kind and gentle.
+        </p>
+        <p>
+            Inspired by Tai-Chi, Qigong, Yoga, Calisthenics, Somatics, The Feldenkrais Method, The Ido Portal Method, improvisational dance modalities and mindfulness, Nick's practice works with the material of the body to learn about creativity, spontaneity, compassion and self love.
+        </p>
+        <p>
+            Contact Nick for a free consultation and first session at <a href='mailto:grapesdance@gmail.com'>grapesdance@gmail.com</a>
+        </p>
+    </>
+);
+
+const teacherText = () => (
+    <>
+        <p>
+            Nick is a movement teacher based in the Dogpatch neighborhood of San Francisco. He focuses on movement and awareness practices that are fun, caring, kind and gentle.
+        </p>
+    </>
+);
+
+const welcomeText = () => (
+    <>
+        <p>
+            Move your body.
+        </p>
+        <p>
+            Bring awareness to your body.
+        </p>
+        <p>
+            Discover the delights that follow.
+        </p>
+    </>
 )
 
 export const sectionText = {
-    about: aboutText,
+    practice: practiceText,
     fantasies: fantasiesText,
+    teacher: teacherText,
+    welcome: welcomeText,
 }
