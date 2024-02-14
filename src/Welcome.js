@@ -1,6 +1,6 @@
 import './Welcome.css';
 
-function Welcome({ theme }) {
+function Welcome({ text, theme }) {
     return (
         <div className={`banner-sect ${theme}-theme`} >
             <div className='wrapper'>
@@ -8,8 +8,7 @@ function Welcome({ theme }) {
                     <h1>Welcome</h1>
                 </div>
                 <div className='text-cell'>
-                    <p>Bring movement and awareness into your body.</p>
-                    <p>Discover the delight that follows.</p>
+                    {text}
                 </div>
             </div>
         </div>

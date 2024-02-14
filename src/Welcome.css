@@ -6,6 +6,8 @@
 }
 
 .title-cell {
+    align-items: center;
+    display: flex;
     text-align: right;
 }
 
