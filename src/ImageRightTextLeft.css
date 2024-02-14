@@ -1,0 +1,34 @@
+.image-right-text-left-container {
+    display: grid;
+    grid-template-columns: 66% 33%;
+    width: 88vw;
+}
+
+.image-right-text-left-title {
+    text-align: center;
+}
+
+.image-right-text-left-text {
+    text-align: left;
+    margin-left: 1vw;
+}
+
+.image-right-text-left-image {
+    align-self: end;
+    justify-self: end;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    width: 88%;
+}
+
+@media screen and (max-width: 768px) {
+    .image-right-text-left-container {
+        grid-template-columns: 100%;
+    }
+
+    .image-right-text-left-image {
+        justify-self: center;
+        max-width: 44%;
+        margin-bottom: 4vh;
+    }
+}
