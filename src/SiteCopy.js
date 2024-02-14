@@ -12,7 +12,7 @@ const aboutText = () => (
     </>
 )
 
-const problemText = () => (
+const fantasiesText = () => (
     <>
         <p>
             We treat our bodies badly. We ignore them. We keep still and quiet. We eat and move with shame, with an embarrassment we have to drag this dying flesh around behind us as we navigate the world.
@@ -29,7 +29,7 @@ const problemText = () => (
     </>
 )
 
-export const sections = {
-    aboutText: aboutText,
-    problemText: problemText,
+export const sectionText = {
+    about: aboutText,
+    fantasies: fantasiesText,
 }

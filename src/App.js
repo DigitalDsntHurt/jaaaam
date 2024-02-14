@@ -1,5 +1,5 @@
 import './App.css';
-import { sections } from './SiteCopy';
+import { sectionText } from './SiteCopy';
 import Hero from './Hero';
 import ImageLeftTextRight from './ImageLeftTextRight';
 import Offerings from './Offerings';
@@ -14,8 +14,8 @@ function App() {
       <ImageLeftTextRight
         imagePath='./images/beans.png'
         theme='light'
-        title='Knowing'
-        text={sections['problemText']()}
+        title='Three Fantasies'
+        text={sectionText['fantasies']()}
       />
       <Offerings theme='dark' />
       <Students theme='light' />
