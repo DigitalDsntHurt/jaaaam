@@ -33,6 +33,9 @@ const Students = ({ theme }) => {
                         <div className='student-attribution-text'>-- Student</div>
                     </div>
                 </div>
+                <div >
+                    Email <a className="offering-c2a" href='mailto:grapesdance@gmail.com'>grapesdance@gmail.com</a> to learn about the practice.
+                </div>
             </div>
         </div >
     );
