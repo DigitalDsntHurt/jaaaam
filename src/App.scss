@@ -112,7 +112,7 @@ h1 {
 
 .students-div-row-1 {
   display: grid;
-  grid-template-columns: 40% 59%;
+  grid-template-columns: 62% 37%;
   column-gap: 1%;
 }
 
@@ -124,18 +124,22 @@ h1 {
 
 .student-testimonial-box {
   background-color: $lighter-beige;
-  color: $black-color;
   border-radius: 11px;
-  min-height: 22vh;
+  color: $black-color;
+  display: grid;
   padding: 2vw;
 }
 
 .student-testimonial-text {
+  font-style: italic;
   text-align: left;
 }
 
 .student-attribution-text {
-  text-align: right;
+  align-items: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 22px;
 }
 
 @media screen and (max-width: 768px) {
@@ -151,5 +155,9 @@ h1 {
   .students-div-row-2 {
     grid-template-columns: 100%;
     row-gap: 1vh;
+  }
+
+  .student-testimonial-box {
+    padding: 22px;
   }
 }
