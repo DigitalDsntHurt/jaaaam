@@ -22,7 +22,7 @@ const fantasiesText = () => (
 const practiceText = () => (
     <>
         <p>
-            Discover a practice that expresses non-violent curiosity and caring - for yourself and for the people and things around you.
+            Discover a practice that expresses curiosity and caring - for yourself and for the people and things around you.
         </p>
         <p>
             Explore a practice that encourages intuitive movement in the moment instead of along pre-determined pathways.

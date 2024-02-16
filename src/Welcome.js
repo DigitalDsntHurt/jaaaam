@@ -5,7 +5,7 @@ function Welcome({ text, theme }) {
         <div className={`banner-sect ${theme}-theme`} >
             <div className='wrapper'>
                 <div className='title-cell'>
-                    <h1>Welcome</h1>
+                    <h1>This is for you.</h1>
                 </div>
                 <div className='text-cell'>
                     {text}
