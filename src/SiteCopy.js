@@ -41,11 +41,23 @@ const practiceText = () => (
 
 const teacherText = () => (
     <>
-        <p>
+        {/* <p>
             Nick is a movement teacher based in the Dogpatch neighborhood of San Francisco. He focuses on movement and awareness practices that are fun, caring, kind, gentle and (if you're into this kind of thing) wild.
         </p>
         <p>
             In previous lives Nick has been a founder, sofware engineer, product manager, urban farmer, data-driven pro sports gambler and journalist. What unites these? A curious desire to solve problems in elegant and funny ways.
+        </p>
+        <p>
+            If you're looking to learn about non-violent movement practices intended to serve you for the rest of your life, get in touch for a free consultation and introductory movement session by emailing <a href='mailto:grapesdance@gmail.com'>grapesdance@gmail.com</a>.
+        </p> */}
+        <p>
+            Hi, I'm Nick.
+        </p>
+        <p>
+            I'm a movement teacher in the Dogpatch neighborhood of San Francisco. I focus on movement and awareness practices that are fun, caring, kind, gentle and (if you're into this kind of thing) wild.
+        </p>
+        <p>
+            In previous lives I've been a founder, sofware engineer, product manager, urban farmer, data-driven sports gambler and journalist. What unites these? A curious desire to solve problems in elegant and funny ways.
         </p>
         <p>
             If you're looking to learn about non-violent movement practices intended to serve you for the rest of your life, get in touch for a free consultation and introductory movement session by emailing <a href='mailto:grapesdance@gmail.com'>grapesdance@gmail.com</a>.
