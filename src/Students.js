@@ -19,6 +19,7 @@ const Students = ({ theme }) => {
                         <div className='student-attribution-text'>-- Travis</div>
                     </div>
                 </div>
+                {/* Emma */}
                 <div className="students-div-row-full">
                     <div className='student-testimonial-box'>
                         <div className='student-testimonial-text'>
