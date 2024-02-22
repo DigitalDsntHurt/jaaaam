@@ -1,36 +1,48 @@
 import './App.scss';
-import { sectionText } from './SiteCopy';
 import Hero from './Hero';
 import ImageLeftTextRight from './ImageLeftTextRight';
 import ImageRightTextLeft from './ImageRightTextLeft';
 import Offerings from './Offerings';
+import sectionText from './SiteCopy';
 import Students from './Students';
 import Welcome from './Welcome';
 
 function App() {
+
+  const {
+    fantasies,
+    practice,
+    teacher,
+    welcome,
+  } = sectionText;
+
   return (
     <div className='App'>
       <Hero />
-      <Welcome text={sectionText['welcome']()} theme='dark' />
+      <Welcome
+        text={welcome['body']}
+        theme='dark'
+        title={welcome['title']}
+      />
       <ImageRightTextLeft
         imagePath='./images/grains.png'
+        text={practice['body']}
         theme='light'
-        title='Movement Classes for Everyone'
-        text={sectionText['practice']()}
+        title={practice['title']}
       />
       <Offerings theme='dark' />
       <ImageLeftTextRight
         imagePath='./images/beans.png'
+        text={fantasies['body']}
         theme='light'
-        title='Fantasies'
-        text={sectionText['fantasies']()}
+        title={fantasies['title']}
       />
       <Students theme='dark' />
       <ImageRightTextLeft
         imagePath='./images/nick.png'
+        text={teacher['body']}
         theme='light'
-        title='Teacher'
-        text={sectionText['teacher']()}
+        title={teacher['title']}
       />
     </div>
   );
