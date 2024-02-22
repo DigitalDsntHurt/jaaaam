@@ -61,10 +61,10 @@ const teacherText = () => (
             I'm a movement teacher in the Dogpatch neighborhood of San Francisco. I focus on movement and awareness practices that are fun, caring, kind, gentle and (if you're into this kind of thing) wild.
         </p>
         <p>
-            In previous lives I've been a founder, sofware engineer, product manager, urban farmer, data-driven sports gambler and journalist. What unites these? A curious desire to solve problems in elegant and funny ways.
+            I was born and grew up in San Francisco (Upper Haight) and currently I'm obsessed with SF- and neighborhood-level community and community movement practices. In previous lives I've been a founder, sofware engineer, product manager, urban farmer, data-driven sports gambler and journalist. What unites these? A curious desire to solve problems in elegant and funny ways.
         </p>
         <p>
-            If you're looking to learn about non-violent movement practices intended to serve you for the rest of your life, get in touch for a free consultation and introductory movement session by emailing <a href='mailto:grapesdance@gmail.com'>grapesdance@gmail.com</a>.
+            If you're looking to learn about non-violent movement practices intended to serve you for the rest of your life, get in touch for a free intro by emailing <a href='mailto:grapesdance@gmail.com'>grapesdance@gmail.com</a>.
         </p>
     </>
 );
