@@ -12,18 +12,18 @@ function App() {
     <div className='App'>
       <Hero />
       <Welcome text={sectionText['welcome']()} theme='dark' />
-      <ImageRightTextLeft
-        imagePath='./images/grains.png'
-        theme='light'
-        title='The Practice'
-        text={sectionText['practice']()}
-      />
-      <Offerings theme='dark' />
       <ImageLeftTextRight
         imagePath='./images/beans.png'
         theme='light'
         title='Fantasies'
         text={sectionText['fantasies']()}
+      />
+      <Offerings theme='dark' />
+      <ImageRightTextLeft
+        imagePath='./images/grains.png'
+        theme='light'
+        title='The Practice'
+        text={sectionText['practice']()}
       />
       <Students theme='dark' />
       <ImageRightTextLeft
