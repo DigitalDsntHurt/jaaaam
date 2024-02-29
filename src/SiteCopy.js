@@ -6,7 +6,7 @@ const fantasiesText = {
                 We treat our bodies badly. Or we ignore them. We keep still and quiet. We eat and move with shame. We are embarrassed to drag this flesh suit around behind us as we walk through life.
             </p>
             <p>
-                It's not our fault. It's a byproduct of living in a world that admires a narrow set of ideals and people. Think about this: nearly all the "exercise", "fitness", "training" you've come across in your life is modeled on one of three fantasies: (1) The Olympian (2) The Soldier (3) The Ballerina.
+                It's not our fault. It's a byproduct of living in a world that admires a narrow set of ideals and people. For instance: nearly all the "exercise", "fitness", "training" you've come across in your life is modeled on one of three fantasies: (1) The Olympian (2) The Soldier (3) The Ballerina.
             </p>
             <p>
                 But you don't need to be an Olympian, a soldier or a ballerina. You don't need to be muscular, limber or thin to be healthy. You don't need to model yourself on someone else's ideas of beauty, strength or freedom.
