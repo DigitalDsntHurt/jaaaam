@@ -28,7 +28,7 @@ const Students = ({ theme }) => {
                         <div className='student-attribution-text'>-- Travis J.</div>
                     </div>
                 </div>
-                {/* Emma */}
+                {/* EMMA */}
                 <div className="students-div-row-full">
                     <div className='student-testimonial-box'>
                         <div className='student-testimonial-text'>
@@ -37,23 +37,19 @@ const Students = ({ theme }) => {
                         <div className='student-attribution-text'>-- Emma A.</div>
                     </div>
                 </div>
-
-                {/* <div className="students-div-row-2">
+                {/* Deanna */}
+                <div className="students-div-row-full">
                     <div className='student-testimonial-box'>
                         <div className='student-testimonial-text'>
-                            ""
+                            "I am someone who prioritizes my physical health. I typically work out by running, I have a Peloton, I do bodyweight exercises, etc., but Movement allows me space for a different kind of connection with–and respect for–my body.
+
+                            With almost constant signal to push harder, do better, and go faster, what I’ve learned with Nick is that strength and what is “best” can be more nuanced than a specific achievement. Replacing achievement with attention has given me room for curiosity, exploration, learning about my body, and ultimately, a new definition of what is best. It’s also just fun. As opposed to a workout that you’re just trying to get over with, removing the “have to dos” adds playfulness and joy in moving that I haven’t experienced in a long time.
+
+                            All to say, movement won’t replace your Peloton, but I’ve found it gives me a much more holistic approach to my physical health and connection with my body, understanding its capabilities and limitations, and thoughtfulness of what I want to do about it."
                         </div>
-                        <div className='student-attribution-text'>-- Student</div>
+                        <div className='student-attribution-text'>-- Deanna U.</div>
                     </div>
-                    <div className='student-testimonial-box'>
-                        <div className='student-testimonial-text'>"Testimonial quote about working with Nick here"</div>
-                        <div className='student-attribution-text'>-- Student</div>
-                    </div>
-                    <div className='student-testimonial-box'>
-                        <div className='student-testimonial-text'>"Testimonial quote about working with Nick here"</div>
-                        <div className='student-attribution-text'>-- Student</div>
-                    </div>
-                </div> */}
+                </div>
                 <div >
                     Email <a className="offering-c2a" href='mailto:grapesdance@gmail.com'>grapesdance@gmail.com</a> to learn about the practice.
                 </div>
