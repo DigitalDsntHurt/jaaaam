@@ -1,7 +1,7 @@
 const Students = ({ theme }) => {
     return (
         <div className={`landing-sect ${theme}-theme`} >
-            <h1>Students</h1>
+            <h1>What participants are saying</h1>
             <div className="students-div-wrapper">
                 {/* DAN */}
                 <div className="students-div-row-full">

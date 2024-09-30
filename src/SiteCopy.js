@@ -76,7 +76,7 @@ const welcomeText = {
 };
 
 const teacherText = {
-    title: 'Teacher',
+    title: 'Who am i?',
     body: (
         <>
             <p>
