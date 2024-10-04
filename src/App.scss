@@ -53,19 +53,19 @@ a {
 // // 
 // 
 .hero-image-title {
-  bottom: 92vh;
+  // bottom: 96vh;
   color: $white-color;
   font-size: calc(44px + 4vmin);
   position: absolute;
-  top: 8vh;
+  top: 0vh;
   z-index: 1;
 }
 
 .hero-image {
-  height: 66vh;
+  height: 62vh;
   width: 100vw;
   object-fit: cover;
-  object-position: 50% 50%;
+  object-position: 60% 64%;
 }
 
 //

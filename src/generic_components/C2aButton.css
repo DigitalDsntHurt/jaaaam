@@ -1,0 +1,26 @@
+.c2a-button-link {
+    display: inline-block;
+    background-color: #6200ea;
+    color: white;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 22px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.c2a-button-link:hover {
+    background-color: #3700b3;
+    transform: scale(1.05);
+}
+
+.c2a-button-link:active {
+    transform: scale(0.95);
+}
+
+.floats-over-hero {
+    position: absolute;
+    bottom: 40vh;
+    z-index: 1;
+}
