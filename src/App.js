@@ -1,7 +1,7 @@
 import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Events from './Events';
-import EventsLanding from './EventsLanding';
+import Events from './pages/Events';
+import EventsLanding from './pages/EventsLanding';
 
 function App() {
   return (
