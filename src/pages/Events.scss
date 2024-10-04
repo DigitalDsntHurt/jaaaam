@@ -1,0 +1,64 @@
+// COLORS
+$darker-blue: #454d66;
+$darker-green: #309975;
+$lighter-green: #58b368;
+$darker-beige: #dad873;
+$lighter-beige: #efeeb4;
+$white-color: #ffffff;
+$black-color: #000000;
+
+body {
+    background-color: $darker-blue;
+    color: $white-color;
+    margin: 0;
+    min-height: 100vh;
+}
+
+.events-page-title-container {
+    margin-top: 8vh;
+    text-align: center;
+}
+
+.events-table-container {
+    margin: auto;
+    width: 88vw;
+}
+
+.grid-table {
+    display: grid;
+    grid-template-columns: 30% 1fr;
+    /* First column 30%, second column takes the remaining space */
+    gap: 10px;
+    /* Space between cells */
+    width: 100%;
+    /* Full width of the container */
+}
+
+.grid-header {
+    font-weight: bold;
+    /* Make header text bold */
+    background-color: #6200ea;
+    /* Header background color */
+    color: white;
+    /* Header text color */
+    padding: 10px;
+    /* Padding for the header */
+}
+
+.grid-item {
+    // background-color: #f0f0f0;
+    /* Item background color */
+    padding: 10px;
+    /* Padding for the items */
+    border: 1px solid #ccc;
+    /* Border for items */
+}
+
+// //
+// // // // Events grid event descriptions 
+// //
+
+.events-grid-link {
+    color: $lighter-beige;
+    text-decoration: underline;
+}
