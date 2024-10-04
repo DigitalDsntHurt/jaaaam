@@ -1,9 +1,9 @@
 import Hero from './Hero';
 import ImageLeftTextRight from './ImageLeftTextRight';
-import ImageRightTextLeft from './ImageRightTextLeft';
+import ImageRightTextLeft from './generic_components/ImageRightTextLeft';
 import Offerings from './Offerings';
 import sectionText from './SiteCopy';
-import Students from './Students';
+import Students from './content_components/Students';
 import Welcome from './Welcome';
 
 const ClassicLanding = () => {
