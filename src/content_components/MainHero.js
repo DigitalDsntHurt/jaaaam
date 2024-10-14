@@ -1,6 +1,6 @@
 import C2aButton from "../generic_components/C2aButton";
 
-function Hero() {
+function MainHero() {
     return (
         <div className={`banner-sect`} >
             <h1 className="hero-image-title">Move</h1>
@@ -10,4 +10,4 @@ function Hero() {
     );
 }
 
-export default Hero;
+export default MainHero;

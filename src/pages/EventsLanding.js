@@ -1,4 +1,4 @@
-import Hero from '../content_components/Hero';
+import MainHero from '../content_components/MainHero';
 import ImageLeftTextRight from '../generic_components/ImageLeftTextRight';
 import ImageRightTextLeft from '../generic_components/ImageRightTextLeft';
 import Offerings from '../content_components/Offerings';
@@ -16,7 +16,7 @@ const ClassicLanding = () => {
 
     return (
         <div className='App'>
-            <Hero />
+            <MainHero />
             <Welcome
                 text={welcome['body']}
                 theme='dark'
