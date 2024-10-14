@@ -39,14 +39,6 @@ $black-color: #000000;
   color: $white-color;
 }
 
-h1 {
-  font-size: calc(10px + 2vmin);
-}
-
-a {
-  font-style: italic;
-}
-
 //
 // //
 // // // // STANDARDS
@@ -66,6 +58,23 @@ a {
 }
 
 
+//
+// //
+// // // // TYPE STYLES
+// // 
+//
+
+h1 {
+  font-size: calc(10px + 2vmin);
+}
+
+a {
+  font-style: italic;
+}
+
+.green-text {
+  color: #52B634;
+}
 
 //
 // //
