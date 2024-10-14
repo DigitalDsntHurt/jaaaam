@@ -137,7 +137,7 @@ const communityClassText = (
 const teacherTextV2 = (
     <>
         <p>I'm Nick. I facilitate Holistic Movement classes, workshops and events in the Bay Area and throughout North America.</p>
-        <p>My offerings are based on deep, long-term personal practice of somatic movement, contact improvisation and mindfulness meditation.</p>
+        <p>My offerings are based on deep practice of somatic movement, contact improvisation and mindfulness meditation.</p>
         <p>My core curiosities are about movement and awareness practices that are fun, caring, kind, gentle and (if you're into this kind of thing) wild.</p>
         <p>I was born and grew up in San Francisco and my work draws on many disciplines but the emphasis and primary interests are always community, healing and how we relate to our own attention.</p>
     </>
