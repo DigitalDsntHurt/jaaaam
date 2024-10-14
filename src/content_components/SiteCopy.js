@@ -102,4 +102,39 @@ const sectionText = {
     welcome: welcomeText,
 };
 
+const communityClassText = (
+    <>
+        <h3>What are Community Classes?</h3>
+        <p>
+            Free / donation-based classes in public spaces.
+        </p>
+        <p>
+            These Community Classes aim to introduce people to Holistic Movement and to build and strengthen bonds within neighborhoods and between neighbors. While Holistic Movement is about connecting to your own body and heart, Community Classes are a way of connecting to a sense of place.
+        </p>
+
+        <h3>What is Holistic Movement?</h3>
+        <p>
+            Holistic Movement is a physical movement practice that prioritizes embodied attention over external form.
+        </p>
+        <p>
+            Holistic Movement is inquiry-based, listening-based and uses the body to heal and grow physically, emotionally and spiritually.
+        </p>
+        <p>
+            This practice is interested in sacredness, silliness meet and aims to make everything we do comfortable for all bodies, hearts and minds.
+        </p>
+
+        <h3>What to expect at a Community Class?</h3>
+        <p>Community classes take many forms and as a facilitator I aim to be as sensitive to the real-time needs of participants as the practice encourages participants to be to their own needs.</p>
+        <li>Many sessions start with a mindfulness prompt (for example: listen to the sound scape, move your hands apart during exhale and closer together during inhale).</li>
+        <li>Many sessions include a guided, exploratory movement flow (for example: research ways of getting up and down from the earth, explore walking with flowing arms, examine movements of the neck).</li>
+        <li>Many sessions include movement games, often a gentle relational game or an object manipulation game (for example: follow a partner's hand with your nose, balance an object on various body parts).</li>
+        <li>Many sessions include learning a specific movement pattern and then blossoming that pattern into larger flows or related functional patterns we can incorporate into our daily lives.</li>
+        <p>In all cases we explore physical form with the intention of fostering curious inquiry and making decisions that work for our attention and for our bodies.</p>
+        <p>As a facilitator, I bring both injury and trauma informed approaches to the material.</p>
+    </>
+);
+
 export default sectionText;
+export {
+    communityClassText,
+}
