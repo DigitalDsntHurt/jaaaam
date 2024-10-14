@@ -1,5 +1,6 @@
 import './CommunityClasses.scss';
 import { getNUpcomingDates } from '../helpers/helpers';
+import Hero from '../generic_components/Hero';
 
 const UpcomingClassesList = (classDates) => {
     return (
@@ -17,43 +18,49 @@ const UpcomingClassesList = (classDates) => {
 
 const CommunityClasses = () => {
     return (
-        <div className="page-container">
-            <h1 className="center-text">Community Classes</h1>
-            <div className="community-class-detail-grid-container">
-                <div className="community-class-detail-grid-item border-bottom">
-                    <h2>Every Monday</h2>
-                    <h3>
-                        7:30 - 8:30am
-                        <br />
-                        <a href='https://maps.app.goo.gl/SzD6powfenukDuyq6' target='_blank'>@ Crane Cove Park</a>
-                    </h3>
-                    <div className="community-class-detail-upcoming-classes-container">
-                        <h3>Upcoming classes</h3>
-                        {
-                            UpcomingClassesList(
-                                getNUpcomingDates(3, 'monday')
-                            )
-                        }
+        <>
+            <Hero
+                button={false}
+                headline='Community Classes'
+                img='teaching.jpg'
+            />
+            <div className="page-container">
+                <div className="community-class-detail-grid-container">
+                    <div className="community-class-detail-grid-item border-bottom">
+                        <h2>Every Monday</h2>
+                        <h3>
+                            7:30 - 8:30am
+                            <br />
+                            <a href='https://maps.app.goo.gl/SzD6powfenukDuyq6' target='_blank' rel='noreferrer'>@ Crane Cove Park</a>
+                        </h3>
+                        <div className="community-class-detail-upcoming-classes-container">
+                            <h3>Upcoming classes</h3>
+                            {
+                                UpcomingClassesList(
+                                    getNUpcomingDates(3, 'monday')
+                                )
+                            }
+                        </div>
                     </div>
-                </div>
-                <div className="community-class-detail-grid-item">
-                    <h2>Every Friday</h2>
-                    <h3>
-                        6:30 - 7:30am
-                        <br />
-                        <a href='https://maps.app.goo.gl/vtCBtioTxic36dLs9' target='_blank'>@ Holly Park Playground</a>
-                    </h3>
-                    <div className="community-class-detail-upcoming-classes-container">
-                        <h3>Upcoming classes</h3>
-                        {
-                            UpcomingClassesList(
-                                getNUpcomingDates(3, 'friday')
-                            )
-                        }
+                    <div className="community-class-detail-grid-item">
+                        <h2>Every Friday</h2>
+                        <h3>
+                            6:30 - 7:30am
+                            <br />
+                            <a href='https://maps.app.goo.gl/vtCBtioTxic36dLs9' target='_blank' rel='noreferrer'>@ Holly Park Playground</a>
+                        </h3>
+                        <div className="community-class-detail-upcoming-classes-container">
+                            <h3>Upcoming classes</h3>
+                            {
+                                UpcomingClassesList(
+                                    getNUpcomingDates(3, 'friday')
+                                )
+                            }
+                        </div>
                     </div>
-                </div>
+                </div >
             </div >
-        </div >
+        </>
     );
 }
 
