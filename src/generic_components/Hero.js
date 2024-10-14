@@ -1,11 +1,12 @@
+import './Hero.scss';
 import C2aButton from "../generic_components/C2aButton";
 
-const SunriseHero = ({ img, headline, button }) => {
+const SunriseHero = ({ alt, img, headline, button }) => {
     return (
-        <div className={`banner-sect`} >
-            <h1 className="hero-image-title outlined-text">{headline}</h1>
+        <div className='generic-hero' >
+            <h1 className="generic-hero-image-title outlined-text">{headline}</h1>
             {button ? <C2aButton floatsOverHero={true} href={'/events'} linkText={'Click for class schedule'} /> : <></>}
-            <img alt="sunrise community class" className="hero-image" src={`./images/${img}`} />
+            <img alt={alt} className="generic-hero-image" src={`./images/${img}`} />
         </div >
     );
 }
