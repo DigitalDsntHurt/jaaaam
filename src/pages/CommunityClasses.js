@@ -2,7 +2,8 @@ import './CommunityClasses.scss';
 import { getNUpcomingDates } from '../helpers/helpers';
 import Hero from '../generic_components/Hero';
 import ImageRightTextLeft from '../generic_components/ImageRightTextLeft';
-import { communityClassText } from '../content_components/SiteCopy';
+import ImageLeftTextRight from '../generic_components/ImageLeftTextRight';
+import { communityClassText, teacherTextV2 } from '../content_components/SiteCopy';
 
 const UpcomingClassesList = (classDates) => {
     return (
@@ -72,6 +73,12 @@ const CommunityClasses = () => {
                 text={communityClassText}
                 theme='light'
                 title='About Community Classes'
+            />
+            <ImageLeftTextRight
+                imagePath='./images/teaching.jpg'
+                text={teacherTextV2}
+                theme='dark'
+                title="Organizer bio"
             />
         </>
     );
