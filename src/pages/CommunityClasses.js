@@ -20,9 +20,10 @@ const CommunityClasses = () => {
     return (
         <>
             <Hero
+                alt='sunrise community classes at crane cove park and holly park'
                 button={false}
                 headline='Community Classes'
-                img='teaching.jpg'
+                img='sunrise_sliver.png'
             />
             <div className="page-container">
                 <div className="community-class-detail-grid-container">
