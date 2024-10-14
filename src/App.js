@@ -8,7 +8,7 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<EventsLanding />} />
+        <Route path="/" element={<CommunityClasses />} />
         <Route path="/events" element={<Events />} />
         <Route path="/community-classes" element={<CommunityClasses />} />
       </Routes>
