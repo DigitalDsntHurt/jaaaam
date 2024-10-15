@@ -1,0 +1,46 @@
+// COLORS
+$darker-blue: #454d66;
+$darker-green: #309975;
+$lighter-green: #58b368;
+$darker-beige: #dad873;
+$lighter-beige: #efeeb4;
+$white-color: #ffffff;
+$black-color: #000000;
+
+.custom-hero-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.custom-hero-image {
+    height: 44vh;
+    object-fit: cover;
+    object-position: 100% 58%;
+    width: 100vw;
+}
+
+.bio-banner-container {
+    padding: 2vh 8vw;
+    text-align: center;
+}
+
+.bio-banner-text {
+    color: $darker-blue;
+    font-size: x-large;
+    font-weight: 488;
+    line-height: 24pt;
+}
+
+.upcoming-schedule-title-banner-container {
+    padding: 4vh 8vw;
+    justify-content: center;
+    text-align: center;
+}
+
+.upcoming-schedule-title-banner-text {
+    font-size: xx-large;
+    font-weight: 200;
+}
