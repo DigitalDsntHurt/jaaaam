@@ -1,7 +1,7 @@
 const Students = ({ theme }) => {
     return (
         <div className={`landing-sect ${theme}-theme`} >
-            <h1>What participants are saying</h1>
+            <h1>Testimonials</h1>
             <div className="students-div-wrapper">
                 {/* DAN */}
                 <div className="students-div-row-full">
@@ -49,9 +49,6 @@ const Students = ({ theme }) => {
                         </div>
                         <div className='student-attribution-text'>-- Deanna U.</div>
                     </div>
-                </div>
-                <div >
-                    Email <a className="offering-c2a" href='mailto:grapesdance@gmail.com'>grapesdance@gmail.com</a> to learn about the practice.
                 </div>
             </div>
         </div >
