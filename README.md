@@ -15,11 +15,27 @@ This is a website for Nick Smith's Holistic Movement online presence.
 ..[x] hero image
 ..[x] upcoming schedule banner
 ..[x] event rows
-..[] ? footer
 
-.[] find a great image for monday community class
-.[] find a great image for friday community class
-.[] find a great image for thursday improv class
+.[x] find a great image for monday community class
+.[x] find a great image for friday community class
+.[x] find a great image for thursday improv class
+
+.[] set BannerBioSchedule as root route
+
+.[] create a footer for global nav
+
+.[] make sure people can navigate home from 
+..[] community classes page
+..[] events page
+
+.[] do we need the events page at all?
+
+.[] organize pages into two new folders
+..[] deprecated
+..[] draft
+
+.[] create a blah-blah / essays page
+..[] link to it from footer
 
 ### Oct 14, 2024
 .[x] create a new page for Community Classes
