@@ -106,11 +106,16 @@ const communityClassText = (
     <>
         <h3>What are Community Classes?</h3>
         <p>
-            Free / donation-based classes in public spaces.
+            Free / donation-based classes in public spaces for movers of all ages, skill levels and body types.
         </p>
-        <p>
-            These Community Classes aim to introduce people to Holistic Movement and to build and strengthen bonds within neighborhoods and between neighbors. While Holistic Movement is about connecting to your own body and heart, Community Classes are a way of connecting to a sense of place.
-        </p>
+        <p>These Community Classes aim to introduce Holistic Movement and to build and strengthen neighborhood community. While Holistic Movement is about connecting to your own body and heart, Community Classes are a way of connecting to a sense of place.</p>
+        <p>Community classes take many forms and as a facilitator I aim to be sensitive to the real-time needs of participants. Many sessions include:</p>
+        <li>Mindfulness prompts (ex: listen to the sound scape, move hands apart during exhale, closer during inhale).</li>
+        <li>Guided, exploratory movement flows (ex: research ways of getting up and down from the earth).</li>
+        <li>Movement games (ex: follow a partner's hand with your nose, balance an object on various body parts).</li>
+        <li>Movement patterns that blossom into larger flows or related functional patterns.</li>
+        <p>In all cases we explore physical form with curiosity and make decisions that work for our attention and for our bodies.</p>
+        <p>As a facilitator, I bring both injury and trauma informed approaches to the material.</p>
 
         <h3>What is Holistic Movement?</h3>
         <p>
@@ -120,17 +125,8 @@ const communityClassText = (
             Holistic Movement is inquiry-based, listening-based and uses the body to heal and grow physically, emotionally and spiritually.
         </p>
         <p>
-            This practice is interested in sacredness, silliness meet and aims to make everything we do comfortable for all bodies, hearts and minds.
+            This practice is interested in sacredness, silliness and aims to make everything we do comfortable for all bodies, hearts and minds.
         </p>
-
-        <h3>What to expect at a Community Class?</h3>
-        <p>Community classes take many forms and as a facilitator I aim to be as sensitive to the real-time needs of participants as the practice encourages participants to be to their own needs.</p>
-        <li>Many sessions start with a mindfulness prompt (for example: listen to the sound scape, move your hands apart during exhale and closer together during inhale).</li>
-        <li>Many sessions include a guided, exploratory movement flow (for example: research ways of getting up and down from the earth, explore walking with flowing arms, examine movements of the neck).</li>
-        <li>Many sessions include movement games, often a gentle relational game or an object manipulation game (for example: follow a partner's hand with your nose, balance an object on various body parts).</li>
-        <li>Many sessions include learning a specific movement pattern and then blossoming that pattern into larger flows or related functional patterns we can incorporate into our daily lives.</li>
-        <p>In all cases we explore physical form with the intention of fostering curious inquiry and making decisions that work for our attention and for our bodies.</p>
-        <p>As a facilitator, I bring both injury and trauma informed approaches to the material.</p>
     </>
 );
 
@@ -140,6 +136,7 @@ const teacherTextV2 = (
         <p>My offerings are based on deep practice of somatic movement, contact improvisation and mindfulness meditation.</p>
         <p>My core curiosities are about movement and awareness practices that are fun, caring, kind, gentle and (if you're into this kind of thing) wild.</p>
         <p>I was born and grew up in San Francisco and my work draws on many disciplines but the emphasis and primary interests are always community, healing and how we relate to our own attention.</p>
+        <p>For a full class schedule, see <a href='/events'>class schedule</a>.</p>
         <p>Get in touch at <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a>.</p>
     </>
 );
