@@ -1,5 +1,5 @@
 import './CommunityClasses.scss';
-import { communityClassText, teacherTextV2 } from '../content_components/siteCopy';
+import { communityClassText, teacherTextV2 } from '../content_components/SiteCopy';
 import { getNUpcomingDates } from '../helpers/helpers';
 import Footer from '../content_components/Footer';
 import Hero from '../generic_components/Hero';

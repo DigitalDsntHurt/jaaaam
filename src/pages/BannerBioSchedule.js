@@ -1,5 +1,5 @@
 import './BannerBioSchedule.scss';
-import { bioBannerText, eventsText } from '../content_components/siteCopy';
+import { bioBannerText, eventsText } from '../content_components/SiteCopy';
 import Footer from '../content_components/Footer';
 
 const CustomHero = () => {

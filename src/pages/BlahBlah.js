@@ -3,8 +3,8 @@ import ImageRightTextLeft from "../generic_components/ImageRightTextLeft";
 import ImageLeftTextRight from "../generic_components/ImageLeftTextRight";
 import Offerings from "../content_components/Offerings";
 import Students from "../content_components/Students";
-import sectionText from "../content_components/siteCopy";
-import { teacherTextV2 } from "../content_components/siteCopy";
+import sectionText from "../content_components/SiteCopy";
+import { teacherTextV2 } from "../content_components/SiteCopy";
 import Footer from "../content_components/Footer";
 
 const BlahBlah = () => {
