@@ -47,8 +47,9 @@ $black-color: #000000;
 
 .event-item-container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
     gap: 1vw;
+    grid-template-columns: repeat(2, 1fr);
+    margin-bottom: 1vh;
 }
 
 .event-item-image-container {
@@ -82,7 +83,12 @@ $black-color: #000000;
     text-align: center;
 }
 
-@media (max-width: 666px) {
+.event-item-c2a:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: scale(1.01);
+}
+
+@media (max-width: 800px) {
     .event-item-container {
         grid-template-columns: 1fr;
     }

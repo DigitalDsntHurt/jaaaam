@@ -1,4 +1,5 @@
 import './BannerBioSchedule.scss';
+import { eventsText } from '../content_components/siteCopy';
 
 const CustomHero = () => {
     return (
@@ -15,7 +16,7 @@ const CustomHero = () => {
 const BioBanner = () => {
     const bioBannerText = (
         <>
-            Nick Smith is a mover, dancer, meditator, teacher, bodyworker and facilitator{' '}
+            Nick Smith is a mover, dancer, meditator, teacher, bodyworker and facilitator.{' '}
             He enjoys encouraging fun, caring, kindness, gentleness and (where appropriate) wildness through practices centered on community, healing and how we relate to our own attention.{' '}
             He offers private sessions, group classes, workshops, bodywork sessions and retreats.
             <br />
@@ -42,7 +43,13 @@ const UpcomingScheduleTitleBanner = () => {
     );
 }
 
-const EventItem = ({ title, description, image }) => {
+const EventItem = ({
+    c2a,
+    c2aLink,
+    description,
+    image,
+    title,
+}) => {
     return (
         <div className="event-item-container light-theme">
             <div className="event-item-image-container">
@@ -55,7 +62,7 @@ const EventItem = ({ title, description, image }) => {
             <div className="event-item-text-container">
                 <div className="event-item-title">{title}</div>
                 <div className="event-item-description">{description}</div>
-                <div className="event-item-c2a">More info</div>
+                <a href={c2aLink} target='_blank' rel='noreferrer'><div className="event-item-c2a">{c2a}</div></a>
             </div>
         </div>
     );
@@ -67,16 +74,29 @@ const BannerBioSchedule = () => {
             <CustomHero />
             <BioBanner />
             <UpcomingScheduleTitleBanner />
-            <EventItem
-                title='Monday community class'
-                description='description of the class here'
-                image='./images/teaching.jpg'
-            />
-            <EventItem
-                title='Friday community class'
-                description='description of the class here'
-                image='./images/back_to_back.jpg'
-            />
+            <div className='event-items-container'>
+                <EventItem
+                    c2a={eventsText.mondayCommunityClass.c2a}
+                    c2aLink={eventsText.mondayCommunityClass.c2aLink}
+                    description={eventsText.mondayCommunityClass.description}
+                    image={eventsText.mondayCommunityClass.image}
+                    title={eventsText.mondayCommunityClass.title}
+                />
+                <EventItem
+                    c2a={eventsText.thursdayImprovClass.c2a}
+                    c2aLink={eventsText.thursdayImprovClass.c2aLink}
+                    description={eventsText.thursdayImprovClass.description}
+                    image={eventsText.thursdayImprovClass.image}
+                    title={eventsText.thursdayImprovClass.title}
+                />
+                <EventItem
+                    c2a={eventsText.fridayCommunityClass.c2a}
+                    c2aLink={eventsText.mondayCommunityClass.c2aLink}
+                    description={eventsText.fridayCommunityClass.description}
+                    image={eventsText.fridayCommunityClass.image}
+                    title={eventsText.fridayCommunityClass.title}
+                />
+            </div>
         </>
     );
 }
