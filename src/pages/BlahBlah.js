@@ -11,7 +11,6 @@ const BlahBlah = () => {
     const {
         fantasies,
         practice,
-        teacher,
         welcome,
     } = sectionText;
 
