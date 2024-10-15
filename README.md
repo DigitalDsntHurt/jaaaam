@@ -34,8 +34,8 @@ This is a website for Nick Smith's Holistic Movement online presence.
 
 .[x] testimonials
 
-.[] create a blah-blah / essays page
-..[] link to it from footer
+.[x] create a blah-blah / essays page
+..[x] link to it from footer
 
 ### Oct 14, 2024
 .[x] create a new page for Community Classes
