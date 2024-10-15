@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Events from './pages/Events';
 import EventsLanding from './pages/EventsLanding';
 import CommunityClasses from './pages/CommunityClasses';
+import BannerBioSchedule from './pages/BannerBioSchedule';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
         <Route path="/community-classes" element={<CommunityClasses />} />
         <Route path="/events" element={<Events />} />
         <Route path="/home" element={<EventsLanding />} />
+        <Route path="/banner-bio-sched" element={<BannerBioSchedule />} />
       </Routes>
     </BrowserRouter>
   );
