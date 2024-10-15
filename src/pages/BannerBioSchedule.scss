@@ -44,3 +44,50 @@ $black-color: #000000;
     font-size: xx-large;
     font-weight: 200;
 }
+
+.event-item-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1vw;
+}
+
+.event-item-image-container {
+    padding: 1vh 1vw;
+}
+
+.event-item-image {
+    width: 50vw;
+}
+
+.event-item-text-container {
+    padding: 1vh 1vw;
+}
+
+.event-item-title {
+    font-size: larger;
+    font-weight: 800;
+}
+
+.event-item-description {
+    font-size: medium;
+    font-weight: 400;
+}
+
+.event-item-c2a {
+    background-color: $darker-blue;
+    color: $white-color;
+    font-size: large;
+    font-weight: 200;
+    padding: 1vh 2vw;
+    text-align: center;
+}
+
+@media (max-width: 666px) {
+    .event-item-container {
+        grid-template-columns: 1fr;
+    }
+
+    .event-item-image {
+        width: 98vw;
+    }
+}

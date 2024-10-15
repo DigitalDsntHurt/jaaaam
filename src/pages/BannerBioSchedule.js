@@ -42,12 +42,32 @@ const UpcomingScheduleTitleBanner = () => {
     );
 }
 
+const EventItem = () => {
+    return (
+        <div className="event-item-container light-theme">
+            <div className="event-item-image-container">
+                <img
+                    alt='sisyphy squat'
+                    className="event-item-image"
+                    src='./images/teaching.jpg'
+                />
+            </div>
+            <div className="event-item-text-container">
+                <div className="event-item-title">Title</div>
+                <div className="event-item-description">Description</div>
+                <div className="event-item-c2a">More info</div>
+            </div>
+        </div>
+    );
+}
+
 const BannerBioSchedule = () => {
     return (
         <>
             <CustomHero />
             <BioBanner />
             <UpcomingScheduleTitleBanner />
+            <EventItem />
         </>
     );
 }
