@@ -8,6 +8,9 @@ const Footer = ({ theme }) => {
                     <a href='/'>Home</a>
                 </div>
                 <div className='footer-link'>
+                    <a href='/testimonials'>Testimonials</a>
+                </div>
+                <div className='footer-link'>
                     <a href='/community-classes'>Community Classes</a>
                 </div>
                 <div className='footer-link'>
