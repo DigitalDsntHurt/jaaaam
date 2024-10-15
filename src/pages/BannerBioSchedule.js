@@ -57,35 +57,41 @@ const EventItem = ({
     );
 }
 
+const EventsList = () => {
+    return (
+        <div className='event-items-container'>
+            <EventItem
+                c2a={eventsText.mondayCommunityClass.c2a}
+                c2aLink={eventsText.mondayCommunityClass.c2aLink}
+                description={eventsText.mondayCommunityClass.description}
+                image={eventsText.mondayCommunityClass.image}
+                title={eventsText.mondayCommunityClass.title}
+            />
+            <EventItem
+                c2a={eventsText.thursdayImprovClass.c2a}
+                c2aLink={eventsText.thursdayImprovClass.c2aLink}
+                description={eventsText.thursdayImprovClass.description}
+                image={eventsText.thursdayImprovClass.image}
+                title={eventsText.thursdayImprovClass.title}
+            />
+            <EventItem
+                c2a={eventsText.fridayCommunityClass.c2a}
+                c2aLink={eventsText.mondayCommunityClass.c2aLink}
+                description={eventsText.fridayCommunityClass.description}
+                image={eventsText.fridayCommunityClass.image}
+                title={eventsText.fridayCommunityClass.title}
+            />
+        </div>
+    );
+}
+
 const BannerBioSchedule = () => {
     return (
         <>
             <CustomHero />
             <BioBanner />
             <UpcomingScheduleTitleBanner />
-            <div className='event-items-container'>
-                <EventItem
-                    c2a={eventsText.mondayCommunityClass.c2a}
-                    c2aLink={eventsText.mondayCommunityClass.c2aLink}
-                    description={eventsText.mondayCommunityClass.description}
-                    image={eventsText.mondayCommunityClass.image}
-                    title={eventsText.mondayCommunityClass.title}
-                />
-                <EventItem
-                    c2a={eventsText.thursdayImprovClass.c2a}
-                    c2aLink={eventsText.thursdayImprovClass.c2aLink}
-                    description={eventsText.thursdayImprovClass.description}
-                    image={eventsText.thursdayImprovClass.image}
-                    title={eventsText.thursdayImprovClass.title}
-                />
-                <EventItem
-                    c2a={eventsText.fridayCommunityClass.c2a}
-                    c2aLink={eventsText.mondayCommunityClass.c2aLink}
-                    description={eventsText.fridayCommunityClass.description}
-                    image={eventsText.fridayCommunityClass.image}
-                    title={eventsText.fridayCommunityClass.title}
-                />
-            </div>
+            <EventsList />
             <Footer theme='dark' />
         </>
     );
