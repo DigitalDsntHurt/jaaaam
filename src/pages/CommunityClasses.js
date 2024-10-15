@@ -1,6 +1,7 @@
 import './CommunityClasses.scss';
 import { communityClassText, teacherTextV2 } from '../content_components/siteCopy';
 import { getNUpcomingDates } from '../helpers/helpers';
+import Footer from '../content_components/Footer';
 import Hero from '../generic_components/Hero';
 import ImageLeftTextRight from '../generic_components/ImageLeftTextRight';
 import ImageRightTextLeft from '../generic_components/ImageRightTextLeft';
@@ -80,6 +81,7 @@ const CommunityClasses = () => {
                 theme='dark'
                 title="Organizer bio"
             />
+            <Footer theme='light' />
         </>
     );
 }
