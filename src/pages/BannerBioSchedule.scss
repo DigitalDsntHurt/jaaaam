@@ -7,6 +7,13 @@ $lighter-beige: #efeeb4;
 $white-color: #ffffff;
 $black-color: #000000;
 
+body {
+    background-color: $darker-blue;
+    color: $white-color;
+    margin: 0;
+    min-height: 100vh;
+}
+
 .custom-hero-container {
     align-items: center;
     display: flex;

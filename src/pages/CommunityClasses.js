@@ -1,9 +1,9 @@
 import './CommunityClasses.scss';
+import { communityClassText, teacherTextV2 } from '../content_components/siteCopy';
 import { getNUpcomingDates } from '../helpers/helpers';
 import Hero from '../generic_components/Hero';
-import ImageRightTextLeft from '../generic_components/ImageRightTextLeft';
 import ImageLeftTextRight from '../generic_components/ImageLeftTextRight';
-import { communityClassText, teacherTextV2 } from '../content_components/siteCopy';
+import ImageRightTextLeft from '../generic_components/ImageRightTextLeft';
 
 const UpcomingClassesList = (classDates) => {
     return (
