@@ -10,12 +10,16 @@ This is a website for Nick Smith's Holistic Movement online presence.
 ## Dev log (attention: mess below)
 
 ### Oct 15, 2024
-.[] create a new landing page based on Shira's homepage (https://sites.google.com/tapgym.com/shirayaziv/home?authuser=0)
-..[] bio / about text
-..[] hero image
-..[] upcoming schedule banner
-..[] event rows
+.[x] create a new landing page based on Shira's homepage (https://sites.google.com/tapgym.com/shirayaziv/home?authuser=0)
+..[x] bio / about text
+..[x] hero image
+..[x] upcoming schedule banner
+..[x] event rows
 ..[] ? footer
+
+.[] find a great image for monday community class
+.[] find a great image for friday community class
+.[] find a great image for thursday improv class
 
 ### Oct 14, 2024
 .[x] create a new page for Community Classes
