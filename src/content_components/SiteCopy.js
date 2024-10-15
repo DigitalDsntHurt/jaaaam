@@ -61,9 +61,6 @@ const practiceText = {
                 <strong>It is possible to learn to move in a way that feels fun and pleasurable forever</strong>.
             </p>
             <p>
-                Want to learn how? Email <a href='mailto:grapesdance@gmail.com'>grapesdance@gmail.com</a> for a free introduction.
-            </p>
-            <p>
                 Although you don't need to know about any of these, this teaching draws inspiration from many traditions including:
                 calisthenics,
                 improvisational dance modalities,
@@ -116,10 +113,11 @@ const teacherText = {
 // Oct 15, 2024 - used on community classes page
 const teacherTextV2 = (
     <>
-        <p>I'm Nick. I facilitate Holistic Movement classes, workshops and events in the Bay Area and throughout North America.</p>
+        <p>I'm Nick - a mover, dancer, meditator, teacher, bodyworker and facilitator.</p>
         <p>My offerings are based on deep practice of somatic movement, contact improvisation and mindfulness meditation.</p>
         <p>My core curiosities are about movement and awareness practices that are fun, caring, kind, gentle and (if you're into this kind of thing) wild.</p>
         <p>I was born and grew up in San Francisco and my work draws on many disciplines but the emphasis and primary interests are always community, healing and how we relate to our own attention.</p>
+        <p>In previous lives I've been a founder, sofware engineer, urban farmer, data-driven sports gambler and journalist.</p>
         <p>To book or ask questions: <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a>.</p>
     </>
 );
@@ -262,7 +260,7 @@ const eventsText = {
                     The exploration and practice of improvisational movement trains fun, fitness, attention and somatic awareness. It’s a valuable tool to accelerate your learning and mastery of other movement (& non-movement) disciplines. Improvisation is also a powerful tool for developing self practices you love and that serve your long- and short-term artistic, health and longevity goals.
                 </p>
                 <p>
-                    In this class we will draw on traditions including (but not limited to) circus, hand balancing, acrobatic flow, floor work, contemporary dance, partner work and somatics. We will sequence and re-sequence movement pathways and experiment with breaking the sequences until organic flow emerges. We will also practice listening deeply to our bodies and to the underlying movement patterns themselves in order to discover and unleash spontaneity, power and flow.
+                    In this class we practice listening deeply to our bodies and to the underlying movement patterns themselves in order to discover and unleash spontaneity, power and flow.
                 </p>
                 <p>
                     All bodies, skill and experience levels welcome.
