@@ -3,7 +3,7 @@ import { getNUpcomingDates } from '../helpers/helpers';
 import Hero from '../generic_components/Hero';
 import ImageRightTextLeft from '../generic_components/ImageRightTextLeft';
 import ImageLeftTextRight from '../generic_components/ImageLeftTextRight';
-import { communityClassText, teacherTextV2 } from '../content_components/SiteCopy';
+import { communityClassText, teacherTextV2 } from '../content_components/siteCopy';
 
 const UpcomingClassesList = (classDates) => {
     return (

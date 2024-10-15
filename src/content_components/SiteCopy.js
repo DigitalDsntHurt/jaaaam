@@ -141,8 +141,111 @@ const teacherTextV2 = (
     </>
 );
 
+const eventsText = {
+    mondayCommunityClass: {
+        title: (
+            <>
+                Weekly classes:
+                <br />
+                <br />
+                Monday Community Class @ Crane Cove Park
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Every Monday
+                    <br />
+                    7:30 - 8:30am
+                    <br />
+                    <a href='https://maps.app.goo.gl/SzD6powfenukDuyq6' target='_blank' rel='noreferrer'>@ Crane Cove Park</a>
+                </h4>
+                <p>
+                    A weekly class for movers of all ages, skill levels and body types.
+                </p>
+                <p>
+                    Community Classes encourage attending to your own body and heart while strengthening neighborhood communty and connecting to a sense of place.
+                </p>
+                <p>
+                    These classes explore mindfulness prompts, exploratory movement flows, movement games and functional movement patterns in a unique, creative and gentle style.
+                </p>
+            </>
+        ),
+        image: './images/bridge_at_chase.png',
+        c2a: 'More info',
+        c2aLink: '/community-classes',
+    },
+    fridayCommunityClass: {
+        title: (
+            <>
+                Weekly classes:
+                <br />
+                <br />
+                Friday Community Class @ Holly Park
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Every Friday
+                    <br />
+                    6:30 - 7:30am
+                    <br />
+                    <a href='https://maps.app.goo.gl/vtCBtioTxic36dLs9' target='_blank' rel='noreferrer'>@ Holly Park Playground</a>
+                </h4>
+                <p>
+                    A weekly class for movers of all ages, skill levels and body types.
+                </p>
+                <p>
+                    Community Classes encourage attending to your own body and heart while strengthening neighborhood communty and connecting to a sense of place.
+                </p>
+                <p>
+                    These classes explore mindfulness prompts, exploratory movement flows, movement games and functional movement patterns in a unique, creative and gentle style.
+                </p>
+            </>
+        ),
+        image: './images/holly_park.png',
+        c2a: 'More info',
+        c2aLink: '/community-classes',
+    },
+    thursdayImprovClass: {
+        title: (
+            <>
+                Weekly classes:
+                <br />
+                <br />
+                Thursday Movement Improvisation @ The Athletic Playground
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Every Thursday
+                    <br />
+                    12:00 - 1:00pm
+                    <br />
+                    <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
+                </h4>
+                <p>
+                    The exploration and practice of improvisational movement trains fun, fitness, attention and somatic awareness. It’s a valuable tool to accelerate your learning and mastery of other movement (& non-movement) disciplines. Improvisation is also a powerful tool for developing self practices you love and that serve your long- and short-term artistic, health and longevity goals.
+                </p>
+                <p>
+                    In this class we will draw on traditions including (but not limited to) circus, hand balancing, acrobatic flow, floor work, contemporary dance, partner work and somatics. We will sequence and re-sequence movement pathways and experiment with breaking the sequences until organic flow emerges. We will also practice listening deeply to our bodies and to the underlying movement patterns themselves in order to discover and unleash spontaneity, power and flow.
+                </p>
+                <p>
+                    All bodies, skill and experience levels welcome.
+                </p>
+            </>
+        ),
+        image: './images/back_to_back.jpg',
+        c2a: 'Sign up @ The Athletic Playground',
+        c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
+    },
+}
+
 export default sectionText;
 export {
     communityClassText,
-    teacherTextV2
+    teacherTextV2,
+    eventsText,
 }
