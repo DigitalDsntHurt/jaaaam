@@ -1,3 +1,29 @@
+
+const welcomeText = {
+    title: 'This is for you.',
+    body: (
+        <>
+            <p>
+                Move your body.
+            </p>
+            <p>
+                Bring awareness to your body.
+            </p>
+            <p>
+                Discover the delights that follow.
+            </p>
+        </>
+    ),
+};
+
+//
+// //
+// // // //
+// // // // // ESSAYS
+// // // //
+// // 
+//
+
 const fantasiesText = {
     title: 'Fantasies',
     body: (
@@ -58,23 +84,15 @@ const practiceText = {
     )
 };
 
-const welcomeText = {
-    title: 'This is for you.',
-    body: (
-        <>
-            <p>
-                Move your body.
-            </p>
-            <p>
-                Bring awareness to your body.
-            </p>
-            <p>
-                Discover the delights that follow.
-            </p>
-        </>
-    ),
-};
+//
+// //
+// // // //
+// // // // // BIOS
+// // // //
+// // 
+//
 
+// Oct 15, 2024 - used on homepage v1
 const teacherText = {
     title: 'Who am i?',
     body: (
@@ -95,12 +113,38 @@ const teacherText = {
     ),
 };
 
-const sectionText = {
-    fantasies: fantasiesText,
-    practice: practiceText,
-    teacher: teacherText,
-    welcome: welcomeText,
-};
+// Oct 15, 2024 - used on community classes page
+const teacherTextV2 = (
+    <>
+        <p>I'm Nick. I facilitate Holistic Movement classes, workshops and events in the Bay Area and throughout North America.</p>
+        <p>My offerings are based on deep practice of somatic movement, contact improvisation and mindfulness meditation.</p>
+        <p>My core curiosities are about movement and awareness practices that are fun, caring, kind, gentle and (if you're into this kind of thing) wild.</p>
+        <p>I was born and grew up in San Francisco and my work draws on many disciplines but the emphasis and primary interests are always community, healing and how we relate to our own attention.</p>
+        <p>For a full class schedule, see <a href='/events'>class schedule</a>.</p>
+        <p>Get in touch at <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a>.</p>
+    </>
+);
+
+// Oct 15, 2024 - used on Shira style homepage
+const bioBannerText = (
+    <>
+        Nick Smith is a mover, dancer, meditator, teacher, bodyworker and facilitator.{' '}
+        He enjoys encouraging fun, caring, kindness, gentleness and (where appropriate) wildness through practices centered on community, healing and how we relate to our own attention.{' '}
+        He offers private sessions, group classes, workshops, bodywork sessions and retreats.
+        <br />
+        <br />
+        To book or ask questions: <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a>
+    </>
+
+);
+
+//
+// //
+// // // //
+// // // // // TEACHING MATERIAL
+// // // //
+// // 
+//
 
 const communityClassText = (
     <>
@@ -127,17 +171,6 @@ const communityClassText = (
         <p>
             This practice is interested in sacredness, silliness and aims to make everything we do comfortable for all bodies, hearts and minds.
         </p>
-    </>
-);
-
-const teacherTextV2 = (
-    <>
-        <p>I'm Nick. I facilitate Holistic Movement classes, workshops and events in the Bay Area and throughout North America.</p>
-        <p>My offerings are based on deep practice of somatic movement, contact improvisation and mindfulness meditation.</p>
-        <p>My core curiosities are about movement and awareness practices that are fun, caring, kind, gentle and (if you're into this kind of thing) wild.</p>
-        <p>I was born and grew up in San Francisco and my work draws on many disciplines but the emphasis and primary interests are always community, healing and how we relate to our own attention.</p>
-        <p>For a full class schedule, see <a href='/events'>class schedule</a>.</p>
-        <p>Get in touch at <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a>.</p>
     </>
 );
 
@@ -243,17 +276,12 @@ const eventsText = {
     },
 }
 
-const bioBannerText = (
-    <>
-        Nick Smith is a mover, dancer, meditator, teacher, bodyworker and facilitator.{' '}
-        He enjoys encouraging fun, caring, kindness, gentleness and (where appropriate) wildness through practices centered on community, healing and how we relate to our own attention.{' '}
-        He offers private sessions, group classes, workshops, bodywork sessions and retreats.
-        <br />
-        <br />
-        To book or ask questions: <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a>
-    </>
-
-);
+const sectionText = {
+    fantasies: fantasiesText,
+    practice: practiceText,
+    teacher: teacherText,
+    welcome: welcomeText,
+};
 
 export default sectionText;
 export {
