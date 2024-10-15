@@ -8,11 +8,9 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<CommunityClasses />} />
+        <Route path="/" element={<BannerBioSchedule />} />
         <Route path="/blah-blah" element={<EventsLanding />} />
         <Route path="/community-classes" element={<CommunityClasses />} />
-        <Route path="/home" element={<EventsLanding />} />
-        <Route path="/banner-bio-sched" element={<BannerBioSchedule />} />
       </Routes>
     </BrowserRouter>
   );
