@@ -1,5 +1,6 @@
 import './BannerBioSchedule.scss';
 import { bioBannerText, eventsText } from '../content_components/siteCopy';
+import Footer from '../content_components/Footer';
 
 const CustomHero = () => {
     return (
@@ -85,6 +86,7 @@ const BannerBioSchedule = () => {
                     title={eventsText.fridayCommunityClass.title}
                 />
             </div>
+            <Footer theme='dark' />
         </>
     );
 }
