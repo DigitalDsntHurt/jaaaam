@@ -1,10 +1,10 @@
-import MainHero from '../content_components/MainHero';
-import ImageLeftTextRight from '../generic_components/ImageLeftTextRight';
-import ImageRightTextLeft from '../generic_components/ImageRightTextLeft';
-import Offerings from '../content_components/Offerings';
-import sectionText from '../content_components/siteCopy';
-import Students from '../content_components/Students';
-import Welcome from '../generic_components/Welcome';
+import MainHero from '../../content_components/MainHero';
+import ImageLeftTextRight from '../../generic_components/ImageLeftTextRight';
+import ImageRightTextLeft from '../../generic_components/ImageRightTextLeft';
+import Offerings from '../../content_components/Offerings';
+import sectionText from '../../content_components/siteCopy';
+import Students from '../../content_components/Students';
+import Welcome from '../../generic_components/Welcome';
 
 const ClassicLanding = () => {
     const {

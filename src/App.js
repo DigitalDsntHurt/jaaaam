@@ -2,7 +2,7 @@ import './App.scss';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import BannerBioSchedule from './pages/BannerBioSchedule';
 import CommunityClasses from './pages/CommunityClasses';
-import EventsLanding from './pages/EventsLanding';
+import EventsLanding from './pages/archive/EventsLanding';
 
 function App() {
   return (
