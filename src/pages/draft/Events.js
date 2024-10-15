@@ -1,5 +1,5 @@
 import './Events.scss';
-import { generateDateList } from '../helpers/helpers';
+import { generateDateList } from '../../helpers/helpers';
 
 const classStatus = (isCancelled) => {
     return isCancelled ? <>&#x274C; class cancelled</> : <>&#x2705; class confirmed</>
