@@ -1,0 +1,31 @@
+// COLORS
+$darker-blue: #454d66;
+$darker-green: #309975;
+$lighter-green: #58b368;
+$darker-beige: #dad873;
+$lighter-beige: #efeeb4;
+$white-color: #ffffff;
+$black-color: #000000;
+
+.light-theme {
+    color: $darker-blue;
+}
+
+.footer-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh 8vw;
+}
+
+.footer-links-list-container {
+    display: flex;
+    gap: 22px;
+}
+
+.footer-contact-container {
+    font-size: larger;
+    font-weight: 660;
+    line-height: 8vh;
+}
