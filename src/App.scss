@@ -34,6 +34,10 @@ $black-color: #000000;
   color: $black-color;
 }
 
+.light-theme a {
+  color: $darker-blue;
+}
+
 .dark-theme {
   background-color: $darker-blue;
   color: $white-color;
