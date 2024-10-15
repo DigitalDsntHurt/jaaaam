@@ -20,19 +20,19 @@ This is a website for Nick Smith's Holistic Movement online presence.
 .[x] find a great image for friday community class
 .[x] find a great image for thursday improv class
 
-.[] set BannerBioSchedule as root route
+.[x] set BannerBioSchedule as root route
 
-.[] create a footer for global nav
+.[x] do we need the events page at all?
 
-.[] make sure people can navigate home from 
-..[] community classes page
-..[] events page
+.[x] organize pages into two new folders
+..[x] deprecated
+..[x] draft
 
-.[] do we need the events page at all?
+.[x] create a footer for global nav
+.[x] make sure people can navigate home from 
+..[x] community classes page
 
-.[] organize pages into two new folders
-..[] deprecated
-..[] draft
+.[x] testimonials
 
 .[] create a blah-blah / essays page
 ..[] link to it from footer
