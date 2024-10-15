@@ -15,9 +15,8 @@ const CustomHero = () => {
 const BioBanner = () => {
     const bioBannerText = (
         <>
-            Nick Smith is a mover, dancer, meditator, teacher, bodyworker and facilitator{/* (but identifies mostly as human)*/}.{' '}
+            Nick Smith is a mover, dancer, meditator, teacher, bodyworker and facilitator{' '}
             He enjoys encouraging fun, caring, kindness, gentleness and (where appropriate) wildness through practices centered on community, healing and how we relate to our own attention.{' '}
-            {/* In previous lives, Nick has been a founder, sofware engineer, urban farmer, data-driven sports gambler and journalist.{' '} */}
             He offers private sessions, group classes, workshops, bodywork sessions and retreats.
             <br />
             <br />
