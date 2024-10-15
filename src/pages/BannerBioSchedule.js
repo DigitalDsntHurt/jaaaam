@@ -42,19 +42,19 @@ const UpcomingScheduleTitleBanner = () => {
     );
 }
 
-const EventItem = () => {
+const EventItem = ({ title, description, image }) => {
     return (
         <div className="event-item-container light-theme">
             <div className="event-item-image-container">
                 <img
                     alt='sisyphy squat'
                     className="event-item-image"
-                    src='./images/teaching.jpg'
+                    src={image}
                 />
             </div>
             <div className="event-item-text-container">
-                <div className="event-item-title">Title</div>
-                <div className="event-item-description">Description</div>
+                <div className="event-item-title">{title}</div>
+                <div className="event-item-description">{description}</div>
                 <div className="event-item-c2a">More info</div>
             </div>
         </div>
@@ -67,7 +67,16 @@ const BannerBioSchedule = () => {
             <CustomHero />
             <BioBanner />
             <UpcomingScheduleTitleBanner />
-            <EventItem />
+            <EventItem
+                title='Monday community class'
+                description='description of the class here'
+                image='./images/teaching.jpg'
+            />
+            <EventItem
+                title='Friday community class'
+                description='description of the class here'
+                image='./images/back_to_back.jpg'
+            />
         </>
     );
 }
