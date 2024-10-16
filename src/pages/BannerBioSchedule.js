@@ -5,6 +5,9 @@ import Footer from '../content_components/Footer';
 const CustomHero = () => {
     return (
         <div className='custom-hero-container' >
+            <div className='custom-hero-floating-header-link'>
+                <a href='/testimonials'>Testimonials</a>
+            </div>
             <img
                 alt='sisyphy squat'
                 className="custom-hero-image"

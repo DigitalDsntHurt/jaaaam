@@ -22,6 +22,17 @@ body {
     text-align: center;
 }
 
+.custom-hero-floating-header-link {
+    color: $white-color;
+    font-size: large;
+    font-weight: 444;
+    position: absolute;
+    right: 2vw;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    top: 1vh;
+    z-index: 1;
+}
+
 .custom-hero-image {
     height: 44vh;
     object-fit: cover;
