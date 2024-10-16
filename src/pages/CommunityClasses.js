@@ -70,7 +70,7 @@ const CommunityClasses = () => {
             />
             <CommunityClassInfoGrid />
             <ImageRightTextLeft
-                imagePath='./images/road_to_water.png'
+                imagePath='./images/backbend_hair_color.jpg'
                 text={communityClassText}
                 theme='light'
                 title='About Community Classes'

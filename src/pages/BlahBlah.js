@@ -36,7 +36,7 @@ const BlahBlah = () => {
             />
             <Students theme='dark' />
             <ImageRightTextLeft
-                imagePath='./images/nick.png'
+                imagePath='./images/head_down.jpg'
                 text={teacherTextV2}
                 theme='light'
                 title='Bio'
