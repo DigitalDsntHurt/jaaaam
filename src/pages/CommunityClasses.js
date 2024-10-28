@@ -6,13 +6,25 @@ import Hero from '../generic_components/Hero';
 import ImageLeftTextRight from '../generic_components/ImageLeftTextRight';
 import ImageRightTextLeft from '../generic_components/ImageRightTextLeft';
 
+const numberOfWeeksToDisplay = 5;
+const cancelDates = [
+    'Friday, November 22, 2024',
+    'Monday, November 25, 2024',
+    'Friday, November 29, 2024',
+    'Monday, December 2, 2024',
+];
+
 const UpcomingClassesList = (classDates) => {
     return (
         <div className='upcoming-class-dates-container'>
             {classDates.map(date => {
                 return (
                     <div key={date}>
-                        <>&#x2705;</> {date} - <span className='green-text'>class confirmed</span>
+                        {
+                            cancelDates.includes(date)
+                                ? <><>&#x274C;</> {date} - <span className='red-text'>class cancelled</span></>
+                                : <><>&#x2705;</> {date} - <span className='green-text'>class confirmed</span></>
+                        }
                     </div>
                 );
             })}
@@ -32,11 +44,7 @@ const CommunityClassInfoGrid = () => (
                 </h3>
                 <div className="community-class-detail-upcoming-classes-container">
                     <h3>Upcoming classes</h3>
-                    {
-                        UpcomingClassesList(
-                            getNUpcomingDates(3, 'monday')
-                        )
-                    }
+                    {UpcomingClassesList(getNUpcomingDates(numberOfWeeksToDisplay, 'monday'))}
                 </div>
             </div>
             <div className="community-class-detail-grid-item">
@@ -48,11 +56,7 @@ const CommunityClassInfoGrid = () => (
                 </h3>
                 <div className="community-class-detail-upcoming-classes-container">
                     <h3>Upcoming classes</h3>
-                    {
-                        UpcomingClassesList(
-                            getNUpcomingDates(3, 'friday')
-                        )
-                    }
+                    {UpcomingClassesList(getNUpcomingDates(numberOfWeeksToDisplay, 'friday'))}
                 </div>
             </div>
         </div >
