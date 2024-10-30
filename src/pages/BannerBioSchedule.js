@@ -71,6 +71,13 @@ const EventsList = () => {
                 title={eventsText.mondayCommunityClass.title}
             />
             <EventItem
+                c2a={eventsText.tuesdayFluidMovementClass.c2a}
+                c2aLink={eventsText.tuesdayFluidMovementClass.c2aLink}
+                description={eventsText.tuesdayFluidMovementClass.description}
+                image={eventsText.tuesdayFluidMovementClass.image}
+                title={eventsText.tuesdayFluidMovementClass.title}
+            />
+            <EventItem
                 c2a={eventsText.thursdayImprovClass.c2a}
                 c2aLink={eventsText.thursdayImprovClass.c2aLink}
                 description={eventsText.thursdayImprovClass.description}
