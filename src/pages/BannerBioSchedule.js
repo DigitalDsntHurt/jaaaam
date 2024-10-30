@@ -1,6 +1,7 @@
 import './BannerBioSchedule.scss';
 import { bioBannerText, eventsText } from '../content_components/SiteCopy';
 import Footer from '../content_components/Footer';
+import Students from "../content_components/Students";
 
 const CustomHero = () => {
     return (
@@ -102,7 +103,8 @@ const BannerBioSchedule = () => {
             <BioBanner />
             <UpcomingScheduleTitleBanner />
             <EventsList />
-            <Footer theme='dark' />
+            <Students />
+            <Footer theme='light' />
         </>
     );
 }
