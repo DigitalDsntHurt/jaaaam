@@ -12,6 +12,9 @@ const cancelDates = [
     'Monday, November 25, 2024',
     'Friday, November 29, 2024',
     'Monday, December 2, 2024',
+    'Monday, December 23, 2024',
+    'Monday, December 30, 2024',
+    'Friday, January 3, 2025',
 ];
 
 const UpcomingClassesList = (classDates) => {
@@ -74,7 +77,7 @@ const CommunityClasses = () => {
             />
             <CommunityClassInfoGrid />
             <ImageRightTextLeft
-                imagePath='./images/backbend_hair_color.jpg'
+                imagePath='./images/backbend_hair_color.png'
                 text={communityClassText}
                 theme='light'
                 title='About Community Classes'
