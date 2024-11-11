@@ -65,6 +65,20 @@ const EventsList = () => {
     return (
         <div className='event-items-container'>
             <EventItem
+                c2a={eventsText.dogpatchHubFamilyClass.c2a}
+                c2aLink={eventsText.dogpatchHubFamilyClass.c2aLink}
+                description={eventsText.dogpatchHubFamilyClass.description}
+                image={eventsText.dogpatchHubFamilyClass.image}
+                title={eventsText.dogpatchHubFamilyClass.title}
+            />
+            <EventItem
+                c2a={eventsText.dogpatchHubCouplesClass.c2a}
+                c2aLink={eventsText.dogpatchHubCouplesClass.c2aLink}
+                description={eventsText.dogpatchHubCouplesClass.description}
+                image={eventsText.dogpatchHubCouplesClass.image}
+                title={eventsText.dogpatchHubCouplesClass.title}
+            />
+            <EventItem
                 c2a={eventsText.mondayCommunityClass.c2a}
                 c2aLink={eventsText.mondayCommunityClass.c2aLink}
                 description={eventsText.mondayCommunityClass.description}

@@ -171,6 +171,82 @@ const communityClassText = (
     </>
 );
 
+const dogpatchHubFamilyClass = {
+    title: (
+        <>
+            Healthy Holidays for Families Workshops
+            <br />
+            @ The Dogpatch Hub
+        </>
+    ),
+    description: (
+        <>
+            <h4>
+                Two dates :
+                <br />
+                - Saturday, November 16, 2024 @ 3:00 - 4:30pm
+                <br />
+                - Saturday, December 14, 2024 @ 3:00 - 4:30pm
+                <br />
+                <a href='https://maps.app.goo.gl/WJLeDdH9Z6QLgKY38' target='_blank' rel='noreferrer'>@ The Dogpatch Hub</a>
+            </h4>
+            <p>
+                Healthy Holidays offers a fun and playful set of physical and relational practices to help folks prepare to thrive (not just survive) through the holiday season. Through explorations of physical movements, physical and attentional games and safe, respectful and gentle touch, we will practice resourcing and regulating ourselves and our loved ones.
+            </p>
+            <p>
+                <b>For</b>: All ages, experience, and skill levels!
+                <br />
+                <b>Intensity</b>: Medium-low. Expect to sweat a little.
+                <br />
+                <b>What to wear</b>: Soft, comfortable workout clothes.
+                <br />
+                <b>Bring</b>: A water bottle. Refill station on-site
+            </p>
+        </>
+    ),
+    image: './images/families.png',
+    c2a: 'Sign up @ The Hub',
+    c2aLink: 'https://thedogpatchhub.getomnify.com/categories/movement?services=4&staff=&cfilters=',
+}
+
+const dogpatchHubCouplesClass = {
+    title: (
+        <>
+            Healthy Holidays for Couples Workshops
+            <br />
+            @ The Dogpatch Hub
+        </>
+    ),
+    description: (
+        <>
+            <h4>
+                Two dates :
+                <br />
+                - Friday, December 6, 2024 @ 7:00 - 8:30pm
+                <br />
+                - Saturday, December 13, 2024 @ 7:00 - 8:30pm
+                <br />
+                <a href='https://maps.app.goo.gl/WJLeDdH9Z6QLgKY38' target='_blank' rel='noreferrer'>@ The Dogpatch Hub</a>
+            </h4>
+            <p>
+                Healthy Holidays offers a fun and playful set of physical and relational practices to help folks prepare to thrive (not just survive) through the holiday season. Through explorations of physical movements, physical and attentional games and safe, respectful and gentle touch, we will practice resourcing and regulating ourselves and our loved ones.
+            </p>
+            <p>
+                <b>For</b>: All couples, experience, and skill levels!
+                <br />
+                <b>Intensity</b>: Medium-low. Expect to sweat a little.
+                <br />
+                <b>What to wear</b>: Soft, comfortable workout clothes.
+                <br />
+                <b>Bring</b>: A water bottle. Refill station on-site
+            </p>
+        </>
+    ),
+    image: './images/couples.png',
+    c2a: 'Sign up @ The Hub',
+    c2aLink: 'https://thedogpatchhub.getomnify.com/categories/movement?services=4&staff=&cfilters=',
+}
+
 const eventsText = {
     mondayCommunityClass: {
         title: (
@@ -307,6 +383,8 @@ const eventsText = {
         c2a: 'More info',
         c2aLink: '/community-classes',
     },
+    dogpatchHubFamilyClass,
+    dogpatchHubCouplesClass,
 }
 
 const sectionText = {
