@@ -1,4 +1,4 @@
-import './BannerBioSchedule.scss';
+import './home.scss';
 import { bioBannerText, listOfEvents } from '../content_components/SiteCopy';
 import EventsList from '../generic_components/events/EventsList';
 import Footer from '../content_components/Footer';
@@ -28,7 +28,7 @@ const BioBanner = () => {
     );
 }
 
-const BannerBioSchedule = () => {
+const HomePage = () => {
     return (
         <>
             <CustomHero />
@@ -41,4 +41,4 @@ const BannerBioSchedule = () => {
     );
 }
 
-export default BannerBioSchedule;
+export default HomePage;
