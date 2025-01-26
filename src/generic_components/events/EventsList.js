@@ -1,7 +1,7 @@
-const EventsList = ({ eventItems }) => {
+const EventsList = ({ events }) => {
     return (
         <div className='event-items-container'>
-            {eventItems.map(event => event)}
+            {events.map(event => event)}
         </div>
     );
 }

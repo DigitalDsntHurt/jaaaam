@@ -34,7 +34,7 @@ const BannerBioSchedule = () => {
             <CustomHero />
             <BioBanner />
             <TitleBanner bannerText='UPCOMING EVENTS' />
-            <EventsList eventItems={listOfEvents} />
+            <EventsList events={listOfEvents} />
             <Students />
             <Footer theme='light' />
         </>
