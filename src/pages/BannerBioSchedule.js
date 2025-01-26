@@ -1,7 +1,9 @@
 import './BannerBioSchedule.scss';
-import { bioBannerText, eventsText } from '../content_components/SiteCopy';
+import { bioBannerText, listOfEvents } from '../content_components/SiteCopy';
+import EventsList from '../generic_components/events/EventsList';
 import Footer from '../content_components/Footer';
 import Students from "../content_components/Students";
+import TitleBanner from '../generic_components/TitleBanner';
 
 const CustomHero = () => {
     return (
@@ -26,97 +28,13 @@ const BioBanner = () => {
     );
 }
 
-const UpcomingScheduleTitleBanner = () => {
-    return (
-        <div className='upcoming-schedule-title-banner-container'>
-            <div className='upcoming-schedule-title-banner-text'>
-                UPCOMING SCHEDULE
-            </div>
-        </div>
-    );
-}
-
-const EventItem = ({
-    c2a,
-    c2aLink,
-    description,
-    image,
-    title,
-}) => {
-    return (
-        <div className="event-item-container light-theme">
-            <div className="event-item-image-container">
-                <img
-                    alt='sisyphy squat'
-                    className="event-item-image"
-                    src={image}
-                />
-            </div>
-            <div className="event-item-text-container">
-                <div className="event-item-title">{title}</div>
-                <div className="event-item-description">{description}</div>
-                <a href={c2aLink} target='_blank' rel='noreferrer'><div className="event-item-c2a">{c2a}</div></a>
-            </div>
-        </div>
-    );
-}
-
-const EventsList = () => {
-    return (
-        <div className='event-items-container'>
-            <EventItem
-                c2a={eventsText.dogpatchHubFamilyClass.c2a}
-                c2aLink={eventsText.dogpatchHubFamilyClass.c2aLink}
-                description={eventsText.dogpatchHubFamilyClass.description}
-                image={eventsText.dogpatchHubFamilyClass.image}
-                title={eventsText.dogpatchHubFamilyClass.title}
-            />
-            <EventItem
-                c2a={eventsText.dogpatchHubCouplesClass.c2a}
-                c2aLink={eventsText.dogpatchHubCouplesClass.c2aLink}
-                description={eventsText.dogpatchHubCouplesClass.description}
-                image={eventsText.dogpatchHubCouplesClass.image}
-                title={eventsText.dogpatchHubCouplesClass.title}
-            />
-            <EventItem
-                c2a={eventsText.mondayCommunityClass.c2a}
-                c2aLink={eventsText.mondayCommunityClass.c2aLink}
-                description={eventsText.mondayCommunityClass.description}
-                image={eventsText.mondayCommunityClass.image}
-                title={eventsText.mondayCommunityClass.title}
-            />
-            <EventItem
-                c2a={eventsText.tuesdayFluidMovementClass.c2a}
-                c2aLink={eventsText.tuesdayFluidMovementClass.c2aLink}
-                description={eventsText.tuesdayFluidMovementClass.description}
-                image={eventsText.tuesdayFluidMovementClass.image}
-                title={eventsText.tuesdayFluidMovementClass.title}
-            />
-            <EventItem
-                c2a={eventsText.thursdayImprovClass.c2a}
-                c2aLink={eventsText.thursdayImprovClass.c2aLink}
-                description={eventsText.thursdayImprovClass.description}
-                image={eventsText.thursdayImprovClass.image}
-                title={eventsText.thursdayImprovClass.title}
-            />
-            <EventItem
-                c2a={eventsText.fridayCommunityClass.c2a}
-                c2aLink={eventsText.mondayCommunityClass.c2aLink}
-                description={eventsText.fridayCommunityClass.description}
-                image={eventsText.fridayCommunityClass.image}
-                title={eventsText.fridayCommunityClass.title}
-            />
-        </div>
-    );
-}
-
 const BannerBioSchedule = () => {
     return (
         <>
             <CustomHero />
             <BioBanner />
-            <UpcomingScheduleTitleBanner />
-            <EventsList />
+            <TitleBanner bannerText='UPCOMING EVENTS' />
+            <EventsList eventItems={listOfEvents} />
             <Students />
             <Footer theme='light' />
         </>
