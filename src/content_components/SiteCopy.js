@@ -1,3 +1,5 @@
+import EventItem from '../generic_components/events/EventItem';
+
 
 const welcomeText = {
     title: 'This is for you.',
@@ -387,6 +389,51 @@ const eventsText = {
     dogpatchHubCouplesClass,
 }
 
+const listOfEvents = [
+    <EventItem
+        c2a={eventsText.dogpatchHubFamilyClass.c2a}
+        c2aLink={eventsText.dogpatchHubFamilyClass.c2aLink}
+        description={eventsText.dogpatchHubFamilyClass.description}
+        image={eventsText.dogpatchHubFamilyClass.image}
+        title={eventsText.dogpatchHubFamilyClass.title}
+    />,
+    <EventItem
+        c2a={eventsText.dogpatchHubCouplesClass.c2a}
+        c2aLink={eventsText.dogpatchHubCouplesClass.c2aLink}
+        description={eventsText.dogpatchHubCouplesClass.description}
+        image={eventsText.dogpatchHubCouplesClass.image}
+        title={eventsText.dogpatchHubCouplesClass.title}
+    />,
+    <EventItem
+        c2a={eventsText.mondayCommunityClass.c2a}
+        c2aLink={eventsText.mondayCommunityClass.c2aLink}
+        description={eventsText.mondayCommunityClass.description}
+        image={eventsText.mondayCommunityClass.image}
+        title={eventsText.mondayCommunityClass.title}
+    />,
+    <EventItem
+        c2a={eventsText.tuesdayFluidMovementClass.c2a}
+        c2aLink={eventsText.tuesdayFluidMovementClass.c2aLink}
+        description={eventsText.tuesdayFluidMovementClass.description}
+        image={eventsText.tuesdayFluidMovementClass.image}
+        title={eventsText.tuesdayFluidMovementClass.title}
+    />,
+    <EventItem
+        c2a={eventsText.thursdayImprovClass.c2a}
+        c2aLink={eventsText.thursdayImprovClass.c2aLink}
+        description={eventsText.thursdayImprovClass.description}
+        image={eventsText.thursdayImprovClass.image}
+        title={eventsText.thursdayImprovClass.title}
+    />,
+    <EventItem
+        c2a={eventsText.fridayCommunityClass.c2a}
+        c2aLink={eventsText.mondayCommunityClass.c2aLink}
+        description={eventsText.fridayCommunityClass.description}
+        image={eventsText.fridayCommunityClass.image}
+        title={eventsText.fridayCommunityClass.title}
+    />,
+];
+
 const sectionText = {
     fantasies: fantasiesText,
     practice: practiceText,
@@ -398,6 +445,6 @@ export default sectionText;
 export {
     bioBannerText,
     communityClassText,
-    eventsText,
+    listOfEvents,
     teacherTextV2,
 }
