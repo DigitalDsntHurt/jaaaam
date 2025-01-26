@@ -1,4 +1,4 @@
-import './HomeP.scss';
+import './Home.scss';
 import { bioBannerText, listOfEvents } from '../content_components/SiteCopy';
 import EventsList from '../generic_components/events/EventsList';
 import Footer from '../content_components/Footer';
