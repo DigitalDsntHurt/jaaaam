@@ -280,10 +280,37 @@ const eventsText = {
         c2a: 'More info',
         c2aLink: '/community-classes',
     },
+    tuesdayWakeShakeClass: {
+        title: (
+            <>
+                Wake 'n' Shake Morning Dance Party
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Weekly Every Tuesday
+                    <br />
+                    7:15 - 8:15am
+                    <br />
+                    <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
+                </h4>
+                <p>
+                    Start your day with a dynamic workout blending strength, mobility, floor work, soft acrobatics and vinyasa-inspired flows. Designed for all levels and ages, this class boosts energy, builds confidence and enhances flexibility in a fun, supportive environment.
+                </p>
+                <p>
+                    Wake up, sweat and flow yourself into an epic day.
+                </p>
+            </>
+        ),
+        image: './images/WakeShakeMorningDanceParty.png',
+        c2a: 'Sign up @ The Athletic Playground',
+        c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
+    },
     tuesdayFluidMovementClass: {
         title: (
             <>
-                Fluid Movement @ The Athletic Playground
+                Fluid Movement
             </>
         ),
         description: (
@@ -325,10 +352,40 @@ const eventsText = {
         c2a: 'Sign up @ The Athletic Playground',
         c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
     },
+    thursdayEmbodiedGroove: {
+        title: (
+            <>
+                Embodied Groove
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Weekly Every Thursday
+                    <br />
+                    7:15 - 8:15am
+                    <br />
+                    <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
+                </h4>
+                <p>
+                    Unlock your energy and reconnect to yourself in this fun and dynamic movement class. Through guided improvisation, functional exercises and somatic techniques, we’ll explore playful and intentional ways to recharge body and mind.
+                </p>
+                <p>
+                    This welcoming class is perfect for all levels and ages, offering a supportive space to move freely, relieve stress and feel alive. Whether you’re looking to improve your well-being, tap into your creativity or just have fun, this class will leave you feeling refreshed and revitalized.
+                </p>
+                <p>
+                    Join us and explore the joys of movement.
+                </p>
+            </>
+        ),
+        image: './images/EmbodiedGroove.jpeg',
+        c2a: 'Sign up @ The Athletic Playground',
+        c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
+    },
     thursdayImprovClass: {
         title: (
             <>
-                Movement Improvisation @ The Athletic Playground
+                Movement Improvisation
             </>
         ),
         description: (
@@ -391,11 +448,25 @@ const eventsText = {
 
 const listOfCurrentEvents = [
     <EventItem
+        c2a={eventsText.tuesdayWakeShakeClass.c2a}
+        c2aLink={eventsText.tuesdayWakeShakeClass.c2aLink}
+        description={eventsText.tuesdayWakeShakeClass.description}
+        image={eventsText.tuesdayWakeShakeClass.image}
+        title={eventsText.tuesdayWakeShakeClass.title}
+    />,
+    <EventItem
         c2a={eventsText.tuesdayFluidMovementClass.c2a}
         c2aLink={eventsText.tuesdayFluidMovementClass.c2aLink}
         description={eventsText.tuesdayFluidMovementClass.description}
         image={eventsText.tuesdayFluidMovementClass.image}
         title={eventsText.tuesdayFluidMovementClass.title}
+    />,
+    <EventItem
+        c2a={eventsText.thursdayEmbodiedGroove.c2a}
+        c2aLink={eventsText.thursdayEmbodiedGroove.c2aLink}
+        description={eventsText.thursdayEmbodiedGroove.description}
+        image={eventsText.thursdayEmbodiedGroove.image}
+        title={eventsText.thursdayEmbodiedGroove.title}
     />,
     <EventItem
         c2a={eventsText.thursdayImprovClass.c2a}
