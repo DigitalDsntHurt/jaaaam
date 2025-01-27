@@ -112,14 +112,12 @@ const teacherText = {
     ),
 };
 
-// Oct 15, 2024 - used on community classes page
-const teacherTextV2 = (
+// as of Jan 27, 2025
+const bioText = (
     <>
-        <p>I'm Nick - a mover, dancer, meditator, teacher, bodyworker and facilitator.</p>
-        <p>My offerings are based on deep practice of somatic movement, contact improvisation and mindfulness meditation.</p>
-        <p>My core curiosities are about movement and awareness practices that are fun, caring, kind, gentle and (if you're into this kind of thing) wild.</p>
-        <p>I was born and grew up in San Francisco and my work draws on many disciplines but the emphasis and primary interests are always community, healing and how we relate to our own attention.</p>
-        <p>In previous lives I've been a founder, sofware engineer, urban farmer, data-driven sports gambler and journalist.</p>
+        <p>I'm Nick - a mover, dancer, meditator, facilitator, coach, consultant and companion to hearts and bodies.</p>
+        <p>My offerings are based on deep practices of listening, meditation and movement all of which explore community, healing and how we relate to our own attention.</p>
+        <p>I was born and grew up in San Francisco and in previous lives I've been a founder, sofware engineer, urban farmer, data-driven sports gambler and journalist.</p>
         <p>To book or ask questions: <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a>.</p>
     </>
 );
@@ -550,5 +548,5 @@ export {
     communityClassText,
     listOfCurrentEvents,
     listOfPastEvents,
-    teacherTextV2,
+    bioText,
 }

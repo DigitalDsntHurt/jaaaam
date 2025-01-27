@@ -1,12 +1,17 @@
-import { teacherTextV2 } from '../content_components/SiteCopy';
+import { bioText } from '../content_components/SiteCopy';
 import ImageLeftTextRight from "../generic_components/ImageLeftTextRight"
 
-const Bio = () => (
-    <ImageLeftTextRight
-        imagePath='./images/teaching.jpg'
-        text={teacherTextV2}
-        theme='dark'
-        title="Organizer bio"
-    />
-);
+const Bio = ({ theme }) => {
+    return (
+        <>
+            <ImageLeftTextRight
+                imagePath='./images/flattered.png'
+                text={bioText}
+                theme={theme}
+                title="About Nick"
+            />
+        </>
+    )
+
+};
 export default Bio;
