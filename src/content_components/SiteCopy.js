@@ -299,7 +299,7 @@ const eventsText = {
                 </p>
             </>
         ),
-        image: './images/WakeShakeMorningDanceParty.png',
+        image: './images/backbend_hair_color.png',
         c2a: 'Sign up @ The Athletic Playground',
         c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
     },
@@ -344,7 +344,7 @@ const eventsText = {
                 </p>
             </>
         ),
-        image: './images/backbend_hair_color.png',
+        image: './images/lil_half_moon.png',
         c2a: 'Sign up @ The Athletic Playground',
         c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
     },

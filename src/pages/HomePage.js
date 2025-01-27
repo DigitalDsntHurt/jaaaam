@@ -14,7 +14,7 @@ const CustomHero = () => {
             <img
                 alt='sisyphy squat'
                 className="custom-hero-image"
-                src='./images/sisyphus_squat.png'
+                src='./images/teaching.jpg'
             />
         </div >
     );
