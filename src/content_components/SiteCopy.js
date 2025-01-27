@@ -124,14 +124,10 @@ const teacherTextV2 = (
     </>
 );
 
-// Oct 15, 2024 - used on Shira style homepage
+// Homepage Bio as of Jan 26, 2025
 const bioBannerText = (
     <>
-        Nick Smith is a mover, dancer, meditator, teacher, bodyworker and facilitator.{' '}
-        He enjoys encouraging fun, caring, kindness, gentleness and (where appropriate) wildness through practices centered on community, healing and how we relate to our own attention.{' '}
-        He offers private sessions, group classes, workshops, bodywork sessions and retreats.
-        <br />
-        <br />
+        <p>Nick Smith offers meditation and movement workshops, group classes, private sessions, coaching and bodywork sessions.</p>
         To book or ask questions: <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a>
     </>
 
