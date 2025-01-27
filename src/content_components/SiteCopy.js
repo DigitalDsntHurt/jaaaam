@@ -473,6 +473,7 @@ const listOfCurrentEvents = [
         c2a={eventsText.danceLovers.c2a}
         c2aLink={eventsText.danceLovers.c2aLink}
         description={eventsText.danceLovers.description}
+        id="dancelovers"
         image={eventsText.danceLovers.image}
         title={eventsText.danceLovers.title}
     />,
@@ -480,6 +481,7 @@ const listOfCurrentEvents = [
         c2a={eventsText.tuesdayWakeShakeClass.c2a}
         c2aLink={eventsText.tuesdayWakeShakeClass.c2aLink}
         description={eventsText.tuesdayWakeShakeClass.description}
+        id="wakenshake"
         image={eventsText.tuesdayWakeShakeClass.image}
         title={eventsText.tuesdayWakeShakeClass.title}
     />,
@@ -487,6 +489,7 @@ const listOfCurrentEvents = [
         c2a={eventsText.tuesdayFluidMovementClass.c2a}
         c2aLink={eventsText.tuesdayFluidMovementClass.c2aLink}
         description={eventsText.tuesdayFluidMovementClass.description}
+        id="fluidmovement"
         image={eventsText.tuesdayFluidMovementClass.image}
         title={eventsText.tuesdayFluidMovementClass.title}
     />,
@@ -494,6 +497,7 @@ const listOfCurrentEvents = [
         c2a={eventsText.thursdayEmbodiedGroove.c2a}
         c2aLink={eventsText.thursdayEmbodiedGroove.c2aLink}
         description={eventsText.thursdayEmbodiedGroove.description}
+        id="embodiedgroove"
         image={eventsText.thursdayEmbodiedGroove.image}
         title={eventsText.thursdayEmbodiedGroove.title}
     />,
@@ -501,6 +505,7 @@ const listOfCurrentEvents = [
         c2a={eventsText.thursdayImprovClass.c2a}
         c2aLink={eventsText.thursdayImprovClass.c2aLink}
         description={eventsText.thursdayImprovClass.description}
+        id="movementimprovisation"
         image={eventsText.thursdayImprovClass.image}
         title={eventsText.thursdayImprovClass.title}
     />,

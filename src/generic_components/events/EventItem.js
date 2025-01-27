@@ -4,11 +4,12 @@ const EventItem = ({
     c2a,
     c2aLink,
     description,
+    id,
     image,
     title,
 }) => {
     return (
-        <div className="event-item-container light-theme">
+        <div className="event-item-container light-theme" id={id}>
             <div className="event-item-image-container">
                 <img
                     alt='sisyphy squat'
