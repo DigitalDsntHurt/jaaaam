@@ -1,44 +1,48 @@
 import './CommunityClasses.scss';
 import { communityClassText, teacherTextV2 } from '../content_components/SiteCopy';
-import { getNUpcomingDates } from '../helpers/helpers';
+// import { getNUpcomingDates } from '../helpers/helpers';
 import Footer from '../content_components/Footer';
 import Hero from '../generic_components/Hero';
 import ImageLeftTextRight from '../generic_components/ImageLeftTextRight';
 import ImageRightTextLeft from '../generic_components/ImageRightTextLeft';
 
-const numberOfWeeksToDisplay = 5;
-const cancelDates = [
-    'Friday, November 22, 2024',
-    'Monday, November 25, 2024',
-    'Friday, November 29, 2024',
-    'Monday, December 2, 2024',
-    'Monday, December 23, 2024',
-    'Monday, December 30, 2024',
-    'Friday, January 3, 2025',
-];
+// const numberOfWeeksToDisplay = 5;
+// const cancelDates = [
+//     'Friday, November 22, 2024',
+//     'Monday, November 25, 2024',
+//     'Friday, November 29, 2024',
+//     'Monday, December 2, 2024',
+//     'Monday, December 23, 2024',
+//     'Monday, December 30, 2024',
+//     'Friday, January 3, 2025',
+// ];
 
-const UpcomingClassesList = (classDates) => {
-    return (
-        <div className='upcoming-class-dates-container'>
-            {classDates.map(date => {
-                return (
-                    <div key={date}>
-                        {
-                            cancelDates.includes(date)
-                                ? <><>&#x274C;</> {date} - <span className='red-text'>class cancelled</span></>
-                                : <><>&#x2705;</> {date} - <span className='green-text'>class confirmed</span></>
-                        }
-                    </div>
-                );
-            })}
-        </div>
-    );
-}
+// const UpcomingClassesList = (classDates) => {
+//     return (
+//         <div className='upcoming-class-dates-container'>
+//             {classDates.map(date => {
+//                 return (
+//                     <div key={date}>
+//                         {
+//                             cancelDates.includes(date)
+//                                 ? <><>&#x274C;</> {date} - <span className='red-text'>class cancelled</span></>
+//                                 : <><>&#x2705;</> {date} - <span className='green-text'>class confirmed</span></>
+//                         }
+//                     </div>
+//                 );
+//             })}
+//         </div>
+//     );
+// }
 
 const CommunityClassInfoGrid = () => (
     <div className="page-container">
         <div className="community-class-detail-grid-container">
-            <div className="community-class-detail-grid-item border-bottom">
+            <div className="community-class-detail-grid-item">
+                <h2>Community Classes are currently paused</h2>
+                <h4>To request a community class in your neighborhood email <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a></h4>
+            </div>
+            {/* <div className="community-class-detail-grid-item border-bottom">
                 <h2>Every Monday</h2>
                 <h3>
                     7:30 - 8:30am
@@ -61,7 +65,7 @@ const CommunityClassInfoGrid = () => (
                     <h3>Upcoming classes</h3>
                     {UpcomingClassesList(getNUpcomingDates(numberOfWeeksToDisplay, 'friday'))}
                 </div>
-            </div>
+            </div> */}
         </div >
     </div>
 );
