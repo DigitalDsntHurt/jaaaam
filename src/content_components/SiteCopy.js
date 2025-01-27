@@ -389,7 +389,24 @@ const eventsText = {
     dogpatchHubCouplesClass,
 }
 
-const listOfEvents = [
+const listOfCurrentEvents = [
+    <EventItem
+        c2a={eventsText.tuesdayFluidMovementClass.c2a}
+        c2aLink={eventsText.tuesdayFluidMovementClass.c2aLink}
+        description={eventsText.tuesdayFluidMovementClass.description}
+        image={eventsText.tuesdayFluidMovementClass.image}
+        title={eventsText.tuesdayFluidMovementClass.title}
+    />,
+    <EventItem
+        c2a={eventsText.thursdayImprovClass.c2a}
+        c2aLink={eventsText.thursdayImprovClass.c2aLink}
+        description={eventsText.thursdayImprovClass.description}
+        image={eventsText.thursdayImprovClass.image}
+        title={eventsText.thursdayImprovClass.title}
+    />,
+];
+
+const listOfPastEvents = [
     <EventItem
         c2a={eventsText.dogpatchHubFamilyClass.c2a}
         c2aLink={eventsText.dogpatchHubFamilyClass.c2aLink}
@@ -412,20 +429,6 @@ const listOfEvents = [
         title={eventsText.mondayCommunityClass.title}
     />,
     <EventItem
-        c2a={eventsText.tuesdayFluidMovementClass.c2a}
-        c2aLink={eventsText.tuesdayFluidMovementClass.c2aLink}
-        description={eventsText.tuesdayFluidMovementClass.description}
-        image={eventsText.tuesdayFluidMovementClass.image}
-        title={eventsText.tuesdayFluidMovementClass.title}
-    />,
-    <EventItem
-        c2a={eventsText.thursdayImprovClass.c2a}
-        c2aLink={eventsText.thursdayImprovClass.c2aLink}
-        description={eventsText.thursdayImprovClass.description}
-        image={eventsText.thursdayImprovClass.image}
-        title={eventsText.thursdayImprovClass.title}
-    />,
-    <EventItem
         c2a={eventsText.fridayCommunityClass.c2a}
         c2aLink={eventsText.mondayCommunityClass.c2aLink}
         description={eventsText.fridayCommunityClass.description}
@@ -445,6 +448,7 @@ export default sectionText;
 export {
     bioBannerText,
     communityClassText,
-    listOfEvents,
+    listOfCurrentEvents,
+    listOfPastEvents,
     teacherTextV2,
 }

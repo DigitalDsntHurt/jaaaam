@@ -1,5 +1,5 @@
 import './HomePage.scss';
-import { bioBannerText, listOfEvents } from '../content_components/SiteCopy';
+import { bioBannerText, listOfCurrentEvents } from '../content_components/SiteCopy';
 import EventsList from '../generic_components/events/EventsList';
 import Footer from '../content_components/Footer';
 import Students from "../content_components/Students";
@@ -34,7 +34,7 @@ const HomePage = () => {
             <CustomHero />
             <BioBanner />
             <TitleBanner bannerText='UPCOMING EVENTS' />
-            <EventsList events={listOfEvents} />
+            <EventsList events={listOfCurrentEvents} />
             <Students />
             <Footer theme='light' />
         </>
