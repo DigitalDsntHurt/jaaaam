@@ -279,7 +279,7 @@ const eventsText = {
     tuesdayWakeShakeClass: {
         title: (
             <>
-                Wake 'n' Shake Morning Dance Party
+                Wake 'n' Shake (Morning Dance Party)
             </>
         ),
         description: (
@@ -319,15 +319,10 @@ const eventsText = {
                     <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
                 </h4>
                 <p>
-                    Exploring the Skill of Fluid Movement
-                </p>
-                <p>
                     In this class, we treat movement fluidity as a learnable skill and explore how we can move efficiently, safely and beautifully over the course of a long life.
                 </p>
                 <p>
-                    Fluid movement can help us learn faster, exert less, prevent and recover from injury, have more fun and impress our friends.
-                </p>
-                <p>
+                    Fluid movement can help us learn faster, exert less, prevent and recover from injury, have more fun and impress our friends.{' '}
                     We will learn what fluid, efficient movement is and how to practice it by studying four structural elements:
                     <br />
                     <br />
@@ -344,14 +339,14 @@ const eventsText = {
                 </p>
             </>
         ),
-        image: './images/lil_half_moon.png',
+        image: './images/bridge_at_chase.png',
         c2a: 'Sign up @ The Athletic Playground',
         c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
     },
     thursdayEmbodiedGroove: {
         title: (
             <>
-                Embodied Groove
+                Embodied Groove (Morning Dance Party)
             </>
         ),
         description: (
@@ -470,14 +465,6 @@ const eventsText = {
 
 const listOfCurrentEvents = [
     <EventItem
-        c2a={eventsText.danceLovers.c2a}
-        c2aLink={eventsText.danceLovers.c2aLink}
-        description={eventsText.danceLovers.description}
-        id="dancelovers"
-        image={eventsText.danceLovers.image}
-        title={eventsText.danceLovers.title}
-    />,
-    <EventItem
         c2a={eventsText.tuesdayWakeShakeClass.c2a}
         c2aLink={eventsText.tuesdayWakeShakeClass.c2aLink}
         description={eventsText.tuesdayWakeShakeClass.description}
@@ -508,6 +495,14 @@ const listOfCurrentEvents = [
         id="movementimprovisation"
         image={eventsText.thursdayImprovClass.image}
         title={eventsText.thursdayImprovClass.title}
+    />,
+    <EventItem
+        c2a={eventsText.danceLovers.c2a}
+        c2aLink={eventsText.danceLovers.c2aLink}
+        description={eventsText.danceLovers.description}
+        id="dancelovers"
+        image={eventsText.danceLovers.image}
+        title={eventsText.danceLovers.title}
     />,
 ];
 
