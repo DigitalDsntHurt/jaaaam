@@ -440,9 +440,42 @@ const eventsText = {
     },
     dogpatchHubFamilyClass,
     dogpatchHubCouplesClass,
+    danceLovers: {
+        title: (
+            <>
+                DANCE LOVERS
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    …duets by couples, crushes and comrades
+                    <br />
+                    February 13, 14, 15, 2025
+                    <br />
+                    7:30pm
+                    <br />
+                    <a href='https://maps.app.goo.gl/rXWtXSB4CMZ2tWw49' target='_blank' rel='noreferrer'>@ Joe Goode Annex, San Francisco</a>
+                </h4>
+                <p>
+                    Dance Lovers is an annual performance event held in San Francisco around Valentine’s Day. Bear Graham produces and curates DANCE LOVERS…duets by couples, crushes, and comrades. Graham invites artists with diverse pairings (friends, lovers, family members) to present duets in their unique styles/genres. The event began in 2011 at what was then called Kunst-Stoff Arts, and has also been presented at CounterPULSE and the Joe Goode Annex (our current “home”).
+                </p>
+            </>
+        ),
+        image: './images/DANCELOVERS2025.jpg',
+        c2a: 'Reserve Tickets!',
+        c2aLink: 'https://jgpg.my.salesforce-sites.com/ticket/#/events/a0SVI0000044tZt2AI',
+    },
 }
 
 const listOfCurrentEvents = [
+    <EventItem
+        c2a={eventsText.danceLovers.c2a}
+        c2aLink={eventsText.danceLovers.c2aLink}
+        description={eventsText.danceLovers.description}
+        image={eventsText.danceLovers.image}
+        title={eventsText.danceLovers.title}
+    />,
     <EventItem
         c2a={eventsText.tuesdayWakeShakeClass.c2a}
         c2aLink={eventsText.tuesdayWakeShakeClass.c2aLink}
