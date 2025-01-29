@@ -8,7 +8,7 @@ import Bio from "../content_components/Bio";
 const UpcomingEvents = () => {
     return (
         <>
-            <TitleBanner bannerText='UPCOMING EVENTS' />
+            <TitleBanner bannerText='UPCOMING' cornerNav='Home' />
             <EventsList events={listOfCurrentEvents} />
             <Bio />
             <Students theme='light' />
