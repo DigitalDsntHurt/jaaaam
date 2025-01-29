@@ -115,8 +115,8 @@ const teacherText = {
 // as of Jan 27, 2025
 const bioText = (
     <>
-        <p>I'm Nick - a mover, dancer, meditator, facilitator, coach, consultant and companion to hearts and bodies.</p>
-        <p>My offerings are based on deep practices of listening, meditation and movement all of which explore community, healing and how we relate to our own attention.</p>
+        <p>I'm Nick - a mover, dancer, meditator, facilitator, coach, consultant and companion.</p>
+        <p>My offerings are based on practices of listening, meditation and movement which explore community, healing and how we relate to our own attention.</p>
         <p>I was born and grew up in San Francisco and in previous lives I've been a founder, sofware engineer, urban farmer, data-driven sports gambler and journalist.</p>
         <p>To book or ask questions: <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a>.</p>
     </>
@@ -297,7 +297,7 @@ const eventsText = {
                 </p>
             </>
         ),
-        image: './images/backbend_hair_color.png',
+        image: './images/WakeShakeMorningDanceParty.png',
         c2a: 'Sign up @ The Athletic Playground',
         c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
     },
@@ -337,7 +337,7 @@ const eventsText = {
                 </p>
             </>
         ),
-        image: './images/bridge_at_chase.png',
+        image: './images/backbend_hair_color.png',
         c2a: 'Sign up @ The Athletic Playground',
         c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
     },
@@ -397,7 +397,7 @@ const eventsText = {
                 </p>
             </>
         ),
-        image: './images/back_to_back.jpg',
+        image: './images/gourd_head_balance.png',
         c2a: 'Sign up @ The Athletic Playground',
         c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
     },
