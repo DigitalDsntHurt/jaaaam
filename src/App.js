@@ -7,6 +7,8 @@ import PastEvents from './pages/PastEvents';
 import Testimonials from './pages/Testimonials';
 import UpcomingEvents from './pages/UpcomingEvents';
 
+import { Analytics } from "@vercel/analytics/react"
+
 function App() {
   return (
     <BrowserRouter>
@@ -18,6 +20,7 @@ function App() {
         <Route path="/past-events" element={<PastEvents />} />
         <Route path="/events" element={<UpcomingEvents />} />
       </Routes>
+      <Analytics />
     </BrowserRouter>
   );
 }
