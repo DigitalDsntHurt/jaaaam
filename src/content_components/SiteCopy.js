@@ -459,6 +459,33 @@ const eventsText = {
         c2a: 'Reserve Tickets!',
         c2aLink: 'https://jgpg.my.salesforce-sites.com/ticket/#/events/a0SVI0000044tZt2AI',
     },
+    familyParkourAcro: {
+        title: (
+            <>
+                Movement and Parkour for Families (Ages 5+)
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Weekly Every Saturday
+                    <br />
+                    12:45 - 2:00pm
+                    <br />
+                    <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
+                </h4>
+                <p>
+                    Built for the whole family, this intergenerational class offers a space for families to have safe, healthy fun together through explorations of parkour, acrobatics, physical movement and relational games.
+                </p>
+                <p>
+                    All skill levels welcome.
+                </p>
+            </>
+        ),
+        image: './images/families_sketch.png',
+        c2a: 'Sign up @ The Athletic Playground',
+        c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
+    },
 }
 
 const listOfCurrentEvents = [
@@ -501,6 +528,14 @@ const listOfCurrentEvents = [
         id="dancelovers"
         image={eventsText.danceLovers.image}
         title={eventsText.danceLovers.title}
+    />,
+    <EventItem
+        c2a={eventsText.familyParkourAcro.c2a}
+        c2aLink={eventsText.familyParkourAcro.c2aLink}
+        description={eventsText.familyParkourAcro.description}
+        id="dancelovers"
+        image={eventsText.familyParkourAcro.image}
+        title={eventsText.familyParkourAcro.title}
     />,
 ];
 
