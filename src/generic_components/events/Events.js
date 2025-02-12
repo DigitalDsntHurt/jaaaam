@@ -5,9 +5,9 @@ import { listOfCurrentEvents, listOfRegularEvents } from "../../content_componen
 const Events = () => {
     return (
         <>
-            <TitleBanner bannerText='UPCOMING EVENTS' />
+            <TitleBanner bannerText='UPCOMING' />
             <EventsList events={listOfCurrentEvents} />
-            <TitleBanner bannerText='REGULAR EVENTS' />
+            <TitleBanner bannerText='REGULAR SCHEDULE' />
             <EventsList events={listOfRegularEvents} />
         </>
     );
