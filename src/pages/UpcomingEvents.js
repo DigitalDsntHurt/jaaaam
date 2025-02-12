@@ -1,15 +1,12 @@
-import TitleBanner from "../generic_components/TitleBanner";
-import EventsList from "../generic_components/events/EventsList";
-import Students from "../content_components/Students";
-import Footer from "../content_components/Footer";
-import { listOfCurrentEvents } from "../content_components/SiteCopy";
 import Bio from "../content_components/Bio";
+import Events from "../generic_components/events/Events";
+import Footer from "../content_components/Footer";
+import Students from "../content_components/Students";
 
 const UpcomingEvents = () => {
     return (
         <>
-            <TitleBanner bannerText='UPCOMING' cornerNav='Home' />
-            <EventsList events={listOfCurrentEvents} />
+            <Events />
             <Bio />
             <Students theme='light' />
             <Footer theme='dark' />

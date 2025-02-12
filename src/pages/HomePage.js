@@ -1,10 +1,9 @@
 import './HomePage.scss';
-import { bioBannerText, listOfCurrentEvents, listOfRegularEvents } from '../content_components/SiteCopy';
-import EventsList from '../generic_components/events/EventsList';
+import { bioBannerText } from '../content_components/SiteCopy';
+import Bio from '../content_components/Bio';
+import Events from '../generic_components/events/Events';
 import Footer from '../content_components/Footer';
 import Students from "../content_components/Students";
-import TitleBanner from '../generic_components/TitleBanner';
-import Bio from '../content_components/Bio';
 
 const CustomHero = () => {
     return (
@@ -34,10 +33,7 @@ const HomePage = () => {
         <>
             <CustomHero />
             <BioBanner />
-            <TitleBanner bannerText='UPCOMING EVENTS' />
-            <EventsList events={listOfCurrentEvents} />
-            <TitleBanner bannerText='REGULAR EVENTS' />
-            <EventsList events={listOfRegularEvents} />
+            <Events />
             <Students />
             <Bio theme='light' />
             <Footer theme='dark' />
