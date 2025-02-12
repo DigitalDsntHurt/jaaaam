@@ -442,7 +442,8 @@ const eventsText = {
         description: (
             <>
                 <h4>
-                    …duets by couples, crushes and comrades
+                    A performance of duets by couples, crushes and comrades
+                    <br />
                     <br />
                     February 13, 14, 15, 2025
                     <br />
@@ -458,6 +459,61 @@ const eventsText = {
         image: './images/DANCELOVERS2025.jpg',
         c2a: 'Reserve Tickets!',
         c2aLink: 'https://jgpg.my.salesforce-sites.com/ticket/#/events/a0SVI0000044tZt2AI',
+    },
+    thursdayCiJam: {
+        title: (
+            <>
+                Thursday Contact Improvisation Jam
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    I'll be facilitating the Contact Improvisation classes before the weekly Thursday Jam on two upcoming dates
+                    <br />
+                    <br />
+                    February 20 & March 13, 2025
+                    <br />
+                    7:00pm (followed by the Jam from 8pm - 11pm)
+                    <br />
+                    <a href='https://maps.app.goo.gl/MBSLK26ErYEs9wUg6' target='_blank' rel='noreferrer'>@ The Finnish Hall, Berkeley</a>
+                </h4>
+                <p>
+                    Join us every Thursday at Berkeley’s historic Finnish Hall for the biggest contact improvisation jam in the Bay Area. Since 2013, we’ve been a vibrant, community-run space, where newcomers and experienced practitioners explore this dynamic movement form.
+                </p>
+                <p>
+                    The class and Jam are by donation.
+                </p>
+            </>
+        ),
+        image: './images/ava_base.jpg',
+        c2a: 'Learn More About the Thursday CI Jam',
+        c2aLink: 'https://thursdayjam.org/',
+    },
+    upcomingCdp: {
+        title: (
+            <>
+                COMING SOON : Two upcoming Contemplative Dance Practice (CDP) workshops
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a> March 15, 2025 in Berkeley, CA
+                    <br />
+                    <a href='https://www.wccijam.org/' target='_blank' rel='noreferrer'>@ wcciJAM 2025</a> July 2-6, 2025 in Berkeley, CA
+                </h4>
+                <p>
+
+                </p>
+                <p>
+                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and self-discovery. Developed by Barbara Dilley (dancer, meditation teacher and former President of Naropa University), CDP is an invitation to explore how awareness unfolds in and through the body. Practice periods typically include three practice sections: (1) Seated Meditation Practice in which we arrive into stillness and present-moment awareness, (2) Solo Movement Practice in which we move intuitively, following internal impulses without judgment, (3) Relational Movement Practice in which we co-create a nonverbal improvisational space and engage with movement while attuning to the group and environment. CDP is not about performance but about deepening our relationship with movement, attention, and community.
+                </p>
+            </>
+        ),
+        image: './images/ava_woods_trail.jpg',
+        c2a: 'Sign up for details when they\'re available',
+        c2aLink: 'https://docs.google.com/forms/d/e/1FAIpQLScT49DHIYllF6Ftk7o5_ox203fLKdItqb_Z-8EiyhAVAG6I4A/viewform',
     },
     familyParkourAcro: {
         title: (
@@ -530,7 +586,7 @@ const listOfRegularEvents = [
     />,
 ];
 
-const listOfCurrentEvents = [
+const listOfUpcomingEvents = [
     <EventItem
         c2a={eventsText.danceLovers.c2a}
         c2aLink={eventsText.danceLovers.c2aLink}
@@ -539,7 +595,24 @@ const listOfCurrentEvents = [
         image={eventsText.danceLovers.image}
         title={eventsText.danceLovers.title}
     />,
+    <EventItem
+        c2a={eventsText.thursdayCiJam.c2a}
+        c2aLink={eventsText.thursdayCiJam.c2aLink}
+        description={eventsText.thursdayCiJam.description}
+        id="dancelovers"
+        image={eventsText.thursdayCiJam.image}
+        title={eventsText.thursdayCiJam.title}
+    />,
+    <EventItem
+        c2a={eventsText.upcomingCdp.c2a}
+        c2aLink={eventsText.upcomingCdp.c2aLink}
+        description={eventsText.upcomingCdp.description}
+        id="dancelovers"
+        image={eventsText.upcomingCdp.image}
+        title={eventsText.upcomingCdp.title}
+    />,
 ];
+
 
 const listOfPastEvents = [
     <EventItem
@@ -583,7 +656,7 @@ export default sectionText;
 export {
     bioBannerText,
     communityClassText,
-    listOfCurrentEvents,
+    listOfUpcomingEvents,
     listOfPastEvents,
     listOfRegularEvents,
     bioText,
