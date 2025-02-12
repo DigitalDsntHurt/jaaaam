@@ -1,5 +1,5 @@
 import './HomePage.scss';
-import { bioBannerText, listOfCurrentEvents } from '../content_components/SiteCopy';
+import { bioBannerText, listOfCurrentEvents, listOfRegularEvents } from '../content_components/SiteCopy';
 import EventsList from '../generic_components/events/EventsList';
 import Footer from '../content_components/Footer';
 import Students from "../content_components/Students";
@@ -36,6 +36,8 @@ const HomePage = () => {
             <BioBanner />
             <TitleBanner bannerText='UPCOMING EVENTS' />
             <EventsList events={listOfCurrentEvents} />
+            <TitleBanner bannerText='REGULAR EVENTS' />
+            <EventsList events={listOfRegularEvents} />
             <Students />
             <Bio theme='light' />
             <Footer theme='dark' />

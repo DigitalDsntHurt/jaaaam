@@ -487,8 +487,7 @@ const eventsText = {
         c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
     },
 }
-
-const listOfCurrentEvents = [
+const listOfRegularEvents = [
     <EventItem
         c2a={eventsText.tuesdayWakeShakeClass.c2a}
         c2aLink={eventsText.tuesdayWakeShakeClass.c2aLink}
@@ -522,20 +521,23 @@ const listOfCurrentEvents = [
         title={eventsText.thursdayImprovClass.title}
     />,
     <EventItem
-        c2a={eventsText.danceLovers.c2a}
-        c2aLink={eventsText.danceLovers.c2aLink}
-        description={eventsText.danceLovers.description}
-        id="dancelovers"
-        image={eventsText.danceLovers.image}
-        title={eventsText.danceLovers.title}
-    />,
-    <EventItem
         c2a={eventsText.familyParkourAcro.c2a}
         c2aLink={eventsText.familyParkourAcro.c2aLink}
         description={eventsText.familyParkourAcro.description}
         id="dancelovers"
         image={eventsText.familyParkourAcro.image}
         title={eventsText.familyParkourAcro.title}
+    />,
+];
+
+const listOfCurrentEvents = [
+    <EventItem
+        c2a={eventsText.danceLovers.c2a}
+        c2aLink={eventsText.danceLovers.c2aLink}
+        description={eventsText.danceLovers.description}
+        id="dancelovers"
+        image={eventsText.danceLovers.image}
+        title={eventsText.danceLovers.title}
     />,
 ];
 
@@ -583,5 +585,6 @@ export {
     communityClassText,
     listOfCurrentEvents,
     listOfPastEvents,
+    listOfRegularEvents,
     bioText,
 }
