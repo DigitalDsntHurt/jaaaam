@@ -1,0 +1,34 @@
+// COLORS
+$darker-blue: #454d66;
+$darker-green: #309975;
+$lighter-green: #58b368;
+$darker-beige: #dad873;
+$lighter-beige: #efeeb4;
+$white-color: #ffffff;
+$black-color: #000000;
+
+.custom-hero-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.custom-hero-floating-header-link {
+    color: $white-color;
+    font-size: large;
+    font-weight: 444;
+    position: absolute;
+    right: 2vw;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+    top: 1vh;
+    z-index: 1;
+}
+
+.custom-hero-image {
+    height: 55vh;
+    object-fit: cover;
+    object-position: 0% 44%;
+    width: 100vw;
+}
