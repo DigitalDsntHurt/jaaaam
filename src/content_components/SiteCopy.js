@@ -506,10 +506,10 @@ const eventsText = {
                     <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
                 </h4>
                 <p>
-                    CDP blends movement, meditation and improvisation to cultivate awareness, connection and self-discovery.
+                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and self-discovery.
                 </p>
                 <p>
-                    This workshop is an introduction to Contemplative Dance Practice (CDP), appropriate for all bodies - no prior experience with dance or meditation is needed.
+                    This workshop is an introduction to CDP, appropriate for all bodies - no prior experience with dance or meditation is needed.
                 </p>
                 <p>
                     For more about CDP and the workshop, click below.
