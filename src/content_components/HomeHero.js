@@ -1,15 +1,25 @@
+import { useState, useEffect } from 'react';
 import './HomeHero.scss';
 
 const HomeHero = () => {
+    const desktopImage = '/images/half_moon.png';
+    const mobileImage = '/images/back_to_back.jpg';
 
-    const images = [
-        '/images/half_moon.png',
-        '/images/teaching.jpg',
-        '/images/back_to_back.jpg',
-        '/images/head_down.jpg',
-        '/images/holly_park.png',
-        '/images/bridge_at_chase.png',
-    ];
+    const [imageSrc, setImageSrc] = useState(desktopImage);
+
+    useEffect(() => {
+        const updateImage = () => {
+            if (window.innerWidth < 656) {
+                setImageSrc(mobileImage);
+            } else {
+                setImageSrc(desktopImage);
+            }
+        };
+
+        updateImage(); // Run on mount
+        window.addEventListener('resize', updateImage);
+        return () => window.removeEventListener('resize', updateImage);
+    }, []);
 
     return (
         <div className='custom-hero-container'>
@@ -20,7 +30,7 @@ const HomeHero = () => {
                 <img
                     alt='holistic movement with nick lala smith'
                     className="custom-hero-image"
-                    src={images[0]}
+                    src={imageSrc}
                 />
             </div>
         </div>
