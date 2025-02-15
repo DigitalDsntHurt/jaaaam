@@ -493,27 +493,32 @@ const eventsText = {
     upcomingCdp: {
         title: (
             <>
-                COMING SOON : Two upcoming Contemplative Dance Practice (CDP) workshops
+                Contemplative Dance Practice: A Movement & Meditation Workshop
             </>
         ),
         description: (
             <>
                 <h4>
-                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a> March 15, 2025 in Berkeley, CA
+                    March 15, 2025
                     <br />
-                    <a href='https://www.wccijam.org/' target='_blank' rel='noreferrer'>@ wcciJAM 2025</a> July 2-6, 2025 in Berkeley, CA
+                    3pm - 5pm
+                    <br />
+                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
                 </h4>
                 <p>
-
+                    CDP blends movement, meditation and improvisation to cultivate awareness, connection and self-discovery.
                 </p>
                 <p>
-                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and self-discovery. Developed by Barbara Dilley (dancer, meditation teacher and former President of Naropa University), CDP is an invitation to explore how awareness unfolds in and through the body. Practice periods typically include three practice sections: (1) Seated Meditation Practice in which we arrive into stillness and present-moment awareness, (2) Solo Movement Practice in which we move intuitively, following internal impulses without judgment, (3) Relational Movement Practice in which we co-create a nonverbal improvisational space and engage with movement while attuning to the group and environment. CDP is not about performance but about deepening our relationship with movement, attention, and community.
+                    This workshop is an introduction to Contemplative Dance Practice (CDP), appropriate for all bodies - no prior experience with dance or meditation is needed.
+                </p>
+                <p>
+                    For more about CDP and the workshop, click below.
                 </p>
             </>
         ),
-        image: './images/ava_woods_trail.jpg',
-        c2a: 'Sign up for details when they\'re available',
-        c2aLink: 'https://docs.google.com/forms/d/e/1FAIpQLScT49DHIYllF6Ftk7o5_ox203fLKdItqb_Z-8EiyhAVAG6I4A/viewform',
+        image: './images/zev_at_nitas.png',
+        c2a: 'Sign up + more info',
+        c2aLink: 'https://www.eventbrite.com/e/contemplative-dance-practice-a-movement-meditation-workshop-tickets-1249815785659',
     },
     familyParkourAcro: {
         title: (
@@ -588,12 +593,12 @@ const listOfRegularEvents = [
 
 const listOfUpcomingEvents = [
     <EventItem
-        c2a={eventsText.danceLovers.c2a}
-        c2aLink={eventsText.danceLovers.c2aLink}
-        description={eventsText.danceLovers.description}
+        c2a={eventsText.upcomingCdp.c2a}
+        c2aLink={eventsText.upcomingCdp.c2aLink}
+        description={eventsText.upcomingCdp.description}
         id="dancelovers"
-        image={eventsText.danceLovers.image}
-        title={eventsText.danceLovers.title}
+        image={eventsText.upcomingCdp.image}
+        title={eventsText.upcomingCdp.title}
     />,
     <EventItem
         c2a={eventsText.thursdayCiJam.c2a}
@@ -604,12 +609,12 @@ const listOfUpcomingEvents = [
         title={eventsText.thursdayCiJam.title}
     />,
     <EventItem
-        c2a={eventsText.upcomingCdp.c2a}
-        c2aLink={eventsText.upcomingCdp.c2aLink}
-        description={eventsText.upcomingCdp.description}
+        c2a={eventsText.danceLovers.c2a}
+        c2aLink={eventsText.danceLovers.c2aLink}
+        description={eventsText.danceLovers.description}
         id="dancelovers"
-        image={eventsText.upcomingCdp.image}
-        title={eventsText.upcomingCdp.title}
+        image={eventsText.danceLovers.image}
+        title={eventsText.danceLovers.title}
     />,
 ];
 
