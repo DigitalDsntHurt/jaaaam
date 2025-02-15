@@ -16,6 +16,9 @@ const Footer = ({ theme }) => {
                 <div className='footer-link'>
                     <a href='/blah-blah'>blahblah</a>
                 </div>
+                <div className='footer-link'>
+                    <a href='https://forms.gle/QrvDBXj4VGGxi3x57' target='_blank' rel='noreferrer'>sign up</a>
+                </div>
             </div>
 
             <div className='footer-contact-container'>
