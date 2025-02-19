@@ -7,7 +7,9 @@ const Events = () => {
         <>
             <TitleBanner bannerText='UPCOMING' />
             <EventsList events={listOfUpcomingEvents} />
-            <TitleBanner bannerText='REGULAR SCHEDULE' />
+            <div id='weekly-classes'>
+                <TitleBanner bannerText='REGULAR SCHEDULE' />
+            </div>
             <EventsList events={listOfRegularEvents} />
         </>
     );
