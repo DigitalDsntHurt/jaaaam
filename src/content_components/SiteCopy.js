@@ -264,7 +264,7 @@ const eventsText = {
                 </p>
             </>
         ),
-        image: './images/EmbodiedGroove.jpeg',
+        image: './images/blissed.jpg',
         c2a: 'Sign up @ The Athletic Playground',
         c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
     },
