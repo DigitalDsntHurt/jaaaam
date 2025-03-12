@@ -277,7 +277,7 @@ const eventsText = {
     tuesdayWakeShakeClass: {
         title: (
             <>
-                Wake 'n' Shake (Morning Dance Party)
+                Morning Dance Party
             </>
         ),
         description: (
@@ -364,6 +364,39 @@ const eventsText = {
                 </p>
                 <p>
                     Join us and explore the joys of movement.
+                </p>
+            </>
+        ),
+        image: './images/EmbodiedGroove.jpeg',
+        c2a: 'Sign up @ The Athletic Playground',
+        c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
+    },
+    fridayFeelGood: {
+        title: (
+            <>
+                The Feel Good
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Weekly Every Friday
+                    <br />
+                    11:15am - 12:15pm
+                    <br />
+                    <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
+                </h4>
+                <p>
+                    Feeling good in our bodies is a learnable skill.
+                </p>
+                <p>
+                    The Feel Good is a space to practice deep listening — to ourselves, to others, to the larger and smaller universes of this moment. Sometimes we need to sweat and lose our breath to feel good. Other times we are called to roll around the floor or simply lie still.
+                </p>
+                <p>
+                    Through guided and improvisational movement, somatic modalities, contact and non-contact partnering, body work and play we will become craftspeople of our own bodies: attuning and responding to what we find.
+                </p>
+                <p>
+                    Come together and practice feeling good.
                 </p>
             </>
         ),
@@ -623,20 +656,20 @@ const listOfRegularEvents = [
         title={eventsText.tuesdayFluidMovementClass.title}
     />,
     <EventItem
-        c2a={eventsText.thursdayEmbodiedGroove.c2a}
-        c2aLink={eventsText.thursdayEmbodiedGroove.c2aLink}
-        description={eventsText.thursdayEmbodiedGroove.description}
-        id="embodiedgroove"
-        image={eventsText.thursdayEmbodiedGroove.image}
-        title={eventsText.thursdayEmbodiedGroove.title}
-    />,
-    <EventItem
         c2a={eventsText.thursdayImprovClass.c2a}
         c2aLink={eventsText.thursdayImprovClass.c2aLink}
         description={eventsText.thursdayImprovClass.description}
         id="movementimprovisation"
         image={eventsText.thursdayImprovClass.image}
         title={eventsText.thursdayImprovClass.title}
+    />,
+    <EventItem
+        c2a={eventsText.fridayFeelGood.c2a}
+        c2aLink={eventsText.fridayFeelGood.c2aLink}
+        description={eventsText.fridayFeelGood.description}
+        id="thefeelgood"
+        image={eventsText.fridayFeelGood.image}
+        title={eventsText.fridayFeelGood.title}
     />,
     <EventItem
         c2a={eventsText.familyParkourAcro.c2a}
@@ -692,6 +725,14 @@ const listOfPastEvents = [
         id="dancelovers"
         image={eventsText.danceLovers.image}
         title={eventsText.danceLovers.title}
+    />,
+    <EventItem
+        c2a={eventsText.thursdayEmbodiedGroove.c2a}
+        c2aLink={eventsText.thursdayEmbodiedGroove.c2aLink}
+        description={eventsText.thursdayEmbodiedGroove.description}
+        id="embodiedgroove"
+        image={eventsText.thursdayEmbodiedGroove.image}
+        title={eventsText.thursdayEmbodiedGroove.title}
     />,
     <EventItem
         c2a={eventsText.dogpatchHubFamilyClass.c2a}
