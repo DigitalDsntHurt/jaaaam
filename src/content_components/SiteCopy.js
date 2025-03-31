@@ -298,93 +298,6 @@ const eventsText = {
         c2a: 'Sign up @ The Athletic Playground',
         c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
     },
-    thursdayCiJamMar: {
-        title: (
-            <>
-                Thursday Contact Improvisation class in Berkeley
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    I'll be facilitating the Contact Improvisation class before the weekly Thursday Jam on Thursday, March 13
-                    <br />
-                    <br />
-                    March 13, 2025
-                    <br />
-                    7:00pm (followed by the Jam from 8pm - 11pm)
-                    <br />
-                    <a href='https://maps.app.goo.gl/MBSLK26ErYEs9wUg6' target='_blank' rel='noreferrer'>@ The Finnish Hall, Berkeley</a>
-                </h4>
-                <p>
-                    Join us every Thursday at Berkeley’s historic Finnish Hall for the biggest contact improvisation jam in the Bay Area. Since 2013, we’ve been a vibrant, community-run space, where newcomers and experienced practitioners explore this dynamic movement form.
-                </p>
-                <p>
-                    The class and Jam are by donation.
-                </p>
-            </>
-        ),
-        image: './images/ava_base.jpg',
-        c2a: 'Learn More About the Thursday CI Jam',
-        c2aLink: 'https://thursdayjam.org/',
-    },
-    wedCiJamApr: {
-        title: (
-            <>
-                Wednesday Contact Improvisation class in San Francisco
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    I'll be facilitating the Contact Improvisation class before the bi-weekly Wednesday Jam on April 23
-                    <br />
-                    <br />
-                    April 23, 2025
-                    <br />
-                    7:30pm - 9:00pm (followed by the Jam from 9:00pm - 10:30pm)
-                    <br />
-                    <a href='https://maps.app.goo.gl/BEk4akQv3r3YaRcR7' target='_blank' rel='noreferrer'>@ The Center, San Francisco</a>
-                </h4>
-                <p>
-                    Join The Center SF for a playful evening of contact improvisation. Class will be from 7:30-9pm and then will flow directly into a jam until 10:30pm. In class, we’ll explore themes of weight-sharing, counterbalancing, signaling, listening, and everything in-between. The jam that follows is an opportunity to continue researching your movement & relational curiosities that sparked from class. First-timers and experienced dancers are all very welcome!
-                </p>
-            </>
-        ),
-        image: './images/ava_inverted_woods_trail.JPG',
-        c2a: 'Get tickets from The Center SF',
-        c2aLink: 'https://www.eventbrite.com/o/the-center-sf-3493443113',
-    },
-    upcomingCdp: {
-        title: (
-            <>
-                Contemplative Dance Practice: A Movement & Meditation Workshop
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    March 15, 2025
-                    <br />
-                    3pm - 5pm
-                    <br />
-                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
-                </h4>
-                <p>
-                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and self-discovery.
-                </p>
-                <p>
-                    This workshop is an introduction to CDP, appropriate for all bodies - no prior experience with dance or meditation is needed.
-                </p>
-                <p>
-                    For more about CDP and the workshop, click below.
-                </p>
-            </>
-        ),
-        image: './images/zev_at_nitas.png',
-        c2a: 'Sign up + more info',
-        c2aLink: 'https://www.eventbrite.com/e/contemplative-dance-practice-a-movement-meditation-workshop-tickets-1249815785659',
-    },
     familyParkourAcro: {
         title: (
             <>
@@ -456,33 +369,6 @@ const listOfRegularEvents = [
     />,
 ];
 
-const listOfUpcomingEvents = [
-    <EventItem
-        c2a={eventsText.upcomingCdp.c2a}
-        c2aLink={eventsText.upcomingCdp.c2aLink}
-        description={eventsText.upcomingCdp.description}
-        id="dancelovers"
-        image={eventsText.upcomingCdp.image}
-        title={eventsText.upcomingCdp.title}
-    />,
-    <EventItem
-        c2a={eventsText.thursdayCiJamMar.c2a}
-        c2aLink={eventsText.thursdayCiJamMar.c2aLink}
-        description={eventsText.thursdayCiJamMar.description}
-        id="dancelovers"
-        image={eventsText.thursdayCiJamMar.image}
-        title={eventsText.thursdayCiJamMar.title}
-    />,
-    <EventItem
-        c2a={eventsText.wedCiJamApr.c2a}
-        c2aLink={eventsText.wedCiJamApr.c2aLink}
-        description={eventsText.wedCiJamApr.description}
-        id="dancelovers"
-        image={eventsText.wedCiJamApr.image}
-        title={eventsText.wedCiJamApr.title}
-    />,
-];
-
 const sectionText = {
     fantasies: fantasiesText,
     practice: practiceText,
@@ -494,7 +380,6 @@ export default sectionText;
 export {
     bioBannerText,
     communityClassText,
-    listOfUpcomingEvents,
     listOfRegularEvents,
     bioText,
 }
