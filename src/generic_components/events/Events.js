@@ -1,7 +1,7 @@
 import TitleBanner from "../TitleBanner";
 import EventsList from "./EventsList";
-import { listOfRegularEvents } from "../../content_components/SiteCopy";
 import upcomingEventItemsList from "../../site_copy/upcomingEvents";
+import regularEventItemsList from "../../site_copy/regularEvents";
 
 const Events = () => {
     return (
@@ -11,7 +11,7 @@ const Events = () => {
             <div id='weekly-classes'>
                 <TitleBanner bannerText='REGULAR SCHEDULE' />
             </div>
-            <EventsList events={listOfRegularEvents} />
+            <EventsList events={regularEventItemsList} />
         </>
     );
 }
