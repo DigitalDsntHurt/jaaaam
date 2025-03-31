@@ -1,4 +1,4 @@
-import { bioText } from '../content_components/SiteCopy';
+import { bioText } from '../site_copy/SiteCopy';
 import ImageLeftTextRight from "../generic_components/ImageLeftTextRight"
 
 const Bio = ({ theme }) => {

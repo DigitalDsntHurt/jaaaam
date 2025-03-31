@@ -1,5 +1,5 @@
 import './CommunityClasses.scss';
-import { communityClassText } from '../content_components/SiteCopy';
+import { communityClassText } from '../site_copy/SiteCopy';
 import Bio from '../content_components/Bio';
 import Footer from '../content_components/Footer';
 import Hero from '../generic_components/Hero';

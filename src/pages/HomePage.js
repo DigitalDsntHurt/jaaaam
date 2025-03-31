@@ -1,5 +1,5 @@
 import './HomePage.scss';
-import { bioBannerText } from '../content_components/SiteCopy';
+import { bioBannerText } from '../site_copy/SiteCopy';
 import Bio from '../content_components/Bio';
 import Events from '../generic_components/events/Events';
 import Footer from '../content_components/Footer';

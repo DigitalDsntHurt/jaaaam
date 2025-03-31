@@ -1,6 +1,3 @@
-import EventItem from '../generic_components/events/EventItem';
-
-
 const welcomeText = {
     title: 'This is for you.',
     body: (
