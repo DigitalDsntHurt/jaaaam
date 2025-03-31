@@ -4,16 +4,76 @@ const pastEvents = [
     {
         title: (
             <>
-                Thursday Contact Improvisation Jam
+                Contemplative Dance Practice: A Movement & Meditation Workshop
             </>
         ),
         description: (
             <>
                 <h4>
-                    I'll be facilitating the Contact Improvisation classes before the weekly Thursday Jam on two upcoming dates
+                    March 15, 2025
+                    <br />
+                    3pm - 5pm
+                    <br />
+                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
+                </h4>
+                <p>
+                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and self-discovery.
+                </p>
+                <p>
+                    This workshop is an introduction to CDP, appropriate for all bodies - no prior experience with dance or meditation is needed.
+                </p>
+                <p>
+                    For more about CDP and the workshop, click below.
+                </p>
+            </>
+        ),
+        image: './images/zev_at_nitas.png',
+        c2a: 'Sign up + more info',
+        c2aLink: 'https://www.eventbrite.com/e/contemplative-dance-practice-a-movement-meditation-workshop-tickets-1249815785659',
+    },
+    {
+        title: (
+            <>
+                March Thursday Contact Improvisation class in Berkeley
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    I'll be facilitating the Contact Improvisation class before the weekly Thursday Jam on Thursday, March 13
                     <br />
                     <br />
-                    February 20 & March 13, 2025
+                    March 13, 2025
+                    <br />
+                    7:00pm (followed by the Jam from 8pm - 11pm)
+                    <br />
+                    <a href='https://maps.app.goo.gl/MBSLK26ErYEs9wUg6' target='_blank' rel='noreferrer'>@ The Finnish Hall, Berkeley</a>
+                </h4>
+                <p>
+                    Join us every Thursday at Berkeley’s historic Finnish Hall for the biggest contact improvisation jam in the Bay Area. Since 2013, we’ve been a vibrant, community-run space, where newcomers and experienced practitioners explore this dynamic movement form.
+                </p>
+                <p>
+                    The class and Jam are by donation.
+                </p>
+            </>
+        ),
+        image: './images/ava_bases_handstand_crescent.JPG',
+        c2a: 'Learn More About the Thursday CI Jam',
+        c2aLink: 'https://thursdayjam.org/',
+    },
+    {
+        title: (
+            <>
+                February Thursday Contact Improvisation class in Berkeley
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    I'll be facilitating the Contact Improvisation class before the weekly Thursday Jam on Thursday, February 20
+                    <br />
+                    <br />
+                    February 20
                     <br />
                     7:00pm (followed by the Jam from 8pm - 11pm)
                     <br />
