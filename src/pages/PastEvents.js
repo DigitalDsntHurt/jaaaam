@@ -1,4 +1,4 @@
-import { pastEventsList } from '../content_components/SiteCopy';
+import buildPastEventsList from '../site_copy/pastEvents';
 import EventsList from '../generic_components/events/EventsList';
 import Footer from '../content_components/Footer';
 import Students from '../content_components/Students';
@@ -8,7 +8,7 @@ const PastEvents = () => {
     return (
         <>
             <TitleBanner bannerText="PAST EVENTS" />
-            <EventsList events={pastEventsList()} />
+            <EventsList events={buildPastEventsList()} />
             <Students />
             <Footer theme='light' />
         </>
