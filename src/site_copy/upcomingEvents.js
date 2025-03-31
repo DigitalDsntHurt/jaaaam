@@ -28,6 +28,39 @@ const upcomingEvents = [
         c2a: 'Get tickets from The Center SF',
         c2aLink: 'https://www.eventbrite.com/o/the-center-sf-3493443113',
     },
+    {
+        title: (
+            <>
+                COMING SOON: Contemplative Dance Practice: A Movement & Meditation Workshop
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Date : TBD
+                    <br />
+                    Time : TBD
+                    <br />
+                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
+                </h4>
+                <p>
+                    We had so much fun at the last workhop we're working out the details to do it again. Sign up below to find out when.
+                </p>
+                <p>
+                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and self-discovery.
+                </p>
+                <p>
+                    This workshop is an introduction to CDP, appropriate for all bodies - no prior experience with dance or meditation is needed.
+                </p>
+                <p>
+                    For more about CDP and the workshop, click below.
+                </p>
+            </>
+        ),
+        image: './images/zev_at_nitas.png',
+        c2a: 'Sign up to be notified when details are confirmed',
+        c2aLink: 'https://forms.gle/QrvDBXj4VGGxi3x57',
+    },
 ];
 
 const upcomingEventItemsList = buildEventItemsList(upcomingEvents)
