@@ -1,4 +1,4 @@
-import EventItem from '../generic_components/events/EventItem';
+import { buildEventItemsList } from './siteCopyUtilities';
 
 const pastEvents = [
     {
@@ -224,21 +224,5 @@ const pastEvents = [
     }
 ];
 
-const buildPastEventsList = () => {
-    let listOfPastEventItems = []
-    pastEvents.forEach((pastEvent) => {
-        listOfPastEventItems.push(
-            <EventItem
-                c2a={pastEvent.c2a}
-                c2aLink={pastEvent.c2aLink}
-                description={pastEvent.description}
-                image={pastEvent.image}
-                title={pastEvent.title}
-            />
-        )
-    });
-
-    return listOfPastEventItems;
-}
-
-export default buildPastEventsList;
+const pastEventItemsList = buildEventItemsList(pastEvents)
+export default pastEventItemsList;
