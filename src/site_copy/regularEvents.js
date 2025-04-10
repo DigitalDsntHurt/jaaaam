@@ -4,33 +4,6 @@ const regularEvents = [
     {
         title: (
             <>
-                Morning Dance Party
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    Weekly Every Tuesday
-                    <br />
-                    7:15 - 8:15am
-                    <br />
-                    <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
-                </h4>
-                <p>
-                    Start your day with a dynamic workout blending strength, mobility, floor work, soft acrobatics and vinyasa-inspired flows. Designed for all levels and ages, this class boosts energy, builds confidence and enhances flexibility in a fun, supportive environment.
-                </p>
-                <p>
-                    Wake up, sweat and flow yourself into an epic day.
-                </p>
-            </>
-        ),
-        image: './images/WakeShakeMorningDanceParty.png',
-        c2a: 'Sign up @ The Athletic Playground',
-        c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
-    },
-    {
-        title: (
-            <>
                 Fluid Movement
             </>
         ),
@@ -71,6 +44,36 @@ const regularEvents = [
     {
         title: (
             <>
+                Movement Improvisation
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Weekly Every Thursday
+                    <br />
+                    12:00 - 1:00pm
+                    <br />
+                    <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
+                </h4>
+                <p>
+                    The exploration and practice of improvisational movement trains fun, fitness, attention and somatic awareness. It’s a valuable tool to accelerate your learning and mastery of other movement (& non-movement) disciplines. Improvisation is also a powerful tool for developing self practices you love and that serve your long- and short-term artistic, health and longevity goals.
+                </p>
+                <p>
+                    In this class we practice listening deeply to our bodies and to the underlying movement patterns themselves in order to discover and unleash spontaneity, power and flow.
+                </p>
+                <p>
+                    All bodies, skill and experience levels welcome.
+                </p>
+            </>
+        ),
+        image: './images/gourd_head_balance.png',
+        c2a: 'Sign up @ The Athletic Playground',
+        c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
+    },
+    {
+        title: (
+            <>
                 The Feel Good
             </>
         ),
@@ -98,36 +101,6 @@ const regularEvents = [
             </>
         ),
         image: './images/blissed.jpg',
-        c2a: 'Sign up @ The Athletic Playground',
-        c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
-    },
-    {
-        title: (
-            <>
-                Movement Improvisation
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    Weekly Every Thursday
-                    <br />
-                    12:00 - 1:00pm
-                    <br />
-                    <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
-                </h4>
-                <p>
-                    The exploration and practice of improvisational movement trains fun, fitness, attention and somatic awareness. It’s a valuable tool to accelerate your learning and mastery of other movement (& non-movement) disciplines. Improvisation is also a powerful tool for developing self practices you love and that serve your long- and short-term artistic, health and longevity goals.
-                </p>
-                <p>
-                    In this class we practice listening deeply to our bodies and to the underlying movement patterns themselves in order to discover and unleash spontaneity, power and flow.
-                </p>
-                <p>
-                    All bodies, skill and experience levels welcome.
-                </p>
-            </>
-        ),
-        image: './images/gourd_head_balance.png',
         c2a: 'Sign up @ The Athletic Playground',
         c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
     },

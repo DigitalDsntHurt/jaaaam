@@ -4,6 +4,33 @@ const pastEvents = [
     {
         title: (
             <>
+                Morning Dance Party (Jan 2025 - April 2025)
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Weekly Every Tuesday
+                    <br />
+                    7:15 - 8:15am
+                    <br />
+                    <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
+                </h4>
+                <p>
+                    Start your day with a dynamic workout blending strength, mobility, floor work, soft acrobatics and vinyasa-inspired flows. Designed for all levels and ages, this class boosts energy, builds confidence and enhances flexibility in a fun, supportive environment.
+                </p>
+                <p>
+                    Wake up, sweat and flow yourself into an epic day.
+                </p>
+            </>
+        ),
+        image: './images/WakeShakeMorningDanceParty.png',
+        c2a: 'Sign up @ The Athletic Playground',
+        c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
+    },
+    {
+        title: (
+            <>
                 Contemplative Dance Practice: A Movement & Meditation Workshop
             </>
         ),
@@ -121,7 +148,7 @@ const pastEvents = [
     {
         title: (
             <>
-                Embodied Groove (Morning Dance Party)
+                Embodied Groove (Jan 2025 - March 2025)
             </>
         ),
         description: (
@@ -225,7 +252,7 @@ const pastEvents = [
     {
         title: (
             <>
-                Monday Community Class @ Crane Cove Park
+                Monday Community Class @ Crane Cove Park (Sep 2024 - Jan 2025)
             </>
         ),
         description: (
@@ -255,7 +282,7 @@ const pastEvents = [
     {
         title: (
             <>
-                Friday Community Class @ Holly Park
+                Friday Community Class @ Holly Park (Oct 2023 - Jan 2025)
             </>
         ),
         description: (
