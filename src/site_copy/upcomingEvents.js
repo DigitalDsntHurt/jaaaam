@@ -4,7 +4,7 @@ const upcomingEvents = [
     {
         title: (
             <>
-                Wednesday Contact Improvisation class in San Francisco
+                Wednesday Contact Improvisation in San Francisco
             </>
         ),
         description: (
@@ -31,20 +31,47 @@ const upcomingEvents = [
     {
         title: (
             <>
-                COMING SOON: Contemplative Dance Practice: A Movement & Meditation Workshop
+                Sunday Contact Improvisation in Point Reyes, CA
             </>
         ),
         description: (
             <>
                 <h4>
-                    Date : TBD
+                    I'll be facilitating the Contact Improvisation warmup before the monthly West Marin Contact Improvistaion Jam in Point Reyes, CA on May 4.
                     <br />
-                    Time : TBD
+                    <br />
+                    May 4, 2025
+                    <br />
+                    11:00am (followed by the Jam from 11:00am - 1:00pm)
+                    <br />
+                    <a href='https://maps.app.goo.gl/h92J9btWSarSkEX89' target='_blank' rel='noreferrer'>@ The Dance Palace, Point Reyes Station</a>
+                </h4>
+                <p>
+                    The class and jam are by donation and do not require advanced signup or ticketing.
+                </p>
+            </>
+        ),
+        image: './images/ava_bases_handstand_crescent.JPG',
+        c2a: 'More info',
+        c2aLink: 'https://dancepalace.org/event/west-marin-improvisational-contact-jam-2023-01-08-2023-02-05/2024-07-07/',
+    },
+    {
+        title: (
+            <>
+                Contemplative Dance Practice: A Movement & Meditation Workshop
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Date : June 1, 2025
+                    <br />
+                    Time : 11am - 1:30pm
                     <br />
                     <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
                 </h4>
                 <p>
-                    We had so much fun at the last workhop we're working out the details to do it again. Sign up below to find out when.
+                    We had so much fun at the last workhop we're hosting it again.
                 </p>
                 <p>
                     Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and self-discovery.
@@ -58,8 +85,8 @@ const upcomingEvents = [
             </>
         ),
         image: './images/zev_at_nitas.png',
-        c2a: 'Sign up to be notified when details are confirmed',
-        c2aLink: 'https://forms.gle/QrvDBXj4VGGxi3x57',
+        c2a: 'Sign up',
+        c2aLink: 'https://www.eventbrite.com/e/contemplative-dance-practice-a-movement-meditation-workshop-tickets-1319599430419?aff=oddtdtcreator',
     },
     {
         title: (
