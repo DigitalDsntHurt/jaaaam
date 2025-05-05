@@ -4,6 +4,59 @@ const pastEvents = [
     {
         title: (
             <>
+                Sunday Contact Improvisation in Point Reyes Station, CA
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    I'll be facilitating the Contact Improvisation warmup before the monthly West Marin Contact Improvistaion Jam in Point Reyes, CA on May 4.
+                    <br />
+                    <br />
+                    May 4, 2025
+                    <br />
+                    11:00am (followed by the Jam from 11:00am - 1:00pm)
+                    <br />
+                    <a href='https://maps.app.goo.gl/h92J9btWSarSkEX89' target='_blank' rel='noreferrer'>@ The Dance Palace, Point Reyes Station</a>
+                </h4>
+                <p>
+                    The class and jam are by donation and do not require advanced signup or ticketing.
+                </p>
+            </>
+        ),
+        image: './images/ava_bases_handstand_crescent.JPG',
+        c2a: 'More info',
+        c2aLink: 'https://dancepalace.org/event/west-marin-improvisational-contact-jam-2023-01-08-2023-02-05/2024-07-07/',
+    }, {
+        title: (
+            <>
+                Wednesday Contact Improvisation in San Francisco
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    I'll be facilitating the Contact Improvisation class before the bi-weekly Wednesday Jam on April 23
+                    <br />
+                    <br />
+                    April 23, 2025
+                    <br />
+                    7:30pm - 9:00pm (followed by the Jam from 9:00pm - 10:30pm)
+                    <br />
+                    <a href='https://maps.app.goo.gl/BEk4akQv3r3YaRcR7' target='_blank' rel='noreferrer'>@ The Center, San Francisco</a>
+                </h4>
+                <p>
+                    Join The Center SF for a playful evening of contact improvisation. Class will be from 7:30-9pm and then will flow directly into a jam until 10:30pm. In class, we’ll explore themes of weight-sharing, counterbalancing, signaling, listening, and everything in-between. The jam that follows is an opportunity to continue researching your movement & relational curiosities that sparked from class. First-timers and experienced dancers are all very welcome!
+                </p>
+            </>
+        ),
+        image: './images/ava_inverted_woods_trail.JPG',
+        c2a: 'Get tickets from The Center SF',
+        c2aLink: 'https://www.eventbrite.com/o/the-center-sf-3493443113',
+    },
+    {
+        title: (
+            <>
                 Morning Dance Party (Jan 2025 - April 2025)
             </>
         ),
