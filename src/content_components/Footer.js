@@ -7,20 +7,25 @@ const Footer = ({ theme }) => {
                 <div className='footer-link'>
                     <a href='/'>Home</a>
                 </div>
+
                 <div className='footer-link'>
                     <a href='/testimonials'>Testimonials</a>
                 </div>
+
                 <div className='footer-link'>
                     <a href='/past-events'>Past Events</a>
                 </div>
-                <div className='footer-link'>
+
+                {/* <div className='footer-link'>
                     <a href='/community-classes'>Community Classes</a>
-                </div>
-                <div className='footer-link'>
+                </div> */}
+
+                {/* <div className='footer-link'>
                     <a href='/blah-blah'>blahblah</a>
-                </div>
+                </div> */}
+
                 <div className='footer-link'>
-                    <a href='https://forms.gle/QrvDBXj4VGGxi3x57' target='_blank' rel='noreferrer'>sign up</a>
+                    <a href='https://forms.gle/QrvDBXj4VGGxi3x57' target='_blank' rel='noreferrer'>Sign Up</a>
                 </div>
             </div>
 
