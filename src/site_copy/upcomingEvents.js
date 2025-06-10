@@ -25,7 +25,7 @@ const upcomingEvents = [
                 </p>
             </>
         ),
-        image: './images/enzo_cushion.png',
+        image: './images/wcciJAM2025PromoGraphic.jpg',
         c2a: 'Learn more & register for WCCIJam',
         c2aLink: 'https://www.wccijam.org/',
     },
