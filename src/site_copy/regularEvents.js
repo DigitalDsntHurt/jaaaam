@@ -37,7 +37,7 @@ const regularEvents = [
                 </p>
             </>
         ),
-        image: './images/backbend_hair_color.png',
+        image: './images/ava_bases_handstand_crescent.JPG',
         c2a: 'Sign up @ The Athletic Playground',
         c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
     },
@@ -67,7 +67,7 @@ const regularEvents = [
                 </p>
             </>
         ),
-        image: './images/gourd_head_balance.png',
+        image: './images/backbend_hair_color.png',
         c2a: 'Sign up @ The Athletic Playground',
         c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
     },
