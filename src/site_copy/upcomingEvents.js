@@ -29,33 +29,33 @@ const upcomingEvents = [
         c2a: 'Learn more & register for WCCIJam',
         c2aLink: 'https://www.wccijam.org/',
     },
-    {
-        title: (
-            <>
-                COMING SOON: Alone & in relation: moving with, against & without a partner
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    Date : TBD
-                    <br />
-                    Time : TBD
-                    <br />
-                    Location : TBD
-                </h4>
-                <p>
-                    Co-taught with Elliott Cohen, this workshop is a playful exlporation of three modes of relational movement and the deep values associated with each.
-                </p>
-                <p>
-                    Click below to know when details are confirmed.
-                </p>
-            </>
-        ),
-        image: './images/ava_horizontal_pole.JPG',
-        c2a: 'Sign up to be notified when details are confirmed',
-        c2aLink: 'https://forms.gle/QrvDBXj4VGGxi3x57',
-    },
+    // {
+    //     title: (
+    //         <>
+    //             COMING SOON: Alone & in relation: moving with, against & without a partner
+    //         </>
+    //     ),
+    //     description: (
+    //         <>
+    //             <h4>
+    //                 Date : TBD
+    //                 <br />
+    //                 Time : TBD
+    //                 <br />
+    //                 Location : TBD
+    //             </h4>
+    //             <p>
+    //                 Co-taught with Elliott Cohen, this workshop is a playful exlporation of three modes of relational movement and the deep values associated with each.
+    //             </p>
+    //             <p>
+    //                 Click below to know when details are confirmed.
+    //             </p>
+    //         </>
+    //     ),
+    //     image: './images/ava_horizontal_pole.JPG',
+    //     c2a: 'Sign up to be notified when details are confirmed',
+    //     c2aLink: 'https://forms.gle/QrvDBXj4VGGxi3x57',
+    // },
 ];
 
 const upcomingEventItemsList = buildEventItemsList(upcomingEvents)
