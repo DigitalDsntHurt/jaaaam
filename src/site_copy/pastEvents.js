@@ -33,7 +33,34 @@ const pastEvents = [
         image: './images/zev_at_nitas.png',
         c2a: 'Sign up',
         c2aLink: 'https://www.eventbrite.com/e/contemplative-dance-practice-a-movement-meditation-workshop-tickets-1319599430419?aff=oddtdtcreator',
-    }, 
+    },
+    {
+        title: (
+            <>
+                Movement and Parkour for Families, Ages 5+ (January 2025 - June 2025)
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Weekly Every Saturday
+                    <br />
+                    12:45 - 2:00pm
+                    <br />
+                    <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
+                </h4>
+                <p>
+                    Built for the whole family, this intergenerational class offers a space for families to have safe, healthy fun together through explorations of parkour, acrobatics, physical movement and relational games.
+                </p>
+                <p>
+                    All skill levels welcome.
+                </p>
+            </>
+        ),
+        image: './images/families_sketch.png',
+        c2a: 'Sign up @ The Athletic Playground',
+        c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
+    },
     {
         title: (
             <>
@@ -90,7 +117,41 @@ const pastEvents = [
         image: './images/ava_bases_handstand_crescent.JPG',
         c2a: 'More info',
         c2aLink: 'https://dancepalace.org/event/west-marin-improvisational-contact-jam-2023-01-08-2023-02-05/2024-07-07/',
-    }, {
+    }, 
+    {
+        title: (
+            <>
+                The Feel Good (March 2025 - June 2025)
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Weekly Every Friday
+                    <br />
+                    11:15am - 12:15pm
+                    <br />
+                    <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
+                </h4>
+                <p>
+                    Feeling good in our bodies is a learnable skill.
+                </p>
+                <p>
+                    The Feel Good is a space to practice deep listening — to ourselves, to others, to the larger and smaller universes of this moment. Sometimes we need to sweat and lose our breath to feel good. Other times we are called to roll around the floor or simply lie still.
+                </p>
+                <p>
+                    Through guided and improvisational movement, somatic modalities, contact and non-contact partnering, body work and play we will become craftspeople of our own bodies: attuning and responding to what we find.
+                </p>
+                <p>
+                    Come together and practice feeling good.
+                </p>
+            </>
+        ),
+        image: './images/blissed.jpg',
+        c2a: 'Sign up @ The Athletic Playground',
+        c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
+    },
+    {
         title: (
             <>
                 Wednesday Contact Improvisation in San Francisco
