@@ -1,7 +1,34 @@
 import { buildEventItemsList } from './siteCopyUtilities';
 
 const upcomingEvents = [
-  {
+    {
+        title: (
+            <>
+                Weekly Contemplative Movement Class
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Date : August 12, 2025 (then weekly every Tuesday)
+                    <br />
+                    Time : 1:30pm - 3:00pm
+                    <br />
+                    <a href='https://maps.app.goo.gl/R1wfiRG9TFZk7E8h8' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
+                </h4>
+                <p>
+                    Weekly daytime contemplative movement classes for adults are coming back to The Athletic Playground.
+                </p>
+                <p>
+                    Every Tuesday at 1:30pm, we will explore attention and intention through our bodies, through form and formlessness, through imrprovisational, somatic, meditative movement and dance practices that feel good to the body and to the heart.
+                </p>
+            </>
+        ),
+        image: './images/ava_water_lean.JPG',
+        c2a: 'Sign up @ Athletic Playground',
+        c2aLink: 'https://www.tapgym.com/schedule/adults',
+    },
+    {
         title: (
             <>
                 Contemplative Dance Practice: A Movement & Meditation Workshop in Berkeley, CA
@@ -58,7 +85,7 @@ const upcomingEvents = [
             </>
         ),
         image: './images/ava_one_foot_swing.JPG',
-        c2a: 'Sign up coming soon',
+        c2a: 'Sign up',
         c2aLink: 'https://www.eventbrite.com/e/contemplative-dance-practice-a-movement-meditation-workshop-tickets-1564110770419',
     },
         {
@@ -117,7 +144,7 @@ const upcomingEvents = [
                 </p>
             </>
         ),
-        image: './images/ava_water_lean.JPG',
+        image: './images/zev_at_nitas.png',
         c2a: 'Sign up coming soon',
         c2aLink: '',
     },
