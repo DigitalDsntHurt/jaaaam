@@ -4,6 +4,64 @@ const pastEvents = [
     {
         title: (
             <>
+                Contemplative Dance Practice @ the West Coast Contact Improvisation Jam 2025
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Festival Dates : July 2 - July 6, 2025
+                    <br />
+                    <a href='https://maps.app.goo.gl/MBSLK26ErYEs9wUg6' target='_blank' rel='noreferrer'>@ The Finnish Hall, Berkeley</a>
+                </h4>
+                <p>
+                    I will be facilitating Contemplative Dance Practice at this year's wcciJAM 2025.
+                </p>
+                <p>
+                    West Coast Contact Improvisation (WCCI) Jam is organized for and by the SF Bay Area Contact Improvisation community.
+                </p>
+                <p>
+                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and self-discovery.
+                </p>
+            </>
+        ),
+        image: './images/wcciJAM2025PromoGraphic.jpg',
+        c2a: 'Learn more & register for WCCIJam',
+        c2aLink: 'https://www.wccijam.org/',
+    },
+    {
+        title: (
+            <>
+                Movement Improvisation
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Weekly Every Thursday (September 2024 - June 2025)
+                    <br />
+                    12:00 - 1:00pm
+                    <br />
+                    <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
+                </h4>
+                <p>
+                    The exploration and practice of improvisational movement trains fun, fitness, attention and somatic awareness. It’s a valuable tool to accelerate your learning and mastery of other movement (& non-movement) disciplines. Improvisation is also a powerful tool for developing self practices you love and that serve your long- and short-term artistic, health and longevity goals.
+                </p>
+                <p>
+                    In this class we practice listening deeply to our bodies and to the underlying movement patterns themselves in order to discover and unleash spontaneity, power and flow.
+                </p>
+                <p>
+                    All bodies, skill and experience levels welcome.
+                </p>
+            </>
+        ),
+        image: './images/backbend_hair_color.png',
+        c2a: 'Sign up @ The Athletic Playground',
+        c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
+    },
+    {
+        title: (
+            <>
                 Contemplative Dance Practice: A Movement & Meditation Workshop in Berkeley, CA
             </>
         ),
