@@ -7,6 +7,7 @@ import PastEvents from './pages/PastEvents';
 import Testimonials from './pages/Testimonials';
 import UpcomingEvents from './pages/UpcomingEvents';
 import BayAreaMovementRetreat from './pages/BayAreaMovementRetreat';
+import RopeFlow from './pages/RopeFlow';
 
 import { Analytics } from "@vercel/analytics/react"
 
@@ -21,6 +22,7 @@ function App() {
         <Route path="/past-events" element={<PastEvents />} />
         <Route path="/events" element={<UpcomingEvents />} />
         <Route path="/bamr" element={<BayAreaMovementRetreat />} />
+        <Route path="/rope-flow" element={<RopeFlow />} />
       </Routes>
       <Analytics />
     </BrowserRouter>
