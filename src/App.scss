@@ -20,12 +20,12 @@ $black-color: #000000;
 }
 
 .landing-sect {
-  min-height: 44vh;
+  // min-height: 44vh;
+  align-items: center;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  padding-top: 4vh;
   padding-bottom: 4vh;
+  padding-top: 4vh;
 }
 
 .light-theme {
