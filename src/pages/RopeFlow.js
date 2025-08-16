@@ -8,7 +8,7 @@ const seriesDetails = (<>
         <p><strong>When?</strong> Wednesday mornings @ 8am (this 6-week series runs Aug 20, Aug 27, Sep 3, Sep 10, Sep 17, Sep 24)</p>
         <p><strong>Where?</strong> Alameda Beach @ The Sand Castle Picnic Area (<a href='https://maps.app.goo.gl/ZVBNdBKWqhGd3bnB9' target='_blank' rel="noreferrer">map)</a></p>
         <p><strong>Who is this for?</strong> All fitness and skill levels will be warmly welcomed, instructed and cared for.</p>
-        <p><strong>About the practice : </strong>Gently and togehter, we will work and play with the mobility, strength, coordination and integration of our bodies and the focus, calm and openness of our minds. <u>Rope Flow is a physical practice</u>. In this series we will scale intensity up and down to meet the needs and goals of our group and the demands of the moment. <u>Rope Flow is a meditative practice</u>. This series ground our practice in somatic awareness, kind concentration and mental openness and flexibility.</p>
+        <p><strong>About the practice : </strong>Gently and together, we will work and play with the mobility, strength, coordination and integration of our bodies and the focus, calm and openness of our minds. <u>Rope Flow is a physical practice</u>. In this series we will scale intensity up and down to meet the needs and goals of our group and the demands of the moment. <u>Rope Flow is a meditative practice</u>. This series ground our practice in somatic awareness, kind concentration and mental openness and flexibility.</p>
     </>);
 
 const whatIsRopeFLow = (<>

@@ -4,6 +4,38 @@ const upcomingEvents = [
     {
         title: (
             <>
+                Morning Rope Flow @ Alameda Beach
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Wednesday mornings
+                    <br />
+                    Six week series : <span style={{fontWeight: 200, letterSpacing: "0.2px"}}>Aug 20, Aug 27, Sep 3, Sep 10, Sep 17, Sep 24</span>
+                    <br />
+                    Time : 8:00am - 9:00am
+                    <br />
+                    <a href='https://maps.app.goo.gl/Kj8qqGqpr4he7k7G8' target='_blank' rel='noreferrer'>Sand Castle Picnic Area @ Alameda Beach</a>
+                </h4>
+                <p>
+                    Rope Flow is a fun, low-impact movement practice using a rope to create continuous, flowing patterns around your body. It blends elements of dance, martial arts, fitness, creativity and improvisation into smooth, rhythmic sequences that cultivate coordination, mobility and cardiovascular health.
+                </p>
+                <p>
+                    As both meditative practice and full-body workout, Rope Flow builds balance, posture and joint health as well as concentration, awareness, ease and openness.
+                </p>
+                <p>
+                    This Rope Flow class series is designed for all fitness, skill and experience levels.
+                </p>
+            </>
+        ),
+        image: './images/rope-flow.png',
+        c2a: 'More Details',
+        c2aLink: '/rope-flow',
+    },
+    {
+        title: (
+            <>
                 Weekly Contemplative Movement Class
             </>
         ),
