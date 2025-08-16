@@ -14,7 +14,7 @@ const CornerNav = ({ cornerNavText }) => {
     );
 }
 
-const TitleBanner = ({ bannerText, cornerNav }) => {
+const TitleBanner = ({ bannerText, cornerNav, subText }) => {
     return (
         <>
             {
@@ -28,6 +28,12 @@ const TitleBanner = ({ bannerText, cornerNav }) => {
                 <div className='upcoming-schedule-title-banner-text'>
                     {bannerText}
                 </div>
+                {
+                subText &&
+                <div className='title-banner-sub-text'>
+                    {subText}
+                </div>
+                }
             </div>
         </>
     );
