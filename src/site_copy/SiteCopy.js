@@ -112,10 +112,12 @@ const teacherText = {
 // as of Jan 27, 2025
 const bioText = (
     <>
-        <p>I'm Nick - a mover, dancer, meditator, facilitator, consultant and companion.</p>
-        <p>My offerings are based on practices of listening, meditation and movement which explore community, healing and how we relate to our own attention.</p>
+        <p>I'm Nick - a maker, mover, dancer, meditator, facilitator, organizer and companion.</p>
+        <p>My offerings are based on deep practices of listening, meditation and movement which explore attention, togetherness, self- and community-healing and play.</p>
         <p>I was born and grew up in San Francisco and in previous lives I've been a founder, sofware engineer, urban farmer, data-driven sports gambler and journalist.</p>
-        <p>To book or ask questions: <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a>.</p>
+        <p>I offer meditation and movement experiences, events, classes, workshops, series and private sessions.</p>
+        <p>For upcoming work, see <a href='/'>Upcoming Events</a></p>
+        <p>To book or ask questions : <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a>.</p>
     </>
 );
 
