@@ -25,7 +25,7 @@ const upcomingEvents = [
                     As both meditative practice and full-body workout, Rope Flow builds balance, posture and joint health as well as concentration, awareness, ease and openness.
                 </p>
                 <p>
-                    This Rope Flow class series is designed for all fitness, skill and experience levels.
+                    This Rope Flow class series is designed for all fitness, skill and experience levels. <strong>You do not need to bring your own rope</strong>, ropes will be provided.
                 </p>
             </>
         ),

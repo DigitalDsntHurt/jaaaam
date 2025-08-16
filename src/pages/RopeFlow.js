@@ -24,6 +24,9 @@ const aboutThisSeries = (<>
     <p><u>Rope Flow is a meditative practice</u>. This series grounds the practice of Rope Flow in somatic awareness, kind concentration and mental openness and flexibility.</p>
     <p><u>Each session</u> will begin by attuning to our group and to our surroundings then move to attentional and physical warm-ups, a skill development phase, open space for exploring flow and improvisation and end with a satisfying, synchronized group sequnce.</p>
     <p><strong>Cost</strong> : This series is offered to the community on a <strong>donation basis</strong>. Suggested <strong>$4 to $12 per session</strong> (sliding scale). <strong>No one turned away for lack of funds</strong>. Payments can be made day-of or in advance by <a href='https://venmo.com/u/GrapesDance' target="_blank" rel="noreferrer">Venmo to @GrapesDance.</a></p>
+    <div style={{textAlign: 'center'}}>
+        <p><strong>You do not need to bring your own rope</strong>, ropes will be provided.</p>
+    </div>
 </>)
 
 const moreAboutRopeFlow = (<>
