@@ -15,7 +15,7 @@ const pastEvents = [
                     <a href='https://maps.app.goo.gl/MBSLK26ErYEs9wUg6' target='_blank' rel='noreferrer'>@ The Finnish Hall, Berkeley</a>
                 </h4>
                 <p>
-                    Facilitated Contemplative Dance Practice at this year's wcciJAM 2025.
+                    Contemplative Dance Practice at this year's wcciJAM 2025.
                 </p>
                 <p>
                     West Coast Contact Improvisation (WCCI) Jam is organized for and by the SF Bay Area Contact Improvisation community.
@@ -128,7 +128,7 @@ const pastEvents = [
         description: (
             <>
                 <h4>
-                    Facilitating the Contact Improvisation class before the weekly Thursday Jam on Thursday, May 29.
+                    Contact Improvisation class before the weekly Thursday Jam on Thursday, May 29.
                     <br />
                     <br />
                     May 29, 2025
@@ -158,7 +158,7 @@ const pastEvents = [
         description: (
             <>
                 <h4>
-                    Facilitating the Contact Improvisation warmup before the monthly West Marin Contact Improvistaion Jam in Point Reyes, CA on May 4.
+                    Contact Improvisation warmup before the monthly West Marin Contact Improvistaion Jam in Point Reyes, CA on May 4.
                     <br />
                     <br />
                     May 4, 2025
@@ -218,7 +218,7 @@ const pastEvents = [
         description: (
             <>
                 <h4>
-                    Facilitating the Contact Improvisation class before the bi-weekly Wednesday Jam on April 23.
+                    Contact Improvisation class before the bi-weekly Wednesday Jam on April 23.
                     <br />
                     <br />
                     April 23, 2025
@@ -302,7 +302,7 @@ const pastEvents = [
         description: (
             <>
                 <h4>
-                    Facilitated the Contact Improvisation class before the weekly Thursday Jam on Thursday, March 13.
+                    Contact Improvisation class before the weekly Thursday Jam on Thursday, March 13.
                     <br />
                     <br />
                     March 13, 2025
@@ -332,7 +332,7 @@ const pastEvents = [
         description: (
             <>
                 <h4>
-                    Facilitated the Contact Improvisation class before the weekly Thursday Jam on Thursday, February 20.
+                    Contact Improvisation class before the weekly Thursday Jam on Thursday, February 20.
                     <br />
                     <br />
                     February 20
