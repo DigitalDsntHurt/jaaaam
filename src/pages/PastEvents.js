@@ -7,7 +7,10 @@ import TitleBanner from '../generic_components/TitleBanner';
 const PastEvents = () => {
     return (
         <>
-            <TitleBanner bannerText="PAST EVENTS" />
+            <TitleBanner
+                bannerText="PAST EVENTS"
+                cornerNav={true}
+            />
             <EventsList events={pastEventItemsList} />
             <Students />
             <Footer theme='light' />
