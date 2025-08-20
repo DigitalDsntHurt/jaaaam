@@ -13,7 +13,7 @@ const upcomingEvents = [
                     Contact Improvisation is a dance form and movement practice that emphasizes physical connection and spontaneous interaction between participants and space. In Contact Improvisation, we use touch, weight-sharing and responsive movement to create dynamic, improvisational experiences. The practice involves deep listening, trust and non-verbal communication between people as we explore possibilities together. Contact Improvisation can range from gentle, meditative explorations of movement to more energetic and acrobatic interactions, depending on the preferences and skills of participants.
                 </p>
                 <p>
-                    Contact Improvisation is one of my primary practices (of meditation, realtionality, movement, healing, art and life). I practice and teach it as much as I can. Click the button below for all my upcoming Contact Improvisation teaching dates.
+                    Contact Improvisation is one of my primary practices (of meditation, relating, movement, healing, art and life). I practice and teach it as much as I can. Click the button below for all my upcoming Contact Improvisation teaching dates.
                 </p>
             </>
         ),
