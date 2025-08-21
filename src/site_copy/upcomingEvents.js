@@ -50,7 +50,7 @@ const upcomingEvents = [
     {
         title: (
             <>
-                Weekly Contemplative Movement Class
+                Weekly Contemplative Movement
             </>
         ),
         description: (
