@@ -10,15 +10,15 @@ const upcomingEvents = [
         description: (
             <>
                 <p>
-                    Contact Improvisation is a dance form and movement practice that emphasizes physical connection and spontaneous interaction between participants and space. In Contact Improvisation, we use touch, weight-sharing and responsive movement to create dynamic, improvisational experiences. The practice involves deep listening, trust and non-verbal communication between people as we explore possibilities together. Contact Improvisation can range from gentle, meditative explorations of movement to more energetic and acrobatic interactions, depending on the preferences and skills of participants.
+                    Regular and ad-hoc Contact Improvisation classes, workshops, warm-ups, series and gatherings.
                 </p>
                 <p>
-                    Contact Improvisation is one of my primary practices (of meditation, relating, movement, healing, art and life). I practice and teach it as much as I can. Click the button below for all my upcoming Contact Improvisation teaching dates.
+                    Click below for upcoming Contact Improvisation dates.
                 </p>
             </>
         ),
         image: './images/blur_at_the_center.png',
-        c2a: 'All Contact Improvisation Teaching Dates',
+        c2a: 'All Contact Improvisation Dates',
         c2aLink: '/contact-improvisation',
     },
     {
@@ -39,18 +39,12 @@ const upcomingEvents = [
                     <a href='https://maps.app.goo.gl/Kj8qqGqpr4he7k7G8' target='_blank' rel='noreferrer'>Sand Castle Picnic Area @ Alameda Beach</a>
                 </h4>
                 <p>
-                    Rope Flow is a fun, low-impact movement practice using a rope to create continuous, flowing patterns around your body. It blends elements of dance, martial arts, fitness, creativity and improvisation into smooth, rhythmic sequences that cultivate coordination, mobility and cardiovascular health.
-                </p>
-                <p>
-                    As both meditative practice and full-body workout, Rope Flow builds balance, posture and joint health as well as concentration, awareness, ease and openness.
-                </p>
-                <p>
-                    This Rope Flow class series is designed for all fitness, skill and experience levels. <strong>You do not need to bring your own rope</strong>, ropes will be provided.
+                    Rope Flow is a fun, low-impact movement practice using a rope to create continuous, flowing patterns around your body.
                 </p>
             </>
         ),
         image: './images/rope-flow.png',
-        c2a: 'More Details',
+        c2a: 'Full Series Details',
         c2aLink: '/rope-flow',
     },
     {
