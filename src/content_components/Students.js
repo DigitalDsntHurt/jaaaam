@@ -1,7 +1,6 @@
 const Students = ({ theme }) => {
     return (
-        <div className={`landing-sect ${theme}-theme`} >
-            <h1 className="testimonials-title">Testimonials</h1>
+        <div className={`landing-sect ${theme}-theme`} style={{ marginTop: '-8  vh' }}>
             <div className="students-div-wrapper">
                 {/* DAN */}
                 <div className="students-div-row-full">
