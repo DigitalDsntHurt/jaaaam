@@ -1,7 +1,7 @@
-import TitleBanner from "../TitleBanner";
 import EventsList from "./EventsList";
-import upcomingEventItemsList from "../../site_copy/upcomingEvents";
 import regularEventItemsList from "../../site_copy/regularEvents";
+import TitleBanner from "../TitleBanner";
+import upcomingEventItemsList from "../../site_copy/upcomingEvents";
 
 const Events = () => {
     return (

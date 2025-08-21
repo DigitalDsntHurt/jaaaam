@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react';
 import './HomeHero.scss';
+import { useState, useEffect } from 'react';
 
 const HomeHero = () => {
     const desktopImage = '/images/half_moon.png';
