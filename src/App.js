@@ -17,14 +17,14 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/bamr" element={<BayAreaMovementRetreat />} />
         <Route path="/blah-blah" element={<BlahBlah />} />
         <Route path="/community-classes" element={<CommunityClasses />} />
-        <Route path="/testimonials" element={<Testimonials />} />
-        <Route path="/past-events" element={<PastEvents />} />
-        <Route path="/events" element={<UpcomingEvents />} />
-        <Route path="/bamr" element={<BayAreaMovementRetreat />} />
-        <Route path="/rope-flow" element={<RopeFlow />} />
         <Route path="/contact-improvisation" element={<ContactImprovisation />} />
+        <Route path="/events" element={<UpcomingEvents />} />
+        <Route path="/past-events" element={<PastEvents />} />
+        <Route path="/rope-flow" element={<RopeFlow />} />
+        <Route path="/testimonials" element={<Testimonials />} />
       </Routes>
       <Analytics />
     </BrowserRouter>
