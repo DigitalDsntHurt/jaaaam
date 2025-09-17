@@ -1,16 +1,16 @@
 import './App.scss';
+import { Analytics } from "@vercel/analytics/react"
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { SpeedInsights } from "@vercel/speed-insights/react"
+import BayAreaMovementRetreat from './pages/BayAreaMovementRetreat';
 import BlahBlah from './pages/BlahBlah';
 import CommunityClasses from './pages/CommunityClasses';
+import ContactImprovisation from './pages/ContactImprovisation';
 import HomePage from './pages/HomePage';
 import PastEvents from './pages/PastEvents';
+import RopeFlow from './pages/RopeFlow';
 import Testimonials from './pages/Testimonials';
 import UpcomingEvents from './pages/UpcomingEvents';
-import BayAreaMovementRetreat from './pages/BayAreaMovementRetreat';
-import RopeFlow from './pages/RopeFlow';
-import ContactImprovisation from './pages/ContactImprovisation';
-
-import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -27,6 +27,7 @@ function App() {
         <Route path="/testimonials" element={<Testimonials />} />
       </Routes>
       <Analytics />
+      <SpeedInsights />
     </BrowserRouter>
   );
 }
