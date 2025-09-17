@@ -4,7 +4,7 @@ const upcomingEvents = [
     {
         title: (
             <>
-                Contact Improvisation Offerings
+                Contact Improvisation
             </>
         ),
         description: (
