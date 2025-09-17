@@ -124,7 +124,7 @@ const bioText = (
 // Homepage Bio as of Jan 26, 2025
 const bioBannerText = (
     <>
-        <p>Nick (LaLa) Smith offers meditation and movement workshops, group classes, private sessions and bodywork.</p>
+        <p>Nick Smith offers meditation and movement workshops, group classes, private sessions and bodywork.</p>
         <p>To book or ask questions: <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a></p>
         {/* <p><a href='https://docs.google.com/forms/d/e/1FAIpQLScT49DHIYllF6Ftk7o5_ox203fLKdItqb_Z-8EiyhAVAG6I4A/viewform' target='_blank' rel='noreferrer'>Newsletter Sign-up</a></p> */}
     </>
