@@ -9,6 +9,7 @@ const seriesDetails = (<>
         <p><strong>What?</strong> 20/20/20 practice followed by optional time for discussion and togetherness. We have the space until noon.</p>
         <p><strong>Who is this for?</strong> This practice group is open to people with non-zero Contact Improvisation experience. Feel free to invite folks you think will enjoy but please be discerning to keep our container safe.</p>
         <p><strong>Support : </strong>Suggested $24 for six sessions, $8 per single session. NOTAFLOF. For payment, <a href='https://venmo.com/u/GrapesDance' target="_blank" rel="noreferrer">venmo @GrapesDance</a> or <a href='mailto:grapesdance@gmail.com' target="_blank" rel="noreferrer">email grapesdance@gmail.com</a> for other payment options.</p>
+        <p><strong>Join : </strong><a href="https://docs.google.com/forms/d/e/1FAIpQLSeUVfAR7PfQT2jXKTSmKzULUEXVDDF_CFDgOTUfUyHPipkzig/viewform">Get email updates</a> about practice details, times, locations for this group</p>
     </>);
 
 const finances = (<>
@@ -17,6 +18,10 @@ const finances = (<>
     <p>The aim of this practice group is to continue practice in perpetuity.</p>
     <p>May this practice be of service.</p>
 </>);
+
+const signUp = (<>
+    
+</>)
 
 const CdpFridayGroup = () => {
     return (
