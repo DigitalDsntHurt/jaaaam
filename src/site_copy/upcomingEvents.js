@@ -135,7 +135,7 @@ const upcomingEvents = [
         ),
         image: './images/rope_flow_hop.jpg',
         c2a: 'Details + Registration',
-        c2aLink: '/https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237975?skipPreview=true',
+        c2aLink: 'https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237975?skipPreview=true',
     },
     // {
     //     title: (
