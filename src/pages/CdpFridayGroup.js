@@ -19,10 +19,6 @@ const finances = (<>
     <p>May this practice be of service.</p>
 </>);
 
-const signUp = (<>
-    
-</>)
-
 const CdpFridayGroup = () => {
     return (
         <>

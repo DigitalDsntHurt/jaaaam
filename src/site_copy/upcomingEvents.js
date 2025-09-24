@@ -4,137 +4,28 @@ const upcomingEvents = [
     {
         title: (
             <>
-                Contact Improvisation
+                Contemplative Movement : A Six-Week Walking Meditation Series in Berkeley, CA
             </>
         ),
         description: (
             <>
-                <p>
-                    Regular and ad-hoc Contact Improvisation classes, workshops, warm-ups, series and gatherings.
-                </p>
-                <p>
-                    Click below for upcoming Contact Improvisation dates.
-                </p>
-            </>
-        ),
-        image: './images/blur_at_the_center.png',
-        c2a: 'All Contact Improvisation Dates',
-        c2aLink: '/contact-improvisation',
-    },
-    {
-        title: (
-            <>
-                Morning Rope Flow @ Alameda Beach
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    Wednesday mornings
+            <h4>
+                    Dates : Sep 22, Sep 29, Oct 6, Oct 13, Oct 20, Oct 27, 2025
                     <br />
-                    Six week series : <span style={{fontWeight: 200, letterSpacing: "0.2px"}}>Aug 20, Aug 27, Sep 3, Sep 10, Sep 17, Sep 24</span>
+                    Time : 7:15pm - 8:15pm
                     <br />
-                    Time : 8:00am - 9:00am
-                    <br />
-                    <a href='https://maps.app.goo.gl/Kj8qqGqpr4he7k7G8' target='_blank' rel='noreferrer'>Sand Castle Picnic Area @ Alameda Beach</a>
+                    <a href='https://www.eventbrite.com/cc/contemplative-movement-walking-centered-practice-4605883' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
                 </h4>
                 <p>
-                    Rope Flow is a fun, low-impact movement practice using a rope to create continuous, flowing patterns around your body.
+                    Explore contemplative walking in this 6-week series : mindfulness in motion blending somatics, anatomy & meditative presence.
                 </p>
             </>
         ),
-        image: './images/rope-flow.png',
-        c2a: 'Full Series Details',
-        c2aLink: '/rope-flow',
+        image: './images/feet_and_rears.jpg',
+        c2a: 'Series Details + Registration',
+        c2aLink: 'https://www.eventbrite.com/cc/contemplative-movement-walking-centered-practice-4605883',
     },
     {
-        title: (
-            <>
-                Weekly Contemplative Movement
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    Date : August 12, 2025 (then weekly every Tuesday)
-                    <br />
-                    Time : 1:30pm - 3:00pm
-                    <br />
-                    <a href='https://maps.app.goo.gl/R1wfiRG9TFZk7E8h8' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
-                </h4>
-                <p>
-                    Weekly daytime contemplative movement classes for adults are coming back to The Athletic Playground.
-                </p>
-                <p>
-                    Every Tuesday at 1:30pm, we will explore attention and intention through our bodies, through form and formlessness, through imrprovisational, somatic, meditative movement and dance practices that feel good to the body and to the heart.
-                </p>
-            </>
-        ),
-        image: './images/ava_water_lean.JPG',
-        c2a: 'Sign up @ Athletic Playground',
-        c2aLink: 'https://www.tapgym.com/schedule/adults',
-    },
-    {
-        title: (
-            <>
-                Contemplative Dance Practice: A Movement & Meditation Workshop in Berkeley, CA
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    Date : August 31, 2025
-                    <br />
-                    Time : 11am - 1:30pm
-                    <br />
-                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
-                </h4>
-                <p>
-                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and discovery of self and other.
-                </p>
-                <p>
-                    This workshop is an introduction to CDP, appropriate for all bodies - no prior experience with dance or meditation is needed.
-                </p>
-                <p>
-                    For more about CDP and the workshop, click below.
-                </p>
-            </>
-        ),
-        image: './images/zev_at_nitas.png',
-        c2a: 'Sign up',
-        c2aLink: 'https://www.eventbrite.com/e/contemplative-dance-practice-a-movement-meditation-workshop-tickets-1468120791809?_eboga=undefined',
-    },
-    {
-        title: (
-            <>
-                Contemplative Dance Practice: A Movement & Meditation Workshop in Berkeley, CA
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    Date : September 21, 2025
-                    <br />
-                    Time : 11am - 2pm
-                    <br />
-                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
-                </h4>
-                <p>
-                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and discovery of self and other.
-                </p>
-                <p>
-                    This workshop is an introduction to CDP, appropriate for all bodies - no prior experience with dance or meditation is needed.
-                </p>
-                <p>
-                    For more about CDP and the workshop, click below.
-                </p>
-            </>
-        ),
-        image: './images/ava_one_foot_swing.JPG',
-        c2a: 'Sign up',
-        c2aLink: 'https://www.eventbrite.com/e/contemplative-dance-practice-a-movement-meditation-workshop-tickets-1564110770419',
-    },
-        {
         title: (
             <>
                 Anatomy of Touch Workshop with Sabine Parzer in Berkeley, CA
@@ -155,14 +46,11 @@ const upcomingEvents = [
                 <p>
                     This Anatomy of Touch workshop is available as a two-day workshop (October 18 - 19) or as a five-day workshop (October 18 - 22) at The Finnish Hall in Berkeley. I am  excited for this and I hope you will join.
                 </p>
-                <p>
-                    Email <a href='mailto:grapesdance@gamil.com'>grapesdance@gamil.com</a> to register.
-                </p>
             </>
         ),
         image: './images/sabine_wild.png',
-        c2a: 'All Details Here',
-        c2aLink: 'https://www.facebook.com/events/s/anatomy-of-touch/749789107775527/?mibextid=Gg3lNB',
+        c2a: 'Details + Registration Here',
+        c2aLink: 'https://forms.gle/9gkhWuwdN7qfNRNo8',
     },
     {
         title: (
@@ -191,8 +79,63 @@ const upcomingEvents = [
             </>
         ),
         image: './images/zev_at_nitas.png',
-        c2a: 'Sign up coming soon',
-        c2aLink: '',
+        c2a: 'Details + Registration',
+        c2aLink: 'https://www.eventbrite.com/e/contemplative-dance-practice-a-movement-meditation-workshop-tickets-1633140590469?aff=odcleoeventsincollection',
+    },
+    {
+        title: (
+            <>
+                Contact Improvisation
+            </>
+        ),
+        description: (
+            <>
+                <p>
+                    Regular and ad-hoc Contact Improvisation classes, workshops, warm-ups, series and gatherings.
+                </p>
+                <p>
+                    Click below for upcoming Contact Improvisation dates.
+                </p>
+            </>
+        ),
+        image: './images/blur_at_the_center.png',
+        c2a: 'All Contact Improvisation Dates',
+        c2aLink: '/contact-improvisation',
+    },
+    {
+        title: (
+            <>
+                Deeper Practice : Rope Flow in Alameda, CA
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Thursday Evenings
+                    <br />
+                    Four sessions : 
+                        <span style={{fontWeight: 200, letterSpacing: "0.2px"}}>
+                            {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237975?skipPreview=true' target="_blank" rel="noreferrer">Oct 9</a>,
+                            {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237979?skipPreview=true' target="_blank" rel="noreferrer">Oct 16</a>,
+                            {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237981?skipPreview=true' target="_blank" rel="noreferrer">Nov 13</a>,
+                            {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122238417?skipPreview=true' target="_blank" rel="noreferrer">Nov 20</a>
+                        </span>
+                    <br />
+                    Time : 6:30pm - 7:45pm
+                    <br />
+                    <a href='https://maps.app.goo.gl/cgQ8ybDXApvEepUT9' target='_blank' rel='noreferrer'>@ Breathing Room in Alameda, CA</a>
+                </h4>
+                <p>
+                    Rope Flow is a fun, low-impact movement practice using a rope to create continuous, flowing patterns around your body.
+                </p>
+                <p>
+                    No experience necessary.
+                </p>
+            </>
+        ),
+        image: './images/rope_flow_hop.jpg',
+        c2a: 'Details + Registration',
+        c2aLink: '/https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237975?skipPreview=true',
     },
     // {
     //     title: (

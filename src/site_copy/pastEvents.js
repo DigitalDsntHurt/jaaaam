@@ -4,6 +4,140 @@ const pastEvents = [
     {
         title: (
             <>
+                Morning Rope Flow @ Alameda Beach
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Wednesday mornings
+                    <br />
+                    Six week series : <span style={{fontWeight: 200, letterSpacing: "0.2px"}}>Aug 20, Aug 27, Sep 3, Sep 10, Sep 17, Sep 24</span>
+                    <br />
+                    Time : 8:00am - 9:00am
+                    <br />
+                    <a href='https://maps.app.goo.gl/Kj8qqGqpr4he7k7G8' target='_blank' rel='noreferrer'>Sand Castle Picnic Area @ Alameda Beach</a>
+                </h4>
+                <p>
+                    Rope Flow is a fun, low-impact movement practice using a rope to create continuous, flowing patterns around your body.
+                </p>
+            </>
+        ),
+        image: './images/rope-flow.png',
+        c2a: 'Full Series Details',
+        c2aLink: '/rope-flow',
+    },
+    {
+        title: (
+            <>
+                Contemplative Dance Practice: A Movement & Meditation Workshop in Berkeley, CA
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Date : September 21, 2025
+                    <br />
+                    Time : 11am - 2pm
+                    <br />
+                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
+                </h4>
+                <p>
+                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and discovery of self and other.
+                </p>
+                <p>
+                    This workshop is an introduction to CDP, appropriate for all bodies - no prior experience with dance or meditation is needed.
+                </p>
+                <p>
+                    For more about CDP and the workshop, click below.
+                </p>
+            </>
+        ),
+        image: './images/ava_one_foot_swing.JPG',
+        c2a: 'Sign up',
+        c2aLink: 'https://www.eventbrite.com/e/contemplative-dance-practice-a-movement-meditation-workshop-tickets-1564110770419',
+    },
+    {
+        title: (
+            <>
+                Friday Contact Improvisation @ The Athletic Playground
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Friday, September 19
+                    <br />
+                    12:15pm - 1:45pm
+                    <br />
+                    <a href='https://www.tapgym.com/schedule/adults' target='_blank' rel='noreferrer'>@ The Athletic Playground</a> (<a href='https://maps.app.goo.gl/5c65DNthApxKh9mG9' target='_blank' rel='noreferrer'>in Emeryville</a>)
+                </h4>
+                <p>
+                    You don't need any prior experience; this class warmly welcomes both complete beginners and those with experience.
+                </p>
+            </>
+        ),
+        image: './images/shira-ci.png',
+        c2a: 'Sign Up',
+        c2aLink: 'https://www.tapgym.com/schedule/adults',
+    },
+    {
+        title: (
+            <>
+                Contemplative Dance Practice: A Movement & Meditation Workshop in Berkeley, CA
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Date : August 31, 2025
+                    <br />
+                    Time : 11am - 1:30pm
+                    <br />
+                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
+                </h4>
+                <p>
+                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and discovery of self and other.
+                </p>
+                <p>
+                    This workshop is an introduction to CDP, appropriate for all bodies - no prior experience with dance or meditation is needed.
+                </p>
+                <p>
+                    For more about CDP and the workshop, click below.
+                </p>
+            </>
+        ),
+        image: './images/zev_at_nitas.png',
+        c2a: 'Sign up',
+        c2aLink: 'https://www.eventbrite.com/e/contemplative-dance-practice-a-movement-meditation-workshop-tickets-1468120791809?_eboga=undefined',
+    },
+    {
+        title: (
+            <>
+                Friday Contact Improvisation @ The Athletic Playground
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Friday, August 29
+                    <br />
+                    12:15pm - 1:45pm
+                    <br />
+                    <a href='https://www.tapgym.com/schedule/adults' target='_blank' rel='noreferrer'>@ The Athletic Playground</a> (<a href='https://maps.app.goo.gl/5c65DNthApxKh9mG9' target='_blank' rel='noreferrer'>in Emeryville</a>)
+                </h4>
+                <p>
+                    You don't need any prior experience; this class warmly welcomes both complete beginners and those with experience.
+                </p>
+            </>
+        ),
+        image: './images/shira-ci.png',
+        c2a: 'Sign Up',
+        c2aLink: 'https://www.tapgym.com/schedule/adults',
+    },
+    {
+        title: (
+            <>
                 Contemplative Dance Practice @ the West Coast Contact Improvisation Jam 2025
             </>
         ),
