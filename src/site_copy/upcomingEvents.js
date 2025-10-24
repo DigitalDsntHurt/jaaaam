@@ -4,57 +4,6 @@ const upcomingEvents = [
     {
         title: (
             <>
-                Contemplative Movement : A Six-Week Walking Meditation Series in Berkeley, CA
-            </>
-        ),
-        description: (
-            <>
-            <h4>
-                    Dates : Sep 22, Sep 29, Oct 6, Oct 13, Oct 20, Oct 27, 2025
-                    <br />
-                    Time : 7:15pm - 8:15pm
-                    <br />
-                    <a href='https://www.eventbrite.com/cc/contemplative-movement-walking-centered-practice-4605883' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
-                </h4>
-                <p>
-                    Explore contemplative walking in this 6-week series : mindfulness in motion blending somatics, anatomy & meditative presence.
-                </p>
-            </>
-        ),
-        image: './images/feet_and_rears.jpg',
-        c2a: 'Series Details + Registration',
-        c2aLink: 'https://www.eventbrite.com/cc/contemplative-movement-walking-centered-practice-4605883',
-    },
-    {
-        title: (
-            <>
-                Anatomy of Touch Workshop with Sabine Parzer in Berkeley, CA
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    Weekend workshop : Oct 18, 2025 - Oct 19, 2025
-                    <br />
-                    5-day workshop : Oct 18, 2025 - Oct 22, 2025
-                    <br />
-                    <a href='https://maps.app.goo.gl/PiWa1JcsnmUnoPhs6' target='_blank' rel='noreferrer'>@ The Finnish Hall</a>
-                </h4>
-                <p>
-                    In October in Berkeley I will be hosting a phenomenal teacher of Holistic Dance. Sabine Parzer, who is based in Austria, has been teaching dance with an emphasis on beautiful living and the rich possibilities of healing for over 30 years.
-                </p>
-                <p>
-                    This Anatomy of Touch workshop is available as a two-day workshop (October 18 - 19) or as a five-day workshop (October 18 - 22) at The Finnish Hall in Berkeley. I am  excited for this and I hope you will join.
-                </p>
-            </>
-        ),
-        image: './images/sabine_wild.png',
-        c2a: 'Details + Registration Here',
-        c2aLink: 'https://forms.gle/9gkhWuwdN7qfNRNo8',
-    },
-    {
-        title: (
-            <>
                 Contemplative Dance Practice: A Movement & Meditation Workshop in Berkeley, CA
             </>
         ),
@@ -72,9 +21,6 @@ const upcomingEvents = [
                 </p>
                 <p>
                     This workshop is an introduction to CDP, appropriate for all bodies - no prior experience with dance or meditation is needed.
-                </p>
-                <p>
-                    Signup link coming soon.
                 </p>
             </>
         ),
@@ -115,8 +61,8 @@ const upcomingEvents = [
                     <br />
                     Four sessions : 
                         <span style={{fontWeight: 200, letterSpacing: "0.2px"}}>
-                            {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237975?skipPreview=true' target="_blank" rel="noreferrer">Oct 9</a>,
-                            {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237979?skipPreview=true' target="_blank" rel="noreferrer">Oct 16</a>,
+                            {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237975?skipPreview=true' target="_blank" rel="noreferrer"><del>Oct 9</del></a>,
+                            {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237979?skipPreview=true' target="_blank" rel="noreferrer"><del>Oct 16</del></a>,
                             {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237981?skipPreview=true' target="_blank" rel="noreferrer">Nov 13</a>,
                             {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122238417?skipPreview=true' target="_blank" rel="noreferrer">Nov 20</a>
                         </span>

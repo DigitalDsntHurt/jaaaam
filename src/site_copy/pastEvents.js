@@ -4,6 +4,135 @@ const pastEvents = [
     {
         title: (
             <>
+                Contemplative Movement : A Six-Week Walking Meditation Series in Berkeley, CA
+            </>
+        ),
+        description: (
+            <>
+            <h4>
+                    Dates : Sep 22, Sep 29, Oct 6, Oct 13, Oct 20, Oct 27, 2025
+                    <br />
+                    Time : 7:15pm - 8:15pm
+                    <br />
+                    <a href='https://www.eventbrite.com/cc/contemplative-movement-walking-centered-practice-4605883' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
+                </h4>
+                <p>
+                    Explore contemplative walking in this 6-week series : mindfulness in motion blending somatics, anatomy & meditative presence.
+                </p>
+            </>
+        ),
+        image: './images/feet_and_rears.jpg',
+        c2a: 'Series Details + Registration',
+        c2aLink: 'https://www.eventbrite.com/cc/contemplative-movement-walking-centered-practice-4605883',
+    },
+    {
+        title: (
+            <>
+                Friday Contact Improvisation @ The Athletic Playground
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Friday, October 24
+                    <br />
+                    12:15pm - 1:45pm
+                    <br />
+                    <a href='https://www.tapgym.com/schedule/adults' target='_blank' rel='noreferrer'>@ The Athletic Playground</a> (<a href='https://maps.app.goo.gl/5c65DNthApxKh9mG9' target='_blank' rel='noreferrer'>in Emeryville</a>)
+                </h4>
+                <p>
+                    You don't need any prior experience; this class warmly welcomes both complete beginners and those with experience.
+                </p>
+            </>
+        ),
+        image: './images/shira-ci.png',
+        c2a: 'Sign Up',
+        c2aLink: 'https://www.tapgym.com/schedule/adults',
+    },
+    {
+        title: (
+            <>
+                Thursday Contact Improvisation : Pre-Jam class @ The Finnish Hall in Berkeley
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Contact Improvisation class before the weekly Thursday Jam on October 23.
+                    <br />
+                    <br />
+                    October 23
+                    <br />
+                    7:00pm (followed by the Jam from 8pm - 11pm)
+                    <br />
+                    <a href='https://maps.app.goo.gl/MBSLK26ErYEs9wUg6' target='_blank' rel='noreferrer'>@ The Finnish Hall in Berkeley</a>
+                </h4>
+                <p>
+                    Every Thursday at Berkeley’s historic Finnish Hall, we gather for the biggest contact improvisation jam in the Bay Area. This is a vibrant, community-run space, where newcomers and experienced practitioners explore this dynamic movement form.
+                </p>
+                <p>
+                    The class and Jam are by donation.
+                </p>
+            </>
+        ),
+        image: './images/ava_ferries_hollow.png',
+        c2a: 'Learn More About the Thursday CI Jam',
+        c2aLink: 'https://thursdayjam.org/',
+    },
+    {
+        title: (
+            <>
+                Contact Improvisation : Pre-Jam class @ The Castro Room in San Francisco
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Contact Improvisation class before the bi-monthly SF Jam on October 23.
+                    <br />
+                    <br />
+                    October 22
+                    <br />
+                    7:45pm (followed by the Jam from 9:15pm - 10:45pm)
+                    <br />
+                    <a href='https://maps.app.goo.gl/mjw5aFaQ6aY16TW96' target='_blank' rel='noreferrer'>@ The Castro Room in San Francisco</a>
+                </h4>
+            </>
+        ),
+        image: './images/merrick_richie.jpeg',
+        c2a: 'Dance with us in SF',
+        c2aLink: 'https://merrickjacob.com/contact-improvisation',
+    },
+    {
+        title: (
+            <>
+                Anatomy of Touch Workshop with Sabine Parzer in Berkeley, CA
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Weekend workshop : Oct 18, 2025 - Oct 19, 2025
+                    <br />
+                    5-day workshop : Oct 18, 2025 - Oct 22, 2025
+                    <br />
+                    <a href='https://maps.app.goo.gl/PiWa1JcsnmUnoPhs6' target='_blank' rel='noreferrer'>@ The Finnish Hall</a>
+                </h4>
+                <p>
+                    In October in Berkeley I will be hosting a phenomenal teacher of Holistic Dance. Sabine Parzer, who is based in Austria, has been teaching dance with an emphasis on beautiful living and the rich possibilities of healing for over 30 years.
+                </p>
+                <p>
+                    This Anatomy of Touch workshop is available as a two-day workshop (October 18 - 19) or as a five-day workshop (October 18 - 22) at The Finnish Hall in Berkeley. I am  excited for this and I hope you will join.
+                </p>
+            </>
+        ),
+        image: './images/sabine_wild.png',
+        c2a: 'Details + Registration Here',
+        c2aLink: 'https://forms.gle/9gkhWuwdN7qfNRNo8',
+    },
+    {
+        title: (
+            <>
                 Morning Rope Flow @ Alameda Beach
             </>
         ),
