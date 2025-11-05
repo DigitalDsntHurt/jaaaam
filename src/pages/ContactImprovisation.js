@@ -4,30 +4,7 @@ import Footer from "../content_components/Footer";
 import TitleBanner from '../generic_components/TitleBanner';
 
 const upcomingContactImprovisationEventItemsList = [
-    {
-        title: (
-            <>
-                Friday Contact Improvisation @ The Athletic Playground
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    Friday, October 31 (<i>!spooky!</i>)
-                    <br />
-                    12:15pm - 1:45pm
-                    <br />
-                    <a href='https://www.tapgym.com/schedule/adults' target='_blank' rel='noreferrer'>@ The Athletic Playground</a> (<a href='https://maps.app.goo.gl/5c65DNthApxKh9mG9' target='_blank' rel='noreferrer'>in Emeryville</a>)
-                </h4>
-                <p>
-                    You don't need any prior experience; this class warmly welcomes both complete beginners and those with experience.
-                </p>
-            </>
-        ),
-        image: './images/shira-ci.png',
-        c2a: 'Sign Up',
-        c2aLink: 'https://www.tapgym.com/schedule/adults',
-    },
+
     {
         title: (
             <>

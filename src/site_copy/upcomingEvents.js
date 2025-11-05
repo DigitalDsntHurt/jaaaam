@@ -4,53 +4,6 @@ const upcomingEvents = [
     {
         title: (
             <>
-                Contemplative Dance Practice: A Movement & Meditation Workshop in Berkeley, CA
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    Date : Oct 26, 2025
-                    <br />
-                    Time : 11am - 2pm
-                    <br />
-                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
-                </h4>
-                <p>
-                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and discovery of self and other.
-                </p>
-                <p>
-                    This workshop is an introduction to CDP, appropriate for all bodies - no prior experience with dance or meditation is needed.
-                </p>
-            </>
-        ),
-        image: './images/zev_at_nitas.png',
-        c2a: 'Details + Registration',
-        c2aLink: 'https://www.eventbrite.com/e/contemplative-dance-practice-a-movement-meditation-workshop-tickets-1633140590469?aff=odcleoeventsincollection',
-    },
-    {
-        title: (
-            <>
-                Contact Improvisation
-            </>
-        ),
-        description: (
-            <>
-                <p>
-                    Regular and ad-hoc Contact Improvisation classes, workshops, warm-ups, series and gatherings.
-                </p>
-                <p>
-                    Click below for upcoming Contact Improvisation dates.
-                </p>
-            </>
-        ),
-        image: './images/blur_at_the_center.png',
-        c2a: 'All Contact Improvisation Dates',
-        c2aLink: '/contact-improvisation',
-    },
-    {
-        title: (
-            <>
                 Deeper Practice : Rope Flow in Alameda, CA
             </>
         ),
@@ -81,35 +34,86 @@ const upcomingEvents = [
         ),
         image: './images/rope_flow_hop.jpg',
         c2a: 'Details + Registration',
-        c2aLink: 'https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237975?skipPreview=true',
+        c2aLink: 'https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237981?skipPreview=true',
     },
-    // {
-    //     title: (
-    //         <>
-    //             COMING SOON: Alone & in relation: moving with, against & without a partner
-    //         </>
-    //     ),
-    //     description: (
-    //         <>
-    //             <h4>
-    //                 Date : TBD
-    //                 <br />
-    //                 Time : TBD
-    //                 <br />
-    //                 Location : TBD
-    //             </h4>
-    //             <p>
-    //                 Co-taught with Elliott Cohen, this workshop is a playful exlporation of three modes of relational movement and the deep values associated with each.
-    //             </p>
-    //             <p>
-    //                 Click below to know when details are confirmed.
-    //             </p>
-    //         </>
-    //     ),
-    //     image: './images/ava_horizontal_pole.JPG',
-    //     c2a: 'Sign up to be notified when details are confirmed',
-    //     c2aLink: 'https://forms.gle/QrvDBXj4VGGxi3x57',
-    // },
+    {
+        title: (
+            <>
+                Friday Contact Improvisation @ The Athletic Playground
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Friday, November 14
+                    <br />
+                    12:15pm - 1:45pm
+                    <br />
+                    <a href='https://www.tapgym.com/schedule/adults' target='_blank' rel='noreferrer'>@ The Athletic Playground</a> (<a href='https://maps.app.goo.gl/5c65DNthApxKh9mG9' target='_blank' rel='noreferrer'>in Emeryville</a>)
+                </h4>
+                <p>
+                    You don't need any prior experience; this class warmly welcomes both complete beginners and those with experience.
+                </p>
+            </>
+        ),
+        image: './images/shira-ci.png',
+        c2a: 'Sign Up',
+        c2aLink: 'https://www.tapgym.com/schedule/adults',
+    },
+    {
+        title: (
+            <>
+                Thursday Contact Improvisation : Pre-Jam class @ The Finnish Hall in Berkeley
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Contact Improvisation class before the weekly Thursday Jam on November 20.
+                    <br />
+                    <br />
+                    November 20
+                    <br />
+                    7:00pm (followed by the Jam from 8pm - 11pm)
+                    <br />
+                    <a href='https://maps.app.goo.gl/MBSLK26ErYEs9wUg6' target='_blank' rel='noreferrer'>@ The Finnish Hall in Berkeley</a>
+                </h4>
+                <p>
+                    Every Thursday at Berkeley’s historic Finnish Hall, we gather for the biggest contact improvisation jam in the Bay Area. This is a vibrant, community-run space, where newcomers and experienced practitioners explore this dynamic movement form.
+                </p>
+                <p>
+                    The class and Jam are by donation.
+                </p>
+            </>
+        ),
+        image: './images/ava_ferries_hollow.png',
+        c2a: 'Learn More About the Thursday CI Jam',
+        c2aLink: 'https://thursdayjam.org/',
+    },
+    {
+        title: (
+            <>
+                Friday Contact Improvisation @ The Athletic Playground
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Friday, November 21
+                    <br />
+                    12:15pm - 1:45pm
+                    <br />
+                    <a href='https://www.tapgym.com/schedule/adults' target='_blank' rel='noreferrer'>@ The Athletic Playground</a> (<a href='https://maps.app.goo.gl/5c65DNthApxKh9mG9' target='_blank' rel='noreferrer'>in Emeryville</a>)
+                </h4>
+                <p>
+                    You don't need any prior experience; this class warmly welcomes both complete beginners and those with experience.
+                </p>
+            </>
+        ),
+        image: './images/shira-ci.png',
+        c2a: 'Sign Up',
+        c2aLink: 'https://www.tapgym.com/schedule/adults',
+    },
 ];
 
 const upcomingEventItemsList = buildEventItemsList(upcomingEvents)

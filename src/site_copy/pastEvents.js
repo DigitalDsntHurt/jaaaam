@@ -1,6 +1,57 @@
 import { buildEventItemsList } from './siteCopyUtilities';
 
 const pastEvents = [
+        {
+        title: (
+            <>
+                Friday Contact Improvisation @ The Athletic Playground
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Friday, October 31 (<i>!spooky!</i>)
+                    <br />
+                    12:15pm - 1:45pm
+                    <br />
+                    <a href='https://www.tapgym.com/schedule/adults' target='_blank' rel='noreferrer'>@ The Athletic Playground</a> (<a href='https://maps.app.goo.gl/5c65DNthApxKh9mG9' target='_blank' rel='noreferrer'>in Emeryville</a>)
+                </h4>
+                <p>
+                    You don't need any prior experience; this class warmly welcomes both complete beginners and those with experience.
+                </p>
+            </>
+        ),
+        image: './images/shira-ci.png',
+        c2a: 'Sign Up',
+        c2aLink: 'https://www.tapgym.com/schedule/adults',
+    },
+    {
+        title: (
+            <>
+                Contemplative Dance Practice: A Movement & Meditation Workshop in Berkeley, CA
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Date : Oct 26, 2025
+                    <br />
+                    Time : 11am - 2pm
+                    <br />
+                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
+                </h4>
+                <p>
+                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and discovery of self and other.
+                </p>
+                <p>
+                    This workshop is an introduction to CDP, appropriate for all bodies - no prior experience with dance or meditation is needed.
+                </p>
+            </>
+        ),
+        image: './images/zev_at_nitas.png',
+        c2a: 'Details + Registration',
+        c2aLink: 'https://www.eventbrite.com/e/contemplative-dance-practice-a-movement-meditation-workshop-tickets-1633140590469?aff=odcleoeventsincollection',
+    },
     {
         title: (
             <>
