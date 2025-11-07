@@ -36,7 +36,6 @@ const CdpFridayGroup = () => {
             />
             <BodySection 
                 theme='dark'
-                // title='Finances'
                 text={finances}
             />
             <Footer theme='light' />

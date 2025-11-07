@@ -12,6 +12,7 @@ import RopeFlow from './pages/RopeFlow';
 import Testimonials from './pages/Testimonials';
 import UpcomingEvents from './pages/UpcomingEvents';
 import CdpFridayGroup from './pages/CdpFridayGroup';
+import PracticeNotes from './pages/PracticeNotes';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/rope-flow" element={<RopeFlow />} />
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/cdp-friday-group" element={<CdpFridayGroup />} />
+        <Route path="/practice-notes" element={<PracticeNotes />} />
       </Routes>
       <Analytics />
       <SpeedInsights />
