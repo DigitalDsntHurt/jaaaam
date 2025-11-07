@@ -3,6 +3,9 @@ import Footer from "../content_components/Footer";
 import TitleBanner from '../generic_components/TitleBanner';
 
 const practiceNotes = (<>
+        <img alt='' className='event-item-image' src='./images/practice_notes/11-7-25.png' />
+        <hr />
+
         <img alt='' className='event-item-image' src='./images/practice_notes/11-5-25.png' />
         <hr />
 
