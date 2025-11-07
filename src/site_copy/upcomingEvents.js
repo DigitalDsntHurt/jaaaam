@@ -63,36 +63,6 @@ const upcomingEvents = [
     {
         title: (
             <>
-                Thursday Contact Improvisation : Pre-Jam class @ The Finnish Hall in Berkeley
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    Contact Improvisation class before the weekly Thursday Jam on November 20.
-                    <br />
-                    <br />
-                    November 20
-                    <br />
-                    7:00pm (followed by the Jam from 8pm - 11pm)
-                    <br />
-                    <a href='https://maps.app.goo.gl/MBSLK26ErYEs9wUg6' target='_blank' rel='noreferrer'>@ The Finnish Hall in Berkeley</a>
-                </h4>
-                <p>
-                    Every Thursday at Berkeley’s historic Finnish Hall, we gather for the biggest contact improvisation jam in the Bay Area. This is a vibrant, community-run space, where newcomers and experienced practitioners explore this dynamic movement form.
-                </p>
-                <p>
-                    The class and Jam are by donation.
-                </p>
-            </>
-        ),
-        image: './images/ava_ferries_hollow.png',
-        c2a: 'Learn More About the Thursday CI Jam',
-        c2aLink: 'https://thursdayjam.org/',
-    },
-    {
-        title: (
-            <>
                 Friday Contact Improvisation @ The Athletic Playground
             </>
         ),
