@@ -4,6 +4,34 @@ const upcomingEvents = [
     {
         title: (
             <>
+                Thanksgiving Morning CDP
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Thursday, November 27 @ 10:00am - 12:00pm
+                    <br />
+                    <a href='https://maps.app.goo.gl/2WK5u8MBd7sauMEXA' target='_blank' rel='noreferrer'>@ Joe Goode Annex</a> in San Francisco
+                </h4>
+                <p>
+                    Contemplative Dance Practice (CDP) is seated meditation, followed by solo movement, followed by open improvisation. 
+                </p>
+                <p>
+                    We will warm up and attune together for ~45 minutes. Then at ~10:45 we will begin the 20/20/20 CDP practice. We will end with optional sharing, reflections and togetherness. No need to register in advance. Suggested donation $4 - $44. NOTAFLOF.
+                </p>
+                <p>
+                    All bodies welcome. 
+                </p>
+            </>
+        ),
+        image: './images/crawl-on-rocks-w-ava.jpg',
+        c2a: 'Nothing to do',
+        c2aLink: '',
+    },
+    {
+        title: (
+            <>
                 Deeper Practice : Rope Flow in Alameda, CA
             </>
         ),
