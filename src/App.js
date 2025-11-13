@@ -13,6 +13,7 @@ import Testimonials from './pages/Testimonials';
 import UpcomingEvents from './pages/UpcomingEvents';
 import CdpFridayGroup from './pages/CdpFridayGroup';
 import PracticeNotes from './pages/PracticeNotes';
+import WhatIsCdp from './pages/WhatIsCdp';
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/testimonials" element={<Testimonials />} />
         <Route path="/cdp-friday-group" element={<CdpFridayGroup />} />
         <Route path="/practice-notes" element={<PracticeNotes />} />
+        <Route path="/what-is-cdp" element={<WhatIsCdp />} />
       </Routes>
       <Analytics />
       <SpeedInsights />
