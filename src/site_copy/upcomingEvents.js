@@ -25,9 +25,9 @@ const upcomingEvents = [
                 </p>
             </>
         ),
-        image: './images/crawl-on-rocks-w-ava.jpg',
-        c2a: 'Nothing to do',
-        c2aLink: '',
+        image: './images/thanksgiving_CDP_2025.png',
+        c2a: 'What is CDP?',
+        c2aLink: '/what-is-cdp',
     },
     {
         title: (
@@ -44,7 +44,7 @@ const upcomingEvents = [
                         <span style={{fontWeight: 200, letterSpacing: "0.2px"}}>
                             {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237975?skipPreview=true' target="_blank" rel="noreferrer"><del>Oct 9</del></a>,
                             {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237979?skipPreview=true' target="_blank" rel="noreferrer"><del>Oct 16</del></a>,
-                            {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237981?skipPreview=true' target="_blank" rel="noreferrer">Nov 13</a>,
+                            {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237981?skipPreview=true' target="_blank" rel="noreferrer"><del>Nov 13</del></a>,
                             {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122238417?skipPreview=true' target="_blank" rel="noreferrer">Nov 20</a>
                         </span>
                     <br />
@@ -73,7 +73,7 @@ const upcomingEvents = [
         description: (
             <>
                 <h4>
-                    Friday, November 14
+                    Friday, November 28
                     <br />
                     12:15pm - 1:45pm
                     <br />
@@ -86,7 +86,7 @@ const upcomingEvents = [
         ),
         image: './images/shira-ci.png',
         c2a: 'Sign Up',
-        c2aLink: 'https://www.tapgym.com/schedule/adults',
+        c2aLink: 'https://momence.com/Athletic-Playground/Contact-Improvisation-(Adults-and-ages-14%2B)/121275031?skipPreview=true',
     },
     {
         title: (
@@ -97,7 +97,7 @@ const upcomingEvents = [
         description: (
             <>
                 <h4>
-                    Friday, November 21
+                    Friday, December 12
                     <br />
                     12:15pm - 1:45pm
                     <br />
@@ -110,7 +110,7 @@ const upcomingEvents = [
         ),
         image: './images/shira-ci.png',
         c2a: 'Sign Up',
-        c2aLink: 'https://www.tapgym.com/schedule/adults',
+        c2aLink: 'https://momence.com/Athletic-Playground/Contact-Improvisation-(Adults-and-ages-14%2B)/121275033?skipPreview=true',
     },
 ];
 

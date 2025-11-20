@@ -103,7 +103,7 @@ const regularEvents = [
         ),
         image: './images/EmbodiedGroove.jpeg',
         c2a: 'Details',
-        c2aLink: 'http://localhost:3000/cdp-friday-group',
+        c2aLink: '/cdp-friday-group',
     },
 ];
 
