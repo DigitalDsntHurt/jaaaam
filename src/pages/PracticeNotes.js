@@ -6,9 +6,17 @@ const practiceNotes = (<>
         
         <img alt='' className='event-item-image' src='./images/practice_notes/fall-in-love-with-the-process.png' />
         <hr />
+        <br />
+        <br />
+        <br />
+        <br />
 
-        
-        
+        <img alt='' className='event-item-image' src='./images/practice_notes/11-20-25.png' />
+        <hr />
+
+        <img alt='' className='event-item-image' src='./images/practice_notes/11-19-25.png' />
+        <hr />
+
         <img alt='' className='event-item-image' src='./images/practice_notes/11-14-25.png' />
         <hr />
         
