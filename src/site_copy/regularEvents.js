@@ -44,12 +44,12 @@ const regularEvents = [
                 <h4>
                     Weekly on Tuesdays
                     <br />
-                    1:15 - 2:45pm
+                    1:30 - 3:00pm
                     <br />
                     <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
                 </h4>
                 <p>
-                    In this class, we treat movement fluidity as a learnable skill and explore how we can move efficiently, safely and beautifully over the course of a long life.
+                    Contemplative movement and dance as a solo practice. Improvisation, attention, somatics.
                 </p>
             </>
         ),

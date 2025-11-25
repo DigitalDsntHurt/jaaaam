@@ -4,6 +4,21 @@ const upcomingEvents = [
     {
         title: (
             <>
+                Thanksgiving Week Offerings
+            </>
+        ),
+        description: (
+            <>
+                <p></p>
+            </>
+        ),
+        image: './images/Thanksgiving Week 2025 Flyer.png',
+        c2a: 'Nothing To Do. Nothing to Click.',
+        c2aLink: '/',
+    },
+    {
+        title: (
+            <>
                 Thanksgiving Morning CDP
             </>
         ),
@@ -32,41 +47,6 @@ const upcomingEvents = [
     {
         title: (
             <>
-                Deeper Practice : Rope Flow in Alameda, CA
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    Thursday Evenings
-                    <br />
-                    Four sessions : 
-                        <span style={{fontWeight: 200, letterSpacing: "0.2px"}}>
-                            {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237975?skipPreview=true' target="_blank" rel="noreferrer"><del>Oct 9</del></a>,
-                            {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237979?skipPreview=true' target="_blank" rel="noreferrer"><del>Oct 16</del></a>,
-                            {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237981?skipPreview=true' target="_blank" rel="noreferrer"><del>Nov 13</del></a>,
-                            {' '}<a href='https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122238417?skipPreview=true' target="_blank" rel="noreferrer">Nov 20</a>
-                        </span>
-                    <br />
-                    Time : 6:30pm - 7:45pm
-                    <br />
-                    <a href='https://maps.app.goo.gl/cgQ8ybDXApvEepUT9' target='_blank' rel='noreferrer'>@ Breathing Room in Alameda, CA</a>
-                </h4>
-                <p>
-                    Rope Flow is a fun, low-impact movement practice using a rope to create continuous, flowing patterns around your body.
-                </p>
-                <p>
-                    No experience necessary.
-                </p>
-            </>
-        ),
-        image: './images/rope_flow_hop.jpg',
-        c2a: 'Details + Registration',
-        c2aLink: 'https://momence.com/Breathing-Room/Deeper-Practice%3A-Rope-Flow/122237981?skipPreview=true',
-    },
-    {
-        title: (
-            <>
                 Friday Contact Improvisation @ The Athletic Playground
             </>
         ),
@@ -91,6 +71,57 @@ const upcomingEvents = [
     {
         title: (
             <>
+                Contemplative Dance Practice: A Movement & Meditation Workshop
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Date : Nov 30, 2025
+                    <br />
+                    Time : 11am - 2pm
+                    <br />
+                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
+                </h4>
+                <p>
+                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and discovery of self and other.
+                </p>
+                <p>
+                    This workshop is an introduction to CDP, appropriate for all bodies - no prior experience with dance or meditation is needed.
+                </p>
+            </>
+        ),
+        image: './images/zev_at_nitas.png',
+        c2a: 'Details + Registration',
+        c2aLink: 'https://momence.com/71603/upcoming-events/125925745',
+    },
+    {
+        title: (
+            <>
+                The Moving Stillness: A Workshop in Meditation and Contact Improvisation with Nick Smith and Amma Thanasanti
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Saturday, December 6
+                    <br />
+                    11:30am - 4:30pm
+                    <br />
+                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
+                </h4>
+                <p>
+                    What happens when meditation meets movement — when stillness learns to dance? Through mindfulness, loving-kindness, and focused attention, meditation teaches us to see clearly what is, as it is. Through movement, touch, and listening, Contact Improvisation reveals how structure can arise naturally from presence. In this workshop, co-facilitators Amma Thanasanti and Nick Smith invite participants into an embodied exploration of what unfolds when these two practices meet. Bring your curiosity, your breath, and your presence — let’s discover how meditation begins to dance.
+                </p>
+            </>
+        ),
+        image: './images/moving-stillness.jpeg',
+        c2a: 'Info + Sign Up',
+        c2aLink: 'https://momence.com/Berkeley-Alembic/The-Moving-Stillness%3A-A-Workshop-in-Meditation-and-Contact-Improvisation-with-Nick-Smith-and-Amma-Thanasanti/125692057?skipPreview=true',
+    },
+    {
+        title: (
+            <>
                 Friday Contact Improvisation @ The Athletic Playground
             </>
         ),
@@ -111,6 +142,33 @@ const upcomingEvents = [
         image: './images/shira-ci.png',
         c2a: 'Sign Up',
         c2aLink: 'https://momence.com/Athletic-Playground/Contact-Improvisation-(Adults-and-ages-14%2B)/121275033?skipPreview=true',
+    },
+        {
+        title: (
+            <>
+                Contemplative Dance Practice: A Movement & Meditation Workshop
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Date : Dec 14, 2025
+                    <br />
+                    Time : 11am - 2pm
+                    <br />
+                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
+                </h4>
+                <p>
+                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and discovery of self and other.
+                </p>
+                <p>
+                    This workshop is an introduction to CDP, appropriate for all bodies - no prior experience with dance or meditation is needed.
+                </p>
+            </>
+        ),
+        image: './images/zev_at_nitas.png',
+        c2a: 'Details + Registration',
+        c2aLink: 'https://momence.com/Berkeley-Alembic/Contemplative-Dance-Practice%3A-A-Movement-%26-Meditation-Workshop-with-Nick-Smith-/125925651?skipPreview=true',
     },
 ];
 
