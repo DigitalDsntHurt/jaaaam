@@ -14,7 +14,7 @@ const seriesDetails = (<>
 
 const finances = (<>
     <p>Money is how we pay for our beautiful practice space at The Finnish Hall.</p>
-    <p>This year to date, as of Nov 4, 2025 this group’s net income is -$13.52</p>
+    <p>This year to date, as of Nov 4, 2025 this group’s net income is +$46.48</p>
     <p>The aim of this practice group is to continue practice in perpetuity.</p>
     <p>May this practice be of service.</p>
 </>);
