@@ -11,6 +11,9 @@ const practiceNotes = (<>
         <br />
         <br />
 
+        <img alt='' className='event-item-image' src='./images/practice_notes/12-2-25.png' />
+        <hr />
+
         <img alt='' className='event-item-image' src='./images/practice_notes/11-28-25.png' />
         <hr />
 
