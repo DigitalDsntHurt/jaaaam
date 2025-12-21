@@ -10,6 +10,21 @@ const practiceNotes = (<>
         <br />
         <br />
         <br />
+        
+        <img alt='' className='event-item-image' src='./images/practice_notes/12-21-25.png' />
+        <hr />
+
+        <img alt='' className='event-item-image' src='./images/practice_notes/12-19-25.png' />
+        <hr />
+
+        <img alt='' className='event-item-image' src='./images/practice_notes/12-17-25.png' />
+        <hr />
+
+        <img alt='' className='event-item-image' src='./images/practice_notes/12-14-25.png' />
+        <hr />
+
+        <img alt='' className='event-item-image' src='./images/practice_notes/12-12-25.png' />
+        <hr />
 
         <img alt='' className='event-item-image' src='./images/practice_notes/12-10-25.png' />
         <hr />
