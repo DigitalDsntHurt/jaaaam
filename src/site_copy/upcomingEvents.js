@@ -4,26 +4,29 @@ const upcomingEvents = [
     {
         title: (
             <>
-                Contact Improvisation
+                Contemplative Dance Practice: A Movement & Meditation Workshop
             </>
         ),
         description: (
             <>
                 <h4>
-                    Friday, December 19
+                    Date : Jan 25, 2026
                     <br />
-                    12:15pm - 1:45pm
+                    Time : 11am - 2pm
                     <br />
-                    <a href='https://www.tapgym.com/schedule/adults' target='_blank' rel='noreferrer'>@ The Athletic Playground</a> (<a href='https://maps.app.goo.gl/5c65DNthApxKh9mG9' target='_blank' rel='noreferrer'>in Emeryville</a>)
+                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
                 </h4>
                 <p>
-                    You don't need any prior experience; this class warmly welcomes both complete beginners and those with experience.
+                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and discovery of self and other.
+                </p>
+                <p>
+                    This workshop is an introduction to CDP, appropriate for all bodies - no prior experience with dance or meditation is needed.
                 </p>
             </>
         ),
-        image: './images/shira-ci.png',
-        c2a: 'Sign Up',
-        c2aLink: 'https://momence.com/Athletic-Playground/Contact-Improvisation-(Adults-and-ages-14%2B)/121275034?skipPreview=true',
+        image: './images/zev_at_nitas.png',
+        c2a: 'Details + Registration',
+        c2aLink: 'https://momence.com/Berkeley-Alembic/Contemplative-Dance-Practice%3A-A-Movement-%26-Meditation-Workshop-with-Nick-Smith-/128339239?skipPreview=true',
     },
     {
         title: (
@@ -39,7 +42,7 @@ const upcomingEvents = [
                     <br />
                     Weekly on Mondays
                     <br />
-                    5:00pm - 6:30pm
+                    6:00pm - 8:00pm
                     <br />
                     <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
                 </h4>
@@ -53,30 +56,6 @@ const upcomingEvents = [
         image: './images/amma-nick.png',
         c2a: 'Register @ The Alembic',
         c2aLink: 'https://www.berkeleyalembic.org/events',
-    },
-    {
-        title: (
-            <>
-                Fluid Movement
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    Weekly on Tuesdays
-                    <br />
-                    1:30 - 3:00pm
-                    <br />
-                    <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
-                </h4>
-                <p>
-                    Contemplative, improvisational, attentional movement and dance as a solo practice.
-                </p>
-            </>
-        ),
-        image: './images/blur_at_the_center.png',
-        c2a: 'Register @ The Athletic Playground',
-        c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
     },
     {
         title: (

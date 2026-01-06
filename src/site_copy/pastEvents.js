@@ -4,6 +4,54 @@ const pastEvents = [
     {
         title: (
             <>
+                Fluid Movement (Weekly from Nov 2024 to Jan 2026)
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Weekly on Tuesdays
+                    <br />
+                    1:30 - 3:00pm
+                    <br />
+                    <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
+                </h4>
+                <p>
+                    Contemplative, improvisational, attentional movement and dance as a solo practice.
+                </p>
+            </>
+        ),
+        image: './images/blur_at_the_center.png',
+        c2a: 'Register @ The Athletic Playground',
+        c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
+    },
+    {
+        title: (
+            <>
+                Contact Improvisation
+            </>
+        ),
+        description: (
+            <>
+                <h4>
+                    Friday, December 19
+                    <br />
+                    12:15pm - 1:45pm
+                    <br />
+                    <a href='https://www.tapgym.com/schedule/adults' target='_blank' rel='noreferrer'>@ The Athletic Playground</a> (<a href='https://maps.app.goo.gl/5c65DNthApxKh9mG9' target='_blank' rel='noreferrer'>in Emeryville</a>)
+                </h4>
+                <p>
+                    You don't need any prior experience; this class warmly welcomes both complete beginners and those with experience.
+                </p>
+            </>
+        ),
+        image: './images/shira-ci.png',
+        c2a: 'Sign Up',
+        c2aLink: 'https://momence.com/Athletic-Playground/Contact-Improvisation-(Adults-and-ages-14%2B)/121275034?skipPreview=true',
+    },
+    {
+        title: (
+            <>
                 Contemplative Dance Practice: A Movement & Meditation Workshop
             </>
         ),
