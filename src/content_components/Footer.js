@@ -16,14 +16,6 @@ const Footer = ({ theme }) => {
                     <a href='/past-events'>Past Events</a>
                 </div>
 
-                {/* <div className='footer-link'>
-                    <a href='/community-classes'>Community Classes</a>
-                </div> */}
-
-                {/* <div className='footer-link'>
-                    <a href='/blah-blah'>blahblah</a>
-                </div> */}
-
                 <div className='footer-link'>
                     <a href='https://forms.gle/Dr1PLVPzeULtcBGa8' target='_blank' rel='noreferrer'>Sign Up: all offerings</a>
                 </div>

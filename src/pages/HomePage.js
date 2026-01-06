@@ -5,7 +5,7 @@ import Events from '../generic_components/events/Events';
 import Footer from '../content_components/Footer';
 import HomeHero from '../content_components/HomeHero';
 import Students from "../content_components/Students";
-// import TitleBanner from '../generic_components/TitleBanner';
+import BodyWorkBanner from '../content_components/BodyWorkBanner';
 
 const BioBanner = () => {
     return (
@@ -20,9 +20,7 @@ const HomePage = () => {
         <>
             <HomeHero />
             <BioBanner />
-            {/* <TitleBanner
-                bannerText='WAYS TO PLAY'
-            /> */}
+            <BodyWorkBanner />
             <Events />
             <Students />
             <Bio theme='light' />
