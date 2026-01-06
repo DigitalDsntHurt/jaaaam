@@ -25,7 +25,10 @@ const Footer = ({ theme }) => {
                 </div> */}
 
                 <div className='footer-link'>
-                    <a href='https://forms.gle/QrvDBXj4VGGxi3x57' target='_blank' rel='noreferrer'>Sign Up</a>
+                    <a href='https://forms.gle/Dr1PLVPzeULtcBGa8' target='_blank' rel='noreferrer'>Sign Up: all offerings</a>
+                </div>
+                <div className='footer-link'>
+                    <a href='https://forms.gle/DqCh2SNphUHvzHtL6' target='_blank' rel='noreferrer'>Sign Up: CDP offerings</a>
                 </div>
             </div>
 
