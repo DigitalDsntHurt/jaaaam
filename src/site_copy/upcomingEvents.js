@@ -97,7 +97,7 @@ const upcomingEvents = [
                     <a href='https://maps.app.goo.gl/MBSLK26ErYEs9wUg6' target='_blank' rel='noreferrer'>@ The Finnish Hall in Berkeley</a>
                 </h4>
                 <p>
-                    20/20/20 practice (20 minutes seated meditation, followed by 20 minutes of continued exploration, followed by 20 minutes of open improvisation) followed by optional time for discussion and togetherness.
+                    20/20/20 practice (20 minutes seated meditation, followed by 20 minutes of personal practice, followed by 20 minutes of open improvisation) followed by time for discussion and togetherness.
                 </p>
                 <p>
                     This is a practice group, not a class. There is space-holding but little to no facilitation or instruction.
