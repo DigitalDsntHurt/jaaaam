@@ -4,7 +4,7 @@ import TitleBanner from '../generic_components/TitleBanner';
 
 const myBodyText = (
     <>
-        <p>This is a place where i list and summarize and write about and concretize the aches and pains, injuries and tensions in the body. This note is for me and for my collaborators and for my bodyworkers.</p>
+        <p>This is a place where i list and summarize and write about and concretize the aches and pains, injuries and tensions in the body. This note is for me and for my collaborators and for my bodyworkers. I love my body.</p>
         <ul>
             <li>Scull</li>
             <li>Nose</li>
