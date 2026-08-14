@@ -15,6 +15,7 @@ import CdpFridayGroup from './pages/CdpFridayGroup';
 import PracticeNotes from './pages/PracticeNotes';
 import WhatIsCdp from './pages/WhatIsCdp';
 import MyBody from './pages/MyBody';
+import BodyWork from './pages/BodyWork';
 
 function App() {
   return (
@@ -33,6 +34,8 @@ function App() {
         <Route path="/practice-notes" element={<PracticeNotes />} />
         <Route path="/what-is-cdp" element={<WhatIsCdp />} />
         <Route path="/my-body" element={<MyBody />} />
+        <Route path="/my-body" element={<MyBody />} />
+        <Route path="/body-work" element={<BodyWork />} />
       </Routes>
       <Analytics />
       <SpeedInsights />
