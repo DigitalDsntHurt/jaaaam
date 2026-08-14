@@ -35,7 +35,7 @@ function App() {
         <Route path="/what-is-cdp" element={<WhatIsCdp />} />
         <Route path="/my-body" element={<MyBody />} />
         <Route path="/my-body" element={<MyBody />} />
-        <Route path="/body-work" element={<BodyWork />} />
+        <Route path="/bodywork" element={<BodyWork />} />
       </Routes>
       <Analytics />
       <SpeedInsights />

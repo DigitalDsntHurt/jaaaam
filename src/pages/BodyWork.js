@@ -23,19 +23,45 @@ const myBodyText = (
             <p>
                 If you're dealing with pain, stiffness, an old injury, or just the accumulated wear of an active life, I'd love to help you feel at home in your body again.
             </p>
+            {/* <p style={{ textAlign: 'center', fontWeight: 800 }}>
+                Email grapesdance@gmail.com to <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>book a session</a>.
+            </p> */}
             <p style={{ textAlign: 'center', fontWeight: 800 }}>
-                <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>Book a session</a>
+                Testimonials
+            </p>
+            <p>
+                "Nick is deeply intuitive and endlessly curious and this feels like a magical combination to receive. He/They brings their full presence every session and has helped me feel much better. You are in very good hands with Nick."
+                <br />
+                <span style={ { float: 'right' } }>- JG</span>
+            </p>
+            <p>
+                "Nick is truly an intuitive and skilled healer. As a dancer, I often hurt in all sorts of places, all at the same time. Nick understands and “listens” to how different body parts connect each other, so he addresses localized pain holistically. My body always feels looser and more integrated after he works on me. Thank you, Nick!"
+                <br />
+                <span style={ { float: 'right' } }>- BH</span>
+            </p>
+            <p>
+                "Nick’s way of listening to my questions, my comfort, and my body made the session finely responsive and gently illuminating."
+                <br />
+                <span style={ { float: 'right' } }>- JE</span>
+            </p>
+            <p style={{ textAlign: 'center', fontWeight: 800 }}>
+                Email grapesdance@gmail.com to <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>book a session</a>.
             </p>
         </p>
     </>
 );
 
-const MyBody = () => {
+const BodyWork = () => {
     return (
         <>
             <TitleBanner 
                 bannerText={<>
                         Bodywork
+                    </>}
+                subText={<>
+                        <p style={{ textAlign: 'center', fontWeight: 800 }}>
+                            Email grapesdance@gmail.com to <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>book a session</a>.
+                        </p>
                     </>}
             />
             <BodySection 
@@ -47,4 +73,4 @@ const MyBody = () => {
     );
 }
 
-export default MyBody;
+export default BodyWork;
