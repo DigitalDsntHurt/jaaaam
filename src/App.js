@@ -20,6 +20,7 @@ import PrivateSessions from './pages/PrivateSessions';
 import ContactForPartners from './pages/ContactForPartners';
 import YouthWork from './pages/YouthWork';
 import EndOfLifeCaregiving from './pages/EndOfLifeCaregiving';
+import NotFound from './pages/NotFound';
 
 function App() {
   return (
@@ -43,6 +44,7 @@ function App() {
         <Route path="/contact-for-partners" element={<ContactForPartners />} />
         <Route path="/youth-work" element={<YouthWork />} />
         <Route path="/end-of-life-caregiving" element={<EndOfLifeCaregiving />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Analytics />
       <SpeedInsights />

@@ -20,7 +20,7 @@ const seriesDetails = (<>
         <p>May this practice be of service.</p>
     </>);
 
-const CdpFridayGroup = () => {
+const WhatIsCdp = () => {
     return (
         <div className='tidepool-theme'>
             <TitleBanner
@@ -39,4 +39,4 @@ const CdpFridayGroup = () => {
     );
 }
 
-export default CdpFridayGroup;
+export default WhatIsCdp;

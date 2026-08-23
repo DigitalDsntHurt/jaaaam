@@ -1,0 +1,47 @@
+// Homepage-only decorative touches — scoped to `.homepage-v2` (an extra
+// class on the same wrapper as `.tidepool-theme`) so none of this leaks
+// onto other pages that reuse these same shared components (Bodywork's own
+// TestimonialsGrid, Testimonials.js's Students, etc).
+
+.homepage-v2 {
+    // ---------- testimonials: a quiet signature on every card ----------
+
+    .student-testimonial-box {
+        position: relative;
+    }
+
+    // Sits fully within the card's own padding now, rather than peeking
+    // over the top edge.
+    .student-testimonial-box::before {
+        color: var(--sunlight);
+        content: '“';
+        font-family: 'Fraunces', Georgia, serif;
+        font-size: 3rem;
+        font-style: italic;
+        left: 0.6rem;
+        line-height: 1;
+        opacity: 0.4;
+        position: absolute;
+        top: 0.3rem;
+    }
+
+    .student-testimonial-text {
+        position: relative;
+    }
+
+    // The "Bodywork" / "Movement Work" sub-headings read as a tier below
+    // the "Testimonials" title above them — same accent color as the rest
+    // of the page's link/label system, one step down in size from the
+    // default xx-large (not all the way down to `large`, which felt like
+    // too big a drop last time).
+    .testimonial-subheading {
+        color: var(--sunlight);
+        font-size: x-large;
+    }
+
+    // ---------- about nick: a soft glow behind the portrait ----------
+
+    .image-left-text-right-image {
+        box-shadow: 0 24px 48px -12px rgba(79, 124, 109, 0.5);
+    }
+}

@@ -2,9 +2,10 @@ import EventItem from "../generic_components/events/EventItem";
 
 const buildEventItemsList = (eventsList) => {
     let listOfEventItems = []
-    eventsList.forEach((pastEvent) => {
+    eventsList.forEach((pastEvent, index) => {
         listOfEventItems.push(
             <EventItem
+                key={index}
                 c2a={pastEvent.c2a}
                 c2aLink={pastEvent.c2aLink}
                 description={pastEvent.description}

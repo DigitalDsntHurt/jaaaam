@@ -2,7 +2,6 @@ const Students = ({ theme }) => {
     return (
         <div className={`landing-sect ${theme}-theme`} >
             <div className="students-div-wrapper">
-                {/* DAN */}
                 <div className="students-div-row-full">
                     <div className='student-testimonial-box'>
                         <div className='student-testimonial-text'>
@@ -12,14 +11,12 @@ const Students = ({ theme }) => {
                     </div>
                 </div>
                 <div className="students-div-row-1">
-                    {/* VIC */}
                     <div className='student-testimonial-box'>
                         <div className='student-testimonial-text'>
                             "Working with Nick has been such an enlightening experience. He challenges me to step away from my comfort zone, encouraging me to do things I wasn't sure I could do. I feel safe with Nick's coaching because of his experience and because he understands my abilities and limitations. He works with me at a level I'm comfortable with, yet he continually challenges me with new movements and movement concepts. Nick keeps our workouts fun, and he adjusts as necessary."
                         </div>
                         <div className='student-attribution-text'>-- VE</div>
                     </div>
-                    {/* TRAVIS */}
                     <div className='student-testimonial-box'>
                         <div className='student-testimonial-text'>
                             "My experience of moving with Nick is having a partner who is light-hearted and focused. When learning from him, it's obvious how thoughtful he is about the material. He's adaptive to whoever he's with at the present moment and what they need."
@@ -27,7 +24,6 @@ const Students = ({ theme }) => {
                         <div className='student-attribution-text'>-- TJ</div>
                     </div>
                 </div>
-                {/* EMMA */}
                 <div className="students-div-row-full">
                     <div className='student-testimonial-box'>
                         <div className='student-testimonial-text'>
@@ -36,7 +32,6 @@ const Students = ({ theme }) => {
                         <div className='student-attribution-text'>-- EA</div>
                     </div>
                 </div>
-                {/* Deanna */}
                 <div className="students-div-row-full">
                     <div className='student-testimonial-box'>
                         <div className='student-testimonial-text'>
@@ -46,7 +41,7 @@ const Students = ({ theme }) => {
 
                             All to say, movement won’t replace your Peloton, but I’ve found it gives me a much more holistic approach to my physical health and connection with my body, understanding its capabilities and limitations, and thoughtfulness of what I want to do about it."
                         </div>
-                        <div className='student-attribution-text'>-- Deanna U.</div>
+                        <div className='student-attribution-text'>-- DU</div>
                     </div>
                 </div>
             </div>

@@ -1,4 +1,5 @@
 import './HomePage.scss';
+import './HomePageV2.scss';
 import '../styles/Tidepool.scss';
 import bodyworkTestimonials from '../site_copy/bodyworkTestimonials';
 import Bio from '../content_components/Bio';
@@ -33,7 +34,7 @@ const BioBanner = () => {
 // Not yet wired to "/" — see /home-v2 in App.js.
 const HomePageV2 = () => {
     return (
-        <div className='tidepool-theme'>
+        <div className='tidepool-theme homepage-v2'>
             <HomeHero
                 breakpoint={1000}
                 desktopImage='/images/in_boulder.png'
@@ -43,9 +44,9 @@ const HomePageV2 = () => {
             <OfferingsPromo />
             <Events hideYouthWork={true} />
             <TitleBanner bannerText="Testimonials" />
-            <TitleBanner bannerText="Bodywork" />
+            <TitleBanner bannerText="Bodywork" className="testimonial-subheading" />
             <TestimonialsGrid testimonials={bodyworkTestimonials} theme='dark' />
-            <TitleBanner bannerText="Movement Work" />
+            <TitleBanner bannerText="Movement Work" className="testimonial-subheading" />
             <Students theme='dark' />
             <Bio theme='light' />
             <FooterV2 />
