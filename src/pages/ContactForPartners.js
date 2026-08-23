@@ -1,3 +1,4 @@
+import '../styles/Tidepool.scss';
 import BodySection from "../generic_components/BodySection";
 import Footer from "../content_components/Footer";
 import TitleBanner from '../generic_components/TitleBanner';
@@ -38,7 +39,7 @@ const contactForPartnersText = (
 
 const ContactForPartners = () => {
     return (
-        <>
+        <div className='tidepool-theme'>
             <TitleBanner
                 bannerText={<>
                         Contact Improvisation<br />For Couples & Partnerships
@@ -54,7 +55,7 @@ const ContactForPartners = () => {
                 text={contactForPartnersText}
             />
             <Footer theme='dark' />
-        </>
+        </div>
     );
 }
 

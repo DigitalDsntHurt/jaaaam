@@ -1,3 +1,4 @@
+import '../styles/Tidepool.scss';
 import BodySection from "../generic_components/BodySection";
 import EventsList from "../generic_components/events/EventsList";
 import Footer from "../content_components/Footer";
@@ -20,7 +21,7 @@ const youthWorkText = (
 
 const YouthWork = () => {
     return (
-        <>
+        <div className='tidepool-theme'>
             <TitleBanner
                 bannerText={<>
                         Youth Work
@@ -37,7 +38,7 @@ const YouthWork = () => {
             />
             <EventsList events={youthEventItemsList} />
             <Footer theme='dark' />
-        </>
+        </div>
     );
 }
 

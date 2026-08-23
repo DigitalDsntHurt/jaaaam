@@ -1,3 +1,4 @@
+import '../styles/Tidepool.scss';
 import BodySection from "../generic_components/BodySection";
 import Footer from "../content_components/Footer";
 import TitleBanner from '../generic_components/TitleBanner';
@@ -21,7 +22,7 @@ const hospiceWorkText = (
 
 const HospiceWork = () => {
     return (
-        <>
+        <div className='tidepool-theme'>
             <TitleBanner
                 bannerText={<>
                         Hospice Work
@@ -37,7 +38,7 @@ const HospiceWork = () => {
                 text={hospiceWorkText}
             />
             <Footer theme='dark' />
-        </>
+        </div>
     );
 }
 

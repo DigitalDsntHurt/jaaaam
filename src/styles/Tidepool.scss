@@ -1,6 +1,7 @@
-// Tidepool palette + type system — scoped entirely to `.tidepool-theme`
-// (the wrapper around HomePageV2) so it never leaks onto other pages that
-// reuse these same shared components (Events, Students, Bio, Footer, etc).
+// Tidepool palette + type system — scoped entirely to `.tidepool-theme`.
+// Wrap any page's top-level element in `<div className='tidepool-theme'>`
+// and import this file to opt that page into it; nothing here affects a
+// page that doesn't use the class.
 //
 // Every override below targets `.tidepool-theme <original selector>`, which
 // always has more classes than the un-scoped global rule it's replacing, so
@@ -50,7 +51,7 @@
         color: var(--sand);
     }
 
-    // ---------- hero ----------
+    // ---------- hero (homepage only — inert elsewhere) ----------
 
     .custom-hero-container {
         background-color: var(--tidepool);
@@ -134,7 +135,7 @@
         text-transform: uppercase;
     }
 
-    // ---------- bio banner ----------
+    // ---------- bio banner (homepage only — inert elsewhere) ----------
 
     // Two classes (`.dark-theme .bio-banner-text`) so this reliably beats
     // the hardcoded darker-blue color still baked into the base

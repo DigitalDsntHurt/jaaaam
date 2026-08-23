@@ -1,3 +1,4 @@
+import '../styles/Tidepool.scss';
 import BodySection from "../generic_components/BodySection";
 import Footer from "../content_components/Footer";
 import TitleBanner from '../generic_components/TitleBanner';
@@ -22,8 +23,8 @@ const seriesDetails = (<>
 
 const CdpFridayGroup = () => {
     return (
-        <>
-            <TitleBanner 
+        <div className='tidepool-theme'>
+            <TitleBanner
                 bannerText={<>
                         Contemplative Dance Practice
                         <br />
@@ -36,7 +37,7 @@ const CdpFridayGroup = () => {
                 text={seriesDetails}
             />
             <Footer theme='dark' />
-        </>
+        </div>
     );
 }
 

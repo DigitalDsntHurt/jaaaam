@@ -1,3 +1,4 @@
+import '../styles/Tidepool.scss';
 import BodySection from "../generic_components/BodySection";
 import Footer from "../content_components/Footer";
 import TitleBanner from '../generic_components/TitleBanner';
@@ -53,8 +54,8 @@ const myBodyText = (
 
 const BodyWork = () => {
     return (
-        <>
-            <TitleBanner 
+        <div className='tidepool-theme'>
+            <TitleBanner
                 bannerText={<>
                         Bodywork
                     </>}
@@ -64,12 +65,12 @@ const BodyWork = () => {
                         </p>
                     </>}
             />
-            <BodySection 
+            <BodySection
                 theme='light'
                 text={myBodyText}
             />
             <Footer theme='dark' />
-        </>
+        </div>
     );
 }
 
