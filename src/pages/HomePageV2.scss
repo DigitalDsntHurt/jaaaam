@@ -1,0 +1,197 @@
+// Tidepool palette + type system — scoped entirely to `.tidepool-theme`
+// (the wrapper around HomePageV2) so it never leaks onto other pages that
+// reuse these same shared components (Events, Students, Bio, Footer, etc).
+//
+// Every override below targets `.tidepool-theme <original selector>`, which
+// always has more classes than the un-scoped global rule it's replacing, so
+// it wins on specificity without needing `!important`.
+
+.tidepool-theme {
+    --tidepool: #24373D;
+    --sage: #4F7C6D;
+    --clay: #C1613F;
+    --sunlight: #F2B84B;
+    --sand: #F6F1E7;
+    --ink: #2B2723;
+    // A deeper rust than --clay, used only as button fill — plain Clay
+    // behind Sand text didn't have enough contrast to "pop" on a button.
+    --clay-button: #96442A;
+
+    background-color: var(--tidepool);
+    color: var(--sand);
+    font-family: 'Karla', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    min-height: 100vh;
+
+    h1 {
+        font-family: 'Fraunces', Georgia, 'Times New Roman', serif;
+        font-weight: 600;
+    }
+
+    // Base link treatment for anything not inside a light-theme card: a warm
+    // glint of sunlight on the dark water.
+    a {
+        border-bottom: 1px solid rgba(242, 184, 75, 0.45);
+        color: var(--sunlight);
+        text-decoration: none;
+    }
+
+    .light-theme {
+        background-color: var(--sand);
+        color: var(--ink);
+
+        a {
+            border-bottom-color: rgba(79, 124, 109, 0.35);
+            color: var(--sage);
+        }
+    }
+
+    .dark-theme {
+        background-color: var(--tidepool);
+        color: var(--sand);
+    }
+
+    // ---------- hero ----------
+
+    .custom-hero-container {
+        background-color: var(--tidepool);
+    }
+
+    // Below 1000px: back_to_back.jpg (see HomePageV2.js), sized off its own
+    // aspect ratio — it has zero safe margin (head and feet touch the frame
+    // edges), so it can never be cropped without cutting into the subject.
+    // `max-height` here is a gentle ceiling, not a hard crop box: below it,
+    // height still tracks width exactly (no crop, same as before). Only
+    // past it does the now-taller-than-the-box image get vertically
+    // centered by the container's own `align-items: center` and clipped by
+    // its `overflow: hidden` — a soft, symmetric trim top and bottom rather
+    // than a hard-coded crop ratio.
+    //
+    // The two breakpoints below are written as mutually-exclusive media
+    // queries (rather than an unconditional rule plus a min-width override
+    // fighting over the same properties) so there's never a question of
+    // which one wins — only one of them is ever actually in effect.
+    @media (max-width: 999.98px) {
+        .custom-hero-container {
+            height: auto;
+        }
+
+        .custom-hero-image-container {
+            height: auto;
+            max-height: 56vh;
+        }
+
+        .custom-hero-image {
+            height: auto;
+            position: static;
+            width: 100%;
+        }
+    }
+
+    // At 1000px+: in_boulder.png instead, which has generous headroom and
+    // can take a gentle crop cleanly. The image and its container are
+    // pinned to all four edges of `.custom-hero-container` with explicit
+    // `inset: 0` (not a `height: 100%` threaded through the flex parent),
+    // so it's guaranteed to reach the container's actual top edge — which
+    // is also where `.custom-hero-floating-header-link` anchors, so
+    // "Testimonials" reliably overlays the photo's top-right corner.
+    @media (min-width: 1000px) {
+        .custom-hero-container {
+            height: 70vh;
+        }
+
+        .custom-hero-image-container {
+            bottom: 0;
+            left: 0;
+            position: absolute;
+            right: 0;
+            top: 0;
+        }
+
+        .custom-hero-image {
+            height: 100%;
+            left: 0;
+            object-fit: cover;
+            // Past center, toward "bottom" — crops a bit more off the top
+            // of the frame than the bottom.
+            object-position: center 62%;
+            position: absolute;
+            top: 0;
+            width: 100%;
+        }
+    }
+
+    .custom-hero-floating-header-link {
+        color: var(--sand);
+    }
+
+    .custom-hero-floating-header-link a {
+        border-bottom: none;
+        color: inherit;
+        font-family: 'IBM Plex Mono', 'SF Mono', Menlo, monospace;
+        font-size: 0.78rem;
+        font-weight: 500;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+    }
+
+    // ---------- bio banner ----------
+
+    // Two classes (`.dark-theme .bio-banner-text`) so this reliably beats
+    // the hardcoded darker-blue color still baked into the base
+    // `.bio-banner-text` rule that the original (light-theme) homepage uses.
+    .dark-theme .bio-banner-text {
+        color: var(--sand);
+        font-family: 'Fraunces', Georgia, serif;
+        font-weight: 400;
+    }
+
+    // ---------- events ----------
+
+    .upcoming-schedule-title-banner-text {
+        font-family: 'Fraunces', Georgia, serif;
+        font-weight: 600;
+    }
+
+    .event-item-title {
+        font-family: 'Fraunces', Georgia, serif;
+        font-weight: 700;
+    }
+
+    .event-item-c2a {
+        background-color: var(--clay-button);
+        color: #ffffff;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+    }
+
+    // Neutralize the base link treatment where an event's sign-up link
+    // wraps its own already-styled button, so it doesn't pick up an
+    // underline meant for plain text links. (Extra class here so this
+    // reliably outranks the `.light-theme a` rule above regardless of
+    // source order.)
+    .event-item-container .event-item-text-container > a {
+        border-bottom: none;
+        color: inherit;
+    }
+
+    // ---------- testimonials ----------
+
+    .student-testimonial-box {
+        background-color: var(--sand);
+        color: var(--ink);
+    }
+
+    .student-testimonial-text {
+        font-family: 'Fraunces', Georgia, serif;
+    }
+
+    .student-attribution-text {
+        font-family: 'Karla', sans-serif;
+    }
+
+    // ---------- bio ----------
+
+    .image-left-text-right-title {
+        font-family: 'Fraunces', Georgia, serif;
+    }
+}

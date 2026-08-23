@@ -1,0 +1,99 @@
+// Colors here are CSS custom properties defined on the ancestor
+// `.tidepool-theme` wrapper (see HomePageV2.scss) — this component is only
+// ever rendered inside it.
+
+.offerings-promo-title {
+    font-family: 'Fraunces', Georgia, 'Times New Roman', serif;
+    font-size: xx-large;
+    font-weight: 600;
+    margin-bottom: 3vh;
+    text-align: center;
+}
+
+.offerings-promo-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2vh 2vw;
+    width: 88vw;
+}
+
+// When the grid has an odd number of cards, the first one spans both
+// columns as a lead card, then the rest fall into rows underneath.
+.offering-promo-card-full {
+    grid-column: 1 / -1;
+}
+
+.offering-promo-card {
+    align-items: center;
+    // Light sage-tinted grey — reads as its own surface against the
+    // section's plain Sand background instead of blending into it.
+    background-color: rgba(79, 124, 109, 0.08);
+    border-radius: 14px;
+    color: var(--ink);
+    display: flex;
+    flex-direction: column;
+    gap: 1.6vh;
+    padding: 3vh 2vw;
+    position: relative;
+    text-align: center;
+}
+
+.offering-promo-badge {
+    align-items: center;
+    background-color: var(--sunlight);
+    border-radius: 999px;
+    color: var(--ink);
+    display: inline-flex;
+    font-family: 'IBM Plex Mono', 'SF Mono', Menlo, monospace;
+    font-size: 0.68rem;
+    font-weight: 500;
+    letter-spacing: 0.08em;
+    padding: 0.3rem 0.8rem;
+    text-transform: uppercase;
+}
+
+.offering-promo-title {
+    color: var(--tidepool);
+    font-family: 'Fraunces', Georgia, 'Times New Roman', serif;
+    font-size: x-large;
+    font-weight: 700;
+}
+
+.offering-promo-blurb {
+    flex: 1 1 auto;
+    font-family: 'Karla', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    font-size: medium;
+    line-height: 20pt;
+    width: 100%;
+}
+
+// Three classes here — these cards sit inside `.light-theme`, and
+// `.tidepool-theme .light-theme a` (2 classes + the `a` tag) actually beats
+// a plain 2-class `.offering-promo-card .offering-promo-cta`, which was
+// silently repainting this text Sage green instead of the color below.
+.offerings-promo-grid .offering-promo-card .offering-promo-cta {
+    background-color: var(--clay-button);
+    border-bottom: none;
+    border-radius: 999px;
+    color: var(--sunlight);
+    display: inline-block;
+    font-family: 'Karla', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    font-size: medium;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    margin-top: 0.6vh;
+    padding: 8px 20px;
+    transition: transform 0.2s ease;
+}
+
+.offering-promo-card .offering-promo-cta:hover {
+    transform: scale(1.04);
+}
+
+@media screen and (max-width: 768px) {
+    .offerings-promo-grid {
+        grid-template-columns: 100%;
+        row-gap: 2vh;
+        width: 96vw;
+    }
+}
