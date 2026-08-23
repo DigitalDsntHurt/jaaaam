@@ -2,6 +2,7 @@
   "name": "jaaaam",
   "version": "1.1.1",
   "private": true,
+  "packageManager": "yarn@1.22.21",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@testing-library/jest-dom": "^5.17.0",

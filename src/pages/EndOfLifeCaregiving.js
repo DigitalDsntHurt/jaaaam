@@ -37,7 +37,7 @@ const EndOfLifeCaregiving = () => {
             <div className='landing-sect light-theme' style={{ paddingBottom: 0 }}>
                 <img
                     alt='sunlight through a spiderweb, seen through a wooden gate'
-                    src='/images/portal_cropped.png'
+                    src='/images/portal_cropped.jpg'
                     style={{ borderRadius: '14px', maxWidth: '640px', width: '100%' }}
                 />
             </div>
