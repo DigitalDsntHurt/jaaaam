@@ -25,7 +25,7 @@ const youthEvents = [
                 </p>
             </>
         ),
-        image: './images/talkin-to-kids.JPG',
+        image: './images/with_kids_cropped.png',
         c2a: 'Sign Up',
         c2aLink: 'https://www.tapgym.com/schedule/youth',
     },

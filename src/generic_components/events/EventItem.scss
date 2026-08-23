@@ -14,6 +14,19 @@ $black-color: #000000;
     margin-bottom: 1vh;
 }
 
+// Without an image, the text container is the grid's only child — let it
+// span the full width instead of sitting in one half-width column, and give
+// the item a little breathing room of its own plus an inset from the screen
+// edges (currently only Past Events renders image-less items, so this
+// doesn't touch any other listing).
+.event-item-container.event-item-no-image {
+    grid-template-columns: 1fr;
+    margin-bottom: 1vh;
+    margin-left: 6vw;
+    margin-right: 6vw;
+    padding: 1.5vh 1.5vw;
+}
+
 .event-item-image-container {
     padding: 1vh 1vw;
 }

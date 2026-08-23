@@ -1,9 +1,9 @@
 import '../styles/Tidepool.scss';
 import BodySection from "../generic_components/BodySection";
-import Footer from "../content_components/Footer";
+import FooterV2 from "../content_components/FooterV2";
 import TitleBanner from '../generic_components/TitleBanner';
 
-const hospiceWorkText = (
+const endOfLifeCaregivingText = (
     <>
         <p style={{ textAlign: 'center', fontWeight: 800 }}>
             Presence and gentle movement at the end of life
@@ -20,26 +20,34 @@ const hospiceWorkText = (
     </>
 );
 
-const HospiceWork = () => {
+const EndOfLifeCaregiving = () => {
     return (
         <div className='tidepool-theme'>
             <TitleBanner
                 bannerText={<>
-                        Hospice Work
+                        End of Life Caregiving
                     </>}
+                cornerNav={true}
                 subText={<>
                         <p style={{ textAlign: 'center', fontWeight: 800 }}>
                             Email grapesdance@gmail.com to <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>get in touch</a>.
                         </p>
                     </>}
             />
+            <div className='landing-sect light-theme' style={{ paddingBottom: 0 }}>
+                <img
+                    alt='sunlight through a spiderweb, seen through a wooden gate'
+                    src='/images/portal_cropped.png'
+                    style={{ borderRadius: '14px', maxWidth: '640px', width: '100%' }}
+                />
+            </div>
             <BodySection
                 theme='light'
-                text={hospiceWorkText}
+                text={endOfLifeCaregivingText}
             />
-            <Footer theme='dark' />
+            <FooterV2 />
         </div>
     );
 }
 
-export default HospiceWork;
+export default EndOfLifeCaregiving;

@@ -1,6 +1,8 @@
 import '../styles/Tidepool.scss';
+import bodyworkTestimonials from "../site_copy/bodyworkTestimonials";
 import BodySection from "../generic_components/BodySection";
-import Footer from "../content_components/Footer";
+import FooterV2 from "../content_components/FooterV2";
+import TestimonialsGrid from "../content_components/TestimonialsGrid";
 import TitleBanner from '../generic_components/TitleBanner';
 
 const myBodyText = (
@@ -24,27 +26,6 @@ const myBodyText = (
             <p>
                 If you're dealing with pain, stiffness, an old injury, or just the accumulated wear of an active life, I'd love to help you feel at home in your body again.
             </p>
-            {/* <p style={{ textAlign: 'center', fontWeight: 800 }}>
-                Email grapesdance@gmail.com to <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>book a session</a>.
-            </p> */}
-            <p style={{ textAlign: 'center', fontWeight: 800 }}>
-                Testimonials
-            </p>
-            <p>
-                "Nick is deeply intuitive and endlessly curious and this feels like a magical combination to receive. He/They brings their full presence every session and has helped me feel much better. You are in very good hands with Nick."
-                <br />
-                <span style={ { float: 'right' } }>- JG</span>
-            </p>
-            <p>
-                "Nick is truly an intuitive and skilled healer. As a dancer, I often hurt in all sorts of places, all at the same time. Nick understands and “listens” to how different body parts connect each other, so he addresses localized pain holistically. My body always feels looser and more integrated after he works on me. Thank you, Nick!"
-                <br />
-                <span style={ { float: 'right' } }>- BH</span>
-            </p>
-            <p>
-                "Nick’s way of listening to my questions, my comfort, and my body made the session finely responsive and gently illuminating."
-                <br />
-                <span style={ { float: 'right' } }>- JE</span>
-            </p>
             <p style={{ textAlign: 'center', fontWeight: 800 }}>
                 Email grapesdance@gmail.com to <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>book a session</a>.
             </p>
@@ -59,6 +40,7 @@ const BodyWork = () => {
                 bannerText={<>
                         Bodywork
                     </>}
+                cornerNav={true}
                 subText={<>
                         <p style={{ textAlign: 'center', fontWeight: 800 }}>
                             Email grapesdance@gmail.com to <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>book a session</a>.
@@ -69,7 +51,9 @@ const BodyWork = () => {
                 theme='light'
                 text={myBodyText}
             />
-            <Footer theme='dark' />
+            <TitleBanner bannerText="Testimonials" />
+            <TestimonialsGrid testimonials={bodyworkTestimonials} theme='dark' />
+            <FooterV2 />
         </div>
     );
 }

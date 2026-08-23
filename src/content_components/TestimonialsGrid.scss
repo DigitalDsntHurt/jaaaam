@@ -1,0 +1,21 @@
+.testimonials-grid {
+    display: grid;
+    gap: 2vh 2vw;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+    width: 88vw;
+}
+
+// When there's an odd number of testimonials, the first spans both columns
+// as a lead card — same convention as the offerings grid.
+.testimonial-box-full {
+    grid-column: 1 / -1;
+}
+
+@media screen and (max-width: 768px) {
+    .testimonials-grid {
+        grid-template-columns: 100%;
+        row-gap: 2vh;
+        width: 96vw;
+    }
+}

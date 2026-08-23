@@ -30,6 +30,7 @@ const CdpFridayGroup = () => {
                         <br />
                         Friday Group
                     </>}
+                cornerNav={true}
             />
             <BodySection 
                 theme='light'

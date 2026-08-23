@@ -1,0 +1,83 @@
+// Colors here are CSS custom properties defined on the ancestor
+// `.tidepool-theme` wrapper (see styles/Tidepool.scss) — this component is
+// only ever rendered inside it.
+
+.footer-v2-container {
+    border-top: 1px solid rgba(246, 241, 231, 0.14);
+    padding: 6vh 8vw 4vh;
+}
+
+.footer-v2-wordmark {
+    font-family: 'Fraunces', Georgia, serif;
+    font-size: 1.05rem;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    margin-bottom: 5vh;
+    opacity: 0.75;
+    text-align: center;
+}
+
+.footer-v2-grid {
+    display: grid;
+    gap: 4vh 4vw;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.footer-v2-column {
+    display: flex;
+    flex-direction: column;
+    gap: 1.1vh;
+}
+
+// Two classes + tag, so this reliably beats the ancestor `.tidepool-theme a`
+// link treatment (one class + tag) regardless of stylesheet import order —
+// a persistent underline on every link in a stacked list reads as noisy, so
+// it only shows on hover here instead.
+.footer-v2-container .footer-v2-column a {
+    border-bottom: none;
+    font-family: 'Karla', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 0.95rem;
+    opacity: 0.9;
+    transition: opacity 0.15s ease;
+}
+
+.footer-v2-container .footer-v2-column a:hover {
+    border-bottom: 1px solid currentColor;
+    opacity: 1;
+}
+
+.footer-v2-label {
+    color: var(--sunlight);
+    font-family: 'IBM Plex Mono', 'SF Mono', Menlo, monospace;
+    font-size: 0.7rem;
+    font-weight: 500;
+    letter-spacing: 0.12em;
+    margin-bottom: 0.4vh;
+    text-transform: uppercase;
+}
+
+.footer-v2-contact {
+    border-top: 1px solid rgba(246, 241, 231, 0.14);
+    font-family: 'Karla', -apple-system, 'Helvetica Neue', Arial, sans-serif;
+    font-size: 1.05rem;
+    font-weight: 700;
+    margin: 5vh auto 0;
+    max-width: 900px;
+    padding-top: 3vh;
+    text-align: center;
+}
+
+@media screen and (max-width: 640px) {
+    .footer-v2-grid {
+        gap: 3.5vh;
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .footer-v2-column {
+        align-items: center;
+    }
+}

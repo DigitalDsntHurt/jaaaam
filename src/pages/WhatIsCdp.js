@@ -27,6 +27,7 @@ const CdpFridayGroup = () => {
                 bannerText={<>
                         What is CDP?
                     </>}
+                cornerNav={true}
             />
             <BodySection 
                 theme='light'

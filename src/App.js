@@ -20,7 +20,7 @@ import BodyWork from './pages/BodyWork';
 import PrivateSessions from './pages/PrivateSessions';
 import ContactForPartners from './pages/ContactForPartners';
 import YouthWork from './pages/YouthWork';
-import HospiceWork from './pages/HospiceWork';
+import EndOfLifeCaregiving from './pages/EndOfLifeCaregiving';
 
 function App() {
   return (
@@ -44,7 +44,7 @@ function App() {
         <Route path="/private-sessions" element={<PrivateSessions />} />
         <Route path="/contact-for-partners" element={<ContactForPartners />} />
         <Route path="/youth-work" element={<YouthWork />} />
-        <Route path="/hospice-work" element={<HospiceWork />} />
+        <Route path="/end-of-life-caregiving" element={<EndOfLifeCaregiving />} />
       </Routes>
       <Analytics />
       <SpeedInsights />

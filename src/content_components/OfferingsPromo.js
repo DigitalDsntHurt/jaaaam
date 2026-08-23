@@ -26,9 +26,9 @@ const offerings = [
         cta: 'Learn more',
     },
     {
-        title: 'Hospice Work',
+        title: 'End of Life Caregiving',
         blurb: 'Gentle, presence-based movement and companionship work for people in hospice care and their families.',
-        href: '/hospice-work',
+        href: '/end-of-life-caregiving',
         cta: 'Learn more',
     },
 ];

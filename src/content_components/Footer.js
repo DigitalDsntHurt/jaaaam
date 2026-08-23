@@ -25,7 +25,7 @@ const Footer = ({ theme }) => {
             </div>
 
             <div className='footer-contact-container'>
-                Contact Nick: <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a>
+                Contact Nick : <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a>
             </div>
         </div>
     );

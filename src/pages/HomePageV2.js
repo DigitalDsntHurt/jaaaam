@@ -1,11 +1,14 @@
 import './HomePage.scss';
 import '../styles/Tidepool.scss';
+import bodyworkTestimonials from '../site_copy/bodyworkTestimonials';
 import Bio from '../content_components/Bio';
 import Events from '../generic_components/events/Events';
-import Footer from '../content_components/Footer';
+import FooterV2 from '../content_components/FooterV2';
 import HomeHero from '../content_components/HomeHero';
 import OfferingsPromo from '../content_components/OfferingsPromo';
 import Students from "../content_components/Students";
+import TestimonialsGrid from '../content_components/TestimonialsGrid';
+import TitleBanner from '../generic_components/TitleBanner';
 
 // Kept local to v2 (rather than importing the shared bioBannerText from
 // SiteCopy.js) so this page's copy can evolve without touching the live
@@ -13,7 +16,7 @@ import Students from "../content_components/Students";
 const bioBannerTextV2 = (
     <>
         <p>Nick Smith offers meditation, dance and movement workshops, private sessions and bodywork.</p>
-        <p>To book or ask questions: <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a></p>
+        <p>To book or ask questions : <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a></p>
     </>
 );
 
@@ -38,10 +41,14 @@ const HomePageV2 = () => {
             />
             <BioBanner />
             <OfferingsPromo />
-            <Events />
+            <Events hideYouthWork={true} />
+            <TitleBanner bannerText="Testimonials" />
+            <TitleBanner bannerText="Bodywork" />
+            <TestimonialsGrid testimonials={bodyworkTestimonials} theme='dark' />
+            <TitleBanner bannerText="Movement Work" />
             <Students theme='dark' />
             <Bio theme='light' />
-            <Footer theme='dark' />
+            <FooterV2 />
         </div>
     );
 }

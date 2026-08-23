@@ -1,6 +1,6 @@
 import '../styles/Tidepool.scss';
 import BodySection from "../generic_components/BodySection";
-import Footer from "../content_components/Footer";
+import FooterV2 from "../content_components/FooterV2";
 import TitleBanner from '../generic_components/TitleBanner';
 
 const contactForPartnersText = (
@@ -44,6 +44,7 @@ const ContactForPartners = () => {
                 bannerText={<>
                         Contact Improvisation<br />For Couples & Partnerships
                     </>}
+                cornerNav={true}
                 subText={<>
                         <p style={{ textAlign: 'center', fontWeight: 800 }}>
                             Email grapesdance@gmail.com to <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>book a session</a>.
@@ -54,7 +55,7 @@ const ContactForPartners = () => {
                 theme='light'
                 text={contactForPartnersText}
             />
-            <Footer theme='dark' />
+            <FooterV2 />
         </div>
     );
 }

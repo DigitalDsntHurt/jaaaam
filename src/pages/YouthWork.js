@@ -1,7 +1,7 @@
 import '../styles/Tidepool.scss';
 import BodySection from "../generic_components/BodySection";
 import EventsList from "../generic_components/events/EventsList";
-import Footer from "../content_components/Footer";
+import FooterV2 from "../content_components/FooterV2";
 import TitleBanner from '../generic_components/TitleBanner';
 import youthEventItemsList from "../site_copy/youthEvents";
 
@@ -26,6 +26,7 @@ const YouthWork = () => {
                 bannerText={<>
                         Youth Work
                     </>}
+                cornerNav={true}
                 subText={<>
                         <p style={{ textAlign: 'center', fontWeight: 800 }}>
                             Email grapesdance@gmail.com to <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>get in touch</a>.
@@ -37,7 +38,7 @@ const YouthWork = () => {
                 text={youthWorkText}
             />
             <EventsList events={youthEventItemsList} />
-            <Footer theme='dark' />
+            <FooterV2 />
         </div>
     );
 }

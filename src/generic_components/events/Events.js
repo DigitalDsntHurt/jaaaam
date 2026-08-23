@@ -3,18 +3,25 @@ import TitleBanner from "../TitleBanner";
 import upcomingEventItemsList from "../../site_copy/upcomingEvents";
 import youthEventItemsList from "../../site_copy/youthEvents";
 
-const Events = () => {
+// hideYouthWork is opt-in per usage — leaving it unset keeps every existing
+// <Events /> showing both sections exactly as before.
+const Events = ({ hideYouthWork }) => {
     return (
         <>
-            <TitleBanner 
-                bannerText='UPCOMING' 
+            <TitleBanner
+                bannerText='UPCOMING'
                 subText={(<p style={{textAlign: 'center'}}><a href='https://forms.gle/Dr1PLVPzeULtcBGa8' target='_blank' rel='noreferrer'>Newsletter Sign-up</a></p>)}
             />
             <EventsList events={upcomingEventItemsList} />
-            <TitleBanner 
-                bannerText='Youth Work'
-            />
-            <EventsList events={youthEventItemsList} />
+            {
+                !hideYouthWork &&
+                <>
+                    <TitleBanner
+                        bannerText='Youth Work'
+                    />
+                    <EventsList events={youthEventItemsList} />
+                </>
+            }
         </>
     );
 }
