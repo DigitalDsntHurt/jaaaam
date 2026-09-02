@@ -21,13 +21,13 @@ const offerings = [
     },
     {
         title: 'Youth Work',
-        blurb: 'Weekly parkour, acrobatics and movement play for kids — wild, creative and mindful, grouped by age.',
+        blurb: 'Youth movement classes for kids of all ages, combining physical skill-building with curiosity, creativity, co-creation, mindfulness and fun.',
         href: '/youth-work',
         cta: 'Learn more',
     },
     {
         title: 'End of Life Caregiving',
-        blurb: 'Gentle, presence-based movement and companionship work for people in hospice care and their families.',
+        blurb: 'Gentle, presence-based end of life companionship for individuals and families.',
         href: '/end-of-life-caregiving',
         cta: 'Learn more',
     },
