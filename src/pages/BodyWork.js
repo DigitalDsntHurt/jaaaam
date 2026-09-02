@@ -8,8 +8,11 @@ import TitleBanner from '../generic_components/TitleBanner';
 const myBodyText = (
     <>
         <p>
+            <p>
+                I offer two kinds of bodywork : precise, corrective work in the tradition of The Berry Method®, and slower, feel-good massage. You're welcome to choose the one that calls to you, or we can begin together and listen, in session, for the kind of work your body is asking for that day.
+            </p>
             <p style={{ textAlign: 'center', fontWeight: 800 }}>
-                Bodywork in the tradition of The Berry Method®
+                Berry Method® corrective bodywork
             </p>
             <p>
                 Your body already knows how to heal itself. Sometimes it needs help finding its way back.
@@ -25,6 +28,18 @@ const myBodyText = (
             </p>
             <p>
                 If you're dealing with pain, stiffness, an old injury, or just the accumulated wear of an active life, I'd love to help you feel at home in your body again.
+            </p>
+            <p style={{ textAlign: 'center', fontWeight: 800 }}>
+                Feel-good massage
+            </p>
+            <p>
+                This is slower, quieter work : full-body oil massage built around long, connected strokes that stay in conversation with your breath and your nervous system. It's listening-based and attuned : I follow where you hold and where you soften rather than a fixed routine, and let the session move at the pace your body sets.
+            </p>
+            <p>
+                Nothing here is trying to correct or fix you. The aim is deep rest, a settled nervous system and the plain, restorative pleasure of being cared for in your body.
+            </p>
+            <p>
+                Not sure which you're after? That's completely fine. Tell me what's going on and we'll find the right shape for the session together.
             </p>
             <p style={{ textAlign: 'center', fontWeight: 800 }}>
                 Email grapesdance@gmail.com to <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>book a session</a>.
