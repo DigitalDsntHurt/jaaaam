@@ -27,7 +27,9 @@ const PastEvents = () => {
                 cornerNav={true}
                 subText={(<p style={{textAlign: 'center'}}><a href='https://forms.gle/Dr1PLVPzeULtcBGa8' target='_blank' rel='noreferrer'>Newsletter Sign-up</a></p>)}
             />
-            <EventsList events={pastEventItemsWithoutImageOrCta} />
+            <div className='past-events-list'>
+                <EventsList events={pastEventItemsWithoutImageOrCta} />
+            </div>
             <Students theme='dark' />
             <Footer theme='light' />
         </div>

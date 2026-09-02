@@ -3,7 +3,7 @@ import './OfferingsPromo.scss';
 const offerings = [
     {
         title: 'Bodywork',
-        blurb: 'Hands-on corrective massage in the tradition of The Berry Method®, plus slower, feel-good massage for deep rest.',
+        blurb: 'Hands-on corrective bodywork in the tradition of The Berry Method®, plus slower, feel-good massage for deep rest.',
         href: '/bodywork',
         cta: 'Learn more',
     },

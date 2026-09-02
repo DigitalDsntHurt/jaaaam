@@ -9,7 +9,7 @@ const myBodyText = (
     <>
         <p>
             <p>
-                I offer two kinds of bodywork : precise, corrective work in the tradition of The Berry Method®, and slower, feel-good massage. You're welcome to choose the one that calls to you, or we can begin together and listen, in session, for the kind of work your body is asking for that day.
+                I offer two kinds of work : hands-on corrective bodywork in the tradition of The Berry Method®, and slower, feel-good massage for deep rest. You're welcome to choose the one that calls to you, or we can begin together and listen, in session, for the kind of work your body is asking for that day.
             </p>
             <p style={{ textAlign: 'center', fontWeight: 800 }}>
                 Berry Method® corrective bodywork
@@ -18,7 +18,7 @@ const myBodyText = (
                 Your body already knows how to heal itself. Sometimes it needs help finding its way back.
             </p>
             <p>
-                I practice The Berry Method® of Corrective Massage, a precise, hands-on approach developed by <a href='https://www.berrymethod.org/history' target='_blank' rel='noreferrer'>Lauren Berry</a>, a structural engineer who came to see the body the way he saw a building: something that works beautifully when everything is in its right place and starts to strain when it isn't. I've trained since 2025 as an apprentice under <a href='https://www.humanbalancing.net/' target='_blank' rel='noreferrer'>Janae Fullenkamp</a>, who has taught and practiced this work for over two decades.
+                I practice The Berry Method®, a precise, hands-on approach to corrective bodywork developed by <a href='https://www.berrymethod.org/history' target='_blank' rel='noreferrer'>Lauren Berry</a>, a structural engineer who came to see the body the way he saw a building: something that works beautifully when everything is in its right place and starts to strain when it isn't. I've trained since 2025 as an apprentice under <a href='https://www.humanbalancing.net/' target='_blank' rel='noreferrer'>Janae Fullenkamp</a>, who has taught and practiced this work for over two decades.
             </p>
             <p>
                 Muscles, tendons and ligaments each have a natural position, a place in your body's larger whole. Over time, through injury, habit or simple wear, tissue shifts out of its place. These small misalignments becomes the source of a bigger problems: a stiff knee, a nagging shoulder, a low back that never quite settles.

@@ -4,63 +4,34 @@ const upcomingEvents = [
     {
         title: (
             <>
-                Contemplative Dance Practice: A Movement & Meditation Workshop
+                Contact Improvisation : Pre-Jam class @ The Castro Room in San Francisco
             </>
         ),
         description: (
             <>
                 <h4>
-                    Date : Jan 25, 2026
+                    Contact Improvisation class before the bi-monthly SF Jam.
                     <br />
-                    Time : 11am - 2pm
                     <br />
-                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
+                    September 21
+                    <br />
+                    7:45pm (followed by the Jam from 9:15pm - 10:45pm)
+                    <br />
+                    <a href='https://maps.app.goo.gl/mjw5aFaQ6aY16TW96' target='_blank' rel='noreferrer'>@ The Castro Room in San Francisco</a>
                 </h4>
                 <p>
-                    Contemplative Dance Practice (CDP) blends movement, meditation and improvisation to cultivate awareness, connection and discovery of self and other.
-                </p>
-                <p>
-                    This workshop is an introduction to CDP, appropriate for all bodies - no prior experience with dance or meditation is needed.
+                    Co-taught with Ava Maag, we will get into our recent co-creations investigating the skin, improvisation and skills for Contact Improvisation jamming.
                 </p>
             </>
         ),
-        image: './images/zev_at_nitas.png',
-        c2a: 'Details + Registration',
-        c2aLink: 'https://momence.com/Berkeley-Alembic/Contemplative-Dance-Practice%3A-A-Movement-%26-Meditation-Workshop-with-Nick-Smith-/128339239?skipPreview=true',
+        image: './images/ava_base.jpg',
+        c2a: 'Dance with us in SF',
+        c2aLink: 'https://merrickjacob.com/contact-improvisation',
     },
     {
         title: (
             <>
-                Meditation and Contact Improvisation Lab
-            </>
-        ),
-        description: (
-            <>
-                <h4>
-                    Co-facilitated by Amma Thanasanti & Nick Smith
-                    <br />
-                    <br />
-                    Weekly on Mondays
-                    <br />
-                    6:00pm - 8:00pm
-                    <br />
-                    <a href='https://berkeleyalembic.org/' target='_blank' rel='noreferrer'>@ The Berkeley Alembic</a>
-                </h4>
-                <p>
-                    In this lab we dive deep into research and experimentation about how meditation can help our Contact Improvisation practice and how Contact Improvisation can help our meditation practice.
-                    This is a lab — a space for experimentation without predetermined outcomes.
-                    Bring questions.
-                </p>
-            </>
-        ),
-        image: './images/amma-nick.png',
-        c2a: 'Register @ The Alembic',
-        c2aLink: 'https://www.berkeleyalembic.org/events',
-    },
-    {
-        title: (
-            <>
-                Contact Improvisation
+                Wednesday Morning Contemplative Dance Practice @ Bandaloop
             </>
         ),
         description: (
@@ -68,23 +39,26 @@ const upcomingEvents = [
                 <h4>
                     Weekly on Wednesdays
                     <br />
-                    8:30pm - 9:30pm
+                    8:30am - 9:30am
                     <br />
-                    <a href='https://momence.com/u/athletic-playground-LXxZWs' target='_blank' rel='noreferrer'>@ The Athletic Playground</a>
+                    <a href='https://www.google.com/maps/search/?api=1&query=BANDALOOP+Studios+1601+18th+St+Oakland+CA+94607' target='_blank' rel='noreferrer'>@ BANDALOOP Studios (Studio West) in Oakland</a>
                 </h4>
                 <p>
-                    You don't need any prior experience; this class warmly welcomes both complete beginners and those with experience in the form of Contact Improvisation. After this 60 minute class, there is optional spacetime for jamming, labbing and continued exploration and togetherness.
+                    This facilitated 20/20/20 Contemplative Dance Practice consists of 20 minutes of seated meditation, 20 minutes of personal awareness practice, 20 minutes of open improvisation, followed by a short closing discussion.
+                </p>
+                <p>
+                    Learn about CDP <a href='/what-is-cdp'>here</a>.
                 </p>
             </>
         ),
-        image: './images/ava_base.jpg',
-        c2a: 'Register @ The Athletic Playground',
-        c2aLink: 'https://momence.com/u/athletic-playground-LXxZWs',
+        image: './images/bandaloop_cdp.jpeg',
+        c2a: 'Register @ Bandaloop',
+        c2aLink: 'https://momence.com/BANDALOOP-Studios/Contemplative-Dance-Practice/142015157',
     },
     {
         title: (
             <>
-                Contemplative Dance Practice Group
+                Friday Morning Contemplative Dance Practice @ Finnish Hall
             </>
         ),
         description: (
@@ -94,19 +68,38 @@ const upcomingEvents = [
                     <br />
                     9:30am - 11:00am
                     <br />
-                    <a href='https://maps.app.goo.gl/MBSLK26ErYEs9wUg6' target='_blank' rel='noreferrer'>@ The Finnish Hall in Berkeley</a>
+                    <a href='https://maps.app.goo.gl/MBSLK26ErYEs9wUg6' target='_blank' rel='noreferrer'>@ The Finnish Hall (Meeting Room Studio) in Berkeley</a>
                 </h4>
                 <p>
-                    20/20/20 practice (20 minutes seated meditation, followed by 20 minutes of personal practice, followed by 20 minutes of open improvisation) followed by time for discussion and togetherness.
+                    This unfacilitated 20/20/20 Contemplative Dance Practice group consists of 20 minutes of seated meditation, 20 minutes of personal awareness practice, 20 minutes of open improvisation, followed by a short closing discussion.
                 </p>
                 <p>
-                    This is a practice group, not a class. There is space-holding but little to no facilitation or instruction.
+                    This is a practice group, not a class. There is space-holding and explanation of the form but little or no instruction.
+                </p>
+                <p>
+                    Learn about CDP <a href='/what-is-cdp'>here</a>.
                 </p>
             </>
         ),
-        image: './images/EmbodiedGroove.jpeg',
+        image: './images/finnish_hall_cdp_cropped.jpg',
         c2a: 'Details',
         c2aLink: '/cdp-friday-group',
+    },
+    {
+        title: (
+            <>
+                Book a bodywork session
+            </>
+        ),
+        description: (
+            <>
+                <p>
+                    Hands-on corrective bodywork in the tradition of The Berry Method®, plus slower, feel-good massage for deep rest.
+                </p>
+            </>
+        ),
+        c2a: 'Learn more',
+        c2aLink: '/bodywork',
     },
 ];
 

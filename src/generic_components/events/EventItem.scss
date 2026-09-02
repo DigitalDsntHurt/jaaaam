@@ -15,13 +15,19 @@ $black-color: #000000;
 }
 
 // Without an image, the text container is the grid's only child — let it
-// span the full width instead of sitting in one half-width column, and give
-// the item a little breathing room of its own plus an inset from the screen
-// edges (currently only Past Events renders image-less items, so this
-// doesn't touch any other listing).
+// span the full width instead of sitting in one half-width column, so an
+// image-less item lines up with the full-bleed width of the ones that do
+// have an image.
 .event-item-container.event-item-no-image {
     grid-template-columns: 1fr;
     margin-bottom: 1vh;
+}
+
+// Past Events strips every image and gives its now image-less items a little
+// breathing room of their own plus an inset from the screen edges. Scoped to
+// that page so image-less items in other listings (e.g. Upcoming) stay
+// full-bleed and seamless with the image rows around them.
+.past-events-list .event-item-container.event-item-no-image {
     margin-left: 6vw;
     margin-right: 6vw;
     padding: 1.5vh 1.5vw;
