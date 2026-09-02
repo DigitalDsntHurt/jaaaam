@@ -15,7 +15,7 @@ const offerings = [
     },
     {
         title: 'Contact For Couples',
-        blurb: 'Contact Improvisation for couples and partnerships — a playful, embodied way to build trust and communication together.',
+        blurb: 'Contact Improvisation for couples and partnerships : a playful, embodied way to build trust and communication together.',
         href: '/contact-for-partners',
         cta: 'Learn more',
     },
