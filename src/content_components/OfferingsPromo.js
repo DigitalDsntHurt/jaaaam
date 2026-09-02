@@ -9,7 +9,7 @@ const offerings = [
     },
     {
         title: 'Private Sessions',
-        blurb: 'One-on-one movement, meditation and somatic coaching, built entirely around you — your body, your questions, your pace.',
+        blurb: 'One-on-one movement, meditation and somatic coaching, built around your interests, your body, your questions, your pace.',
         href: '/private-sessions',
         cta: 'Learn more',
     },

@@ -10,19 +10,19 @@ const privateSessionsText = (
                 One-on-one movement, meditation & somatic coaching
             </p>
             <p>
-                Private sessions are built entirely around you — your body, your questions, your pace. We work with meditation, movement and awareness practices to explore attention, ease and self-healing.
+                Private sessions are built around you and your interests, your body, your questions, your pace. We work with attentional and physical practices to explore and develop a personal practice that serves and honors your body, your mind and your complete human self.
             </p>
             <p>
-                Unlike bodywork, which is hands-on corrective work, private sessions are active: we move, breathe and pay attention together. Some sessions look like guided movement exploration; others are quieter, closer to meditation, depending on what you need that day.
+                Private sessions are active: we inquire, move, and dance with attention together. Some sessions look like guided movement explorations, some are quieter, closer to meditation, others are more technically or physically rigorous, depending on what you need that day.
             </p>
             <p>
-                These sessions draw from many traditions — calisthenics, improvisational dance, mindfulness, qigong, somatics, tai-chi, the Feldenkrais Method, the Ido Portal Method, weight-sharing games, yoga and more — without asking you to be an athlete, a dancer, or anyone other than yourself.
+                This work draws from improvisational dance, mindfulness, somatics, primal and animal movement, yoga, calisthenics and research into functional anatomy and the nervous system. This work does not ask you to be an athlete, a dancer or anyone other than yourself.
             </p>
             <p style={{ textAlign: 'center', fontWeight: 800 }}>
                 Sessions can help with
             </p>
             <ul>
-                <li>Finding more ease and range of motion in everyday movement</li>
+                <li>Finding ease, strength and range of motion in everyday movement</li>
                 <li>Building a calmer, more attentive relationship with your own body</li>
                 <li>Working through stuck patterns, old injuries or tension with curiosity instead of force</li>
                 <li>Developing a personal meditation or movement practice that actually sticks</li>
