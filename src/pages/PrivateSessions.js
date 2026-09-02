@@ -30,6 +30,9 @@ const privateSessionsText = (
             <p>
                 Every session is custom — there's no fixed curriculum. We start with what's alive for you and follow it.
             </p>
+            <p className='cross-ref-note'>
+                If you're interested in private one-on-one lessons in Contact Improvisation, I do those too, just say so when you get in touch.
+            </p>
             <p style={{ textAlign: 'center', fontWeight: 800 }}>
                 Email grapesdance@gmail.com to <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>book a session</a>.
             </p>

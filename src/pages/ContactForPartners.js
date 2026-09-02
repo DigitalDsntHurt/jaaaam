@@ -30,6 +30,9 @@ const contactForPartnersText = (
             <p>
                 I bring a gentle, consent-forward approach : nothing is ever forced and pace is always yours to set. We will find it together.
             </p>
+            <p className='cross-ref-note'>
+                If you're interested in private one-on-one lessons in Contact Improvisation just for yourself, I do those too, just say so when you get in touch.
+            </p>
             <p style={{ textAlign: 'center', fontWeight: 800 }}>
                 Email grapesdance@gmail.com to <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>book a session</a>.
             </p>

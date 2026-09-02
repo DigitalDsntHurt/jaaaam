@@ -195,4 +195,19 @@
     .image-left-text-right-title {
         font-family: 'Fraunces', Georgia, serif;
     }
+
+    // ---------- cross-reference note ----------
+    // A soft aside on a light-theme body section, used to point readers
+    // toward a related offering (e.g. solo Contact Improvisation lessons
+    // from the Private Sessions / Contact for Couples pages).
+
+    .light-theme .cross-ref-note {
+        background-color: rgba(79, 124, 109, 0.09);
+        border-left: 3px solid var(--clay);
+        font-family: 'Fraunces', Georgia, serif;
+        font-style: italic;
+        margin: 1.75rem auto;
+        max-width: 44rem;
+        padding: 0.9rem 1.25rem;
+    }
 }
