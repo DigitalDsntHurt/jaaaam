@@ -1,12 +1,13 @@
 import './App.scss';
 import { Analytics } from "@vercel/analytics/react"
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
 import { SpeedInsights } from "@vercel/speed-insights/react"
 import BayAreaMovementRetreat from './pages/BayAreaMovementRetreat';
 import BlahBlah from './pages/BlahBlah';
 import CommunityClasses from './pages/CommunityClasses';
 import ContactImprovisation from './pages/ContactImprovisation';
-import HomePage from './pages/HomePage';
+// HomePage (v1) is deprecated — kept in the codebase for reference but no
+// longer routed. "/" now serves HomePageV2.
 import HomePageV2 from './pages/HomePageV2';
 import PastEvents from './pages/PastEvents';
 import RopeFlow from './pages/RopeFlow';
@@ -26,8 +27,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HomePage />} />
-        <Route path="/home-v2" element={<HomePageV2 />} />
+        <Route path="/" element={<HomePageV2 />} />
+        <Route path="/home-v2" element={<Navigate to="/" replace />} />
         <Route path="/bamr" element={<BayAreaMovementRetreat />} />
         <Route path="/blah-blah" element={<BlahBlah />} />
         <Route path="/community-classes" element={<CommunityClasses />} />

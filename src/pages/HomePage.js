@@ -1,3 +1,6 @@
+// DEPRECATED: v1 homepage. No longer routed — "/" now serves HomePageV2.
+// Kept in the codebase for reference; safe to delete once the new homepage
+// has settled.
 import './HomePage.scss';
 import { bioBannerText } from '../site_copy/SiteCopy';
 import Bio from '../content_components/Bio';

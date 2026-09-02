@@ -11,9 +11,8 @@ import Students from "../content_components/Students";
 import TestimonialsGrid from '../content_components/TestimonialsGrid';
 import TitleBanner from '../generic_components/TitleBanner';
 
-// Kept local to v2 (rather than importing the shared bioBannerText from
-// SiteCopy.js) so this page's copy can evolve without touching the live
-// homepage's text.
+// Kept local to this page (rather than importing the shared bioBannerText
+// from SiteCopy.js, which the deprecated v1 homepage still uses).
 const bioBannerTextV2 = (
     <>
         <p>Nick Smith offers meditation, dance and movement workshops, private sessions and bodywork.</p>
@@ -29,9 +28,9 @@ const BioBanner = () => {
     );
 }
 
-// Draft homepage redesign: leads with the three bookable offerings (Bodywork,
-// Private Sessions, Contact For Couples) before the upcoming events list.
-// Not yet wired to "/" — see /home-v2 in App.js.
+// The live homepage (served at "/"). Leads with the three bookable offerings
+// (Bodywork, Private Sessions, Contact For Couples) before the upcoming events
+// list. Replaced HomePage (v1), which is now deprecated but kept in the tree.
 const HomePageV2 = () => {
     return (
         <div className='tidepool-theme homepage-v2'>
