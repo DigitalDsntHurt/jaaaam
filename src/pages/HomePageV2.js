@@ -16,7 +16,7 @@ import TitleBanner from '../generic_components/TitleBanner';
 const bioBannerTextV2 = (
     <>
         <p>Nick Smith offers meditation, dance and movement workshops, private sessions and bodywork.</p>
-        <p>To book or ask questions : <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a></p>
+        <p><a href='/book' target='_blank' rel='noreferrer'>Book a bodywork session</a> or <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>email me</a> to book something else, ask questions or just say hi.</p>
     </>
 );
 

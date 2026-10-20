@@ -190,6 +190,59 @@
         font-family: 'Karla', sans-serif;
     }
 
+    // ---------- pull-quote ----------
+    // A quiet, cardless quote embedded directly in a dark title-banner area
+    // (unlike the boxed .student-testimonial-box treatment), so it reads as
+    // part of the header rather than a separate section.
+
+    .pull-quote-text {
+        font-family: 'Fraunces', Georgia, serif;
+        font-size: 1.05rem;
+        font-style: italic;
+        line-height: 1.55;
+        margin: 3vh auto 1vh;
+        max-width: 620px;
+        opacity: 0.92;
+    }
+
+    .pull-quote-attribution {
+        font-family: 'Karla', sans-serif;
+        font-size: 0.8rem;
+        letter-spacing: 0.04em;
+        opacity: 0.7;
+        text-transform: uppercase;
+    }
+
+    // ---------- bodywork photo ----------
+    // Floats beside the Berry Method paragraphs on desktop/tablet so body
+    // text wraps around it, editorial-style; reverts to a plain centered
+    // block on mobile, matching this page's other inline images.
+
+    .bodywork-float-image {
+        border-radius: 14px;
+        float: left;
+        margin: 0.3em 2em 1em 0;
+        max-width: 380px;
+        width: 45%;
+    }
+
+    // Forces whatever comes after the wrapped paragraphs (the mid-page CTA)
+    // below the photo even if the float hasn't been exceeded yet, so a
+    // centered heading never gets squeezed into the narrow remaining width
+    // beside it.
+    .clear-float {
+        clear: both;
+    }
+
+    @media screen and (max-width: 768px) {
+        .bodywork-float-image {
+            float: none;
+            margin: 0 auto 1.5em;
+            max-width: 480px;
+            width: 100%;
+        }
+    }
+
     // ---------- bio ----------
 
     .image-left-text-right-title {
