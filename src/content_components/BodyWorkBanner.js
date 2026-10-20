@@ -10,7 +10,7 @@ const BodyWorkBanner = () => {
                     <br /><br />
                 </div>
                 <div className='bodywork-banner-c2a'>
-                    <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>Book a session</a>
+                    Book a <a href='/book' target='_blank' rel='noreferrer'>session here</a> or <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>email me</a> for more info.
                 </div>
             </div>
         </>

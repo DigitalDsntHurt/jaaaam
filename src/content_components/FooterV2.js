@@ -31,7 +31,8 @@ const FooterV2 = () => {
             </div>
 
             <div className='footer-v2-contact'>
-                Contact Nick : <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a>
+                <div>Book a bodywork session : <a href='/book' target='_blank' rel='noreferrer'>grapes.dance/book</a></div>
+                <div>Contact Nick : <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>grapesdance@gmail.com</a></div>
             </div>
         </div>
     );

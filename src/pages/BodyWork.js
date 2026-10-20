@@ -42,7 +42,7 @@ const myBodyText = (
                 Not sure which you're after? That's completely fine. Tell me what's going on and we'll find the right shape for the session together.
             </p>
             <p style={{ textAlign: 'center', fontWeight: 800 }}>
-                Email grapesdance@gmail.com to <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>book a session</a>.
+                Book a <a href='/book' target='_blank' rel='noreferrer'>session here</a> or <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>email me</a> for more info.
             </p>
         </p>
     </>
@@ -58,7 +58,7 @@ const BodyWork = () => {
                 cornerNav={true}
                 subText={<>
                         <p style={{ textAlign: 'center', fontWeight: 800 }}>
-                            Email grapesdance@gmail.com to <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>book a session</a>.
+                            Book a <a href='/book' target='_blank' rel='noreferrer'>session here</a> or <a href='mailto:grapesdance@gmail.com' target='_blank' rel='noreferrer'>email me</a> for more info.
                         </p>
                     </>}
             />

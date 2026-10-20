@@ -1,0 +1,9 @@
+{
+  "redirects": [
+    {
+      "source": "/book",
+      "destination": "https://calendar.app.google/NbQxe44V1ZYG9aSx8",
+      "permanent": false
+    }
+  ]
+}
